@@ -72,13 +72,13 @@ Movies, Videos, and Sound
 
 ## Location
 
-Johnson City, Tennessee, United States
+Tennessee, United States
 
 ## Connect With Me
 
 - **Portfolio**: [lukethompson.ai](https://lukethompson.ai)
 - **Company**: [The Operations Guide](https://theoperationsguide.com)
-- **LinkedIn**: [@ActionVFX](https://linkedin.com/in/ActionVFX)
+- **LinkedIn**: [@LukeThompsonFilm]((https://www.linkedin.com/in/lukethompsonfilm/))
 
 ---
 
