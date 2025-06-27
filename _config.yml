@@ -1,0 +1,146 @@
+# GitHub Pages Configuration for Luke Thompson Profile
+
+# Site Settings
+title: "Luke Thompson - Operations Expert & AI Integration Specialist"
+description: "TEDx Speaker, former ActionVFX COO, and founder of The Operations Guide. Proven expertise in AI integration, business automation, and operational excellence."
+url: "https://theopsguide.github.io"
+baseurl: "/about-me"
+
+# Author Information
+author:
+  name: "Luke Thompson"
+  email: "contact@theoperationsguide.com"
+  bio: "Operations Expert | AI Integration Specialist | TEDx Speaker | Business Automation Consultant"
+  location: "Tennessee, USA"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://lukethompson.ai"
+    - label: "The Operations Guide"
+      icon: "fas fa-fw fa-building"
+      url: "https://theoperationsguide.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/ActionVFX"
+    - label: "Schedule Meeting"
+      icon: "fas fa-fw fa-calendar"
+      url: "https://tidycal.com/luketh"
+
+# Theme and Plugins
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO Plugin Configuration
+seo:
+  name: "Luke Thompson"
+  title: "Luke Thompson - Operations Expert & AI Integration Specialist"
+  description: "TEDx Speaker, former ActionVFX COO/CMO with proven track record: 296% funded Kickstarter, AI-driven SEO success (4,614 issues resolved), 100K+ YouTube growth. Founder of The Operations Guide specializing in AI integration, business automation, and operational excellence."
+  url: "https://theopsguide.github.io/about-me"
+  logo: "/assets/images/logo.png"
+  social:
+    - "https://linkedin.com/in/ActionVFX"
+    - "https://lukethompson.ai"
+    - "https://theoperationsguide.com"
+    - "https://github.com/theopsguide"
+
+# Social Media
+twitter:
+  username: "LukeThompsonOps"
+  card: "summary"
+
+linkedin:
+  username: "ActionVFX"
+
+# Google Analytics
+google_analytics: "G-XXXXXXXXXX"
+
+# Site Navigation
+navigation:
+  - title: "About"
+    url: "/"
+  - title: "Expertise"
+    url: "/TOPICS"
+  - title: "Case Studies"
+    url: "/CASE-STUDIES"
+  - title: "Articles"
+    url: "/articles/"
+  - title: "Contact"
+    url: "https://tidycal.com/luketh"
+
+# Content Settings
+show_excerpts: true
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Markdown Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Sass Settings
+sass:
+  style: compressed
+
+# Exclude from Processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Include
+include:
+  - _pages
+
+# Collections
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:name/
+
+# Default Front Matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Luke Thompson"
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"
+      author: "Luke Thompson"
+
+# Custom Variables
+expertise_areas:
+  - "Artificial Intelligence & Machine Learning"
+  - "Business Operations & Process Optimization"
+  - "Digital Marketing & SEO"
+  - "Technology Leadership & Consulting"
+  - "Visual Effects & Creative Technology"
+  - "Public Speaking & Thought Leadership"
+
+achievements:
+  - "4,614 SEO Issues Resolved with AI Tools"
+  - "100K+ YouTube Subscribers (Silver Play Button)"
+  - "296% Funded Kickstarter Campaign ($59K)"
+  - "TEDx Speaker on AI and Adaptability"
+  - "Former ActionVFX COO/CMO"
+  - "Founder of The Operations Guide"
+
+# Contact Information
+contact:
+  email: "contact@theoperationsguide.com"
+  phone: "+1-XXX-XXX-XXXX"
+  address: "Tennessee, USA"
+  calendar: "https://tidycal.com/luketh"

@@ -1,0 +1,37 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://lukethompson.me/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
+
+# Block common bot paths that aren't needed
+Disallow: /.*
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.env
+Disallow: /package-lock.json
+Disallow: /yarn.lock
+
+# Allow important files
+Allow: /
+Allow: /articles/
+Allow: /*.html
+Allow: /*.css
+Allow: /*.js
+Allow: /*.pdf
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+
+# Contact and business development
+# Optimized for search engines to find key pages
+Allow: /contact
+Allow: /services
+Allow: /portfolio
+Allow: /case-studies
+Allow: /about
