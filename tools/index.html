@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Business Tools & Resources | Luke Thompson - Operations & AI Expert</title>
+    <meta name="description" content="Free business tools, assessments, and resources by Luke Thompson. Operations readiness assessment, automation checklist, AI implementation guides, and productivity templates.">
+    <meta name="keywords" content="free business tools, operations assessment, automation checklist, business templates, productivity tools, AI implementation guide, business optimization resources, Luke Thompson tools">
+    <meta name="author" content="Luke Thompson">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Free Business Tools & Resources - Luke Thompson">
+    <meta property="og:description" content="Access free tools and resources to optimize your business operations, implement automation, and boost productivity.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/theopsguide/about-me/tools/">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Business Tools & Resources",
+        "description": "Free tools and resources for business operations optimization, automation implementation, and productivity improvement.",
+        "author": {
+            "@type": "Person",
+            "name": "Luke Thompson",
+            "jobTitle": "Operations Expert & AI Business Consultant"
+        },
+        "mainEntity": [
+            {
+                "@type": "WebApplication",
+                "name": "Operations Readiness Assessment",
+                "applicationCategory": "BusinessApplication",
+                "description": "Evaluate your business operations maturity and get personalized recommendations."
+            },
+            {
+                "@type": "DigitalDocument",
+                "name": "Automation Implementation Checklist",
+                "description": "Step-by-step guide for implementing business automation solutions."
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .breadcrumb {
+            margin-bottom: 20px;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            color: #7f8c8d;
+        }
+        .breadcrumb a { color: #3498db; text-decoration: none; margin-right: 5px; }
+        .breadcrumb span { margin: 0 5px; }
+        .hero {
+            background: linear-gradient(135deg, #16a085 0%, #f4d03f 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .hero h1 { margin: 0; font-size: 2.5em; }
+        .hero p { font-size: 1.2em; margin-top: 15px; }
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .tool-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .tool-header {
+            background: #f8f9fa;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .tool-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .tool-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .tool-subtitle {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        .tool-body {
+            padding: 20px;
+        }
+        .tool-description {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        .tool-features {
+            margin: 15px 0;
+        }
+        .tool-features li {
+            margin: 5px 0;
+            color: #666;
+        }
+        .tool-footer {
+            padding: 20px;
+            background: #f8f9fa;
+            border-top: 1px solid #ddd;
+            text-align: center;
+        }
+        .tool-button {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .tool-button:hover { background: #2980b9; }
+        .tool-button.premium { background: #e67e22; }
+        .tool-button.premium:hover { background: #d35400; }
+        .categories {
+            margin: 40px 0;
+        }
+        .category-tabs {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            flex-wrap: wrap;
+        }
+        .category-tab {
+            padding: 12px 20px;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            color: #7f8c8d;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .category-tab.active {
+            color: #3498db;
+            border-bottom-color: #3498db;
+        }
+        .category-content {
+            display: none;
+        }
+        .category-content.active {
+            display: block;
+        }
+        .coming-soon {
+            opacity: 0.7;
+            position: relative;
+        }
+        .coming-soon::after {
+            content: "Coming Soon";
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #f39c12;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        .newsletter-section {
+            background: #ecf0f1;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .newsletter-input {
+            padding: 12px;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            margin-right: 10px;
+            width: 250px;
+        }
+        .newsletter-button {
+            background: #27ae60;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <nav class="breadcrumb">
+        <a href="../index.html">Luke Thompson</a>
+        <span>></span>
+        <span>Tools & Resources</span>
+    </nav>
+
+    <div class="hero">
+        <h1>Free Business Tools & Resources</h1>
+        <p>Practical tools and guides to optimize your operations, implement automation, and boost productivity</p>
+    </div>
+
+    <div class="categories">
+        <div class="category-tabs">
+            <div class="category-tab active" onclick="showCategory('assessments')">📊 Assessments</div>
+            <div class="category-tab" onclick="showCategory('templates')">📋 Templates</div>
+            <div class="category-tab" onclick="showCategory('guides')">📖 Guides</div>
+            <div class="category-tab" onclick="showCategory('calculators')">🔢 Calculators</div>
+        </div>
+
+        <div id="assessments" class="category-content active">
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <div class="tool-icon">📊</div>
+                        <div class="tool-title">Operations Readiness Assessment</div>
+                        <div class="tool-subtitle">Evaluate your business operations maturity</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Discover your Operations Maturity Score with this comprehensive 15-question assessment. Get personalized recommendations based on your current state.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ 15 strategic questions covering all aspects of operations</li>
+                            <li>✅ Instant maturity score and level assessment</li>
+                            <li>✅ Personalized recommendations for improvement</li>
+                            <li>✅ Based on 9+ years of COO experience</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="operations-assessment.html" class="tool-button">Take Assessment</a>
+                    </div>
+                </div>
+
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">🤖</div>
+                        <div class="tool-title">AI Readiness Scorecard</div>
+                        <div class="tool-subtitle">Assess your business's AI implementation readiness</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Evaluate your business's readiness for AI implementation with this specialized assessment covering data, processes, and technology infrastructure.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ AI readiness across 8 key dimensions</li>
+                            <li>✅ Implementation priority recommendations</li>
+                            <li>✅ Technology stack suggestions</li>
+                            <li>✅ ROI potential analysis</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button" onclick="joinWaitlist('AI Readiness Scorecard')">Join Waitlist</a>
+                    </div>
+                </div>
+
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">⚡</div>
+                        <div class="tool-title">Automation Opportunity Finder</div>
+                        <div class="tool-subtitle">Identify top automation opportunities in your business</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Discover which processes in your business are prime candidates for automation with this systematic evaluation tool.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ Process automation scoring methodology</li>
+                            <li>✅ ROI calculation for each opportunity</li>
+                            <li>✅ Implementation difficulty assessment</li>
+                            <li>✅ Priority matrix for action planning</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button" onclick="joinWaitlist('Automation Opportunity Finder')">Join Waitlist</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="templates" class="category-content">
+            <div class="tools-grid">
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">📋</div>
+                        <div class="tool-title">SOP Template Library</div>
+                        <div class="tool-subtitle">Standard Operating Procedure templates</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Ready-to-use SOP templates for common business processes, designed to help you document and standardize your operations quickly.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ 25+ proven SOP templates</li>
+                            <li>✅ Customizable for any industry</li>
+                            <li>✅ Step-by-step implementation guides</li>
+                            <li>✅ Quality control checklists included</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button" onclick="joinWaitlist('SOP Template Library')">Join Waitlist</a>
+                    </div>
+                </div>
+
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎯</div>
+                        <div class="tool-title">KPI Dashboard Template</div>
+                        <div class="tool-subtitle">Track key business metrics effectively</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Comprehensive KPI dashboard template with pre-built metrics for different business functions and automated reporting capabilities.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ 50+ pre-configured KPIs</li>
+                            <li>✅ Visual dashboard designs</li>
+                            <li>✅ Automated data collection setup</li>
+                            <li>✅ Monthly/quarterly report templates</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button" onclick="joinWaitlist('KPI Dashboard Template')">Join Waitlist</a>
+                    </div>
+                </div>
+
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">🔄</div>
+                        <div class="tool-title">Workflow Mapping Templates</div>
+                        <div class="tool-subtitle">Visualize and optimize your business processes</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Professional workflow mapping templates to help you document current processes and design improved workflows.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ 15+ workflow template designs</li>
+                            <li>✅ Process improvement frameworks</li>
+                            <li>✅ Bottleneck identification tools</li>
+                            <li>✅ Implementation planning guides</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button" onclick="joinWaitlist('Workflow Mapping Templates')">Join Waitlist</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="guides" class="category-content">
+            <div class="tools-grid">
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">📖</div>
+                        <div class="tool-title">AI Implementation Playbook</div>
+                        <div class="tool-subtitle">Step-by-step guide to implementing AI in your business</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Comprehensive guide covering everything from AI strategy development to implementation and optimization, based on real-world experience.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ 8-phase implementation methodology</li>
+                            <li>✅ Tool selection frameworks</li>
+                            <li>✅ Risk mitigation strategies</li>
+                            <li>✅ ROI measurement techniques</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button premium" onclick="joinWaitlist('AI Implementation Playbook')">Join Waitlist</a>
+                    </div>
+                </div>
+
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">⚙️</div>
+                        <div class="tool-title">Operations Optimization Blueprint</div>
+                        <div class="tool-subtitle">Transform chaotic operations into streamlined systems</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Complete blueprint for systematically optimizing business operations, including assessment tools, improvement frameworks, and implementation guides.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ SCALE methodology framework</li>
+                            <li>✅ Process optimization techniques</li>
+                            <li>✅ Change management strategies</li>
+                            <li>✅ Performance measurement systems</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button premium" onclick="joinWaitlist('Operations Optimization Blueprint')">Join Waitlist</a>
+                    </div>
+                </div>
+
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">🚀</div>
+                        <div class="tool-title">Automation Quick Start Guide</div>
+                        <div class="tool-subtitle">Implement your first automation in 30 days</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Practical guide to implementing your first business automation, complete with tool recommendations, setup instructions, and optimization tips.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ 30-day implementation timeline</li>
+                            <li>✅ Tool comparison and selection guide</li>
+                            <li>✅ Setup tutorials and walkthroughs</li>
+                            <li>✅ Troubleshooting and optimization tips</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button" onclick="joinWaitlist('Automation Quick Start Guide')">Join Waitlist</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="calculators" class="category-content">
+            <div class="tools-grid">
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">💰</div>
+                        <div class="tool-title">Automation ROI Calculator</div>
+                        <div class="tool-subtitle">Calculate the financial impact of automation</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Comprehensive calculator to determine the ROI of automation projects, including time savings, cost reduction, and productivity improvements.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ Time and cost savings calculations</li>
+                            <li>✅ Implementation cost estimation</li>
+                            <li>✅ Payback period analysis</li>
+                            <li>✅ Risk-adjusted ROI scenarios</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button" onclick="joinWaitlist('Automation ROI Calculator')">Join Waitlist</a>
+                    </div>
+                </div>
+
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">⏱️</div>
+                        <div class="tool-title">Productivity Impact Calculator</div>
+                        <div class="tool-subtitle">Measure the impact of operational improvements</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Calculate how operational improvements translate to productivity gains, revenue increases, and competitive advantages.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ Productivity gain measurements</li>
+                            <li>✅ Revenue impact calculations</li>
+                            <li>✅ Team efficiency improvements</li>
+                            <li>✅ Competitive advantage scoring</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button" onclick="joinWaitlist('Productivity Impact Calculator')">Join Waitlist</a>
+                    </div>
+                </div>
+
+                <div class="tool-card coming-soon">
+                    <div class="tool-header">
+                        <div class="tool-icon">📈</div>
+                        <div class="tool-title">Process Efficiency Analyzer</div>
+                        <div class="tool-subtitle">Identify bottlenecks and optimization opportunities</div>
+                    </div>
+                    <div class="tool-body">
+                        <div class="tool-description">
+                            Analyze your current processes to identify bottlenecks, inefficiencies, and opportunities for improvement with data-driven insights.
+                        </div>
+                        <ul class="tool-features">
+                            <li>✅ Bottleneck identification algorithms</li>
+                            <li>✅ Efficiency scoring methodology</li>
+                            <li>✅ Improvement opportunity ranking</li>
+                            <li>✅ Resource allocation optimization</li>
+                        </ul>
+                    </div>
+                    <div class="tool-footer">
+                        <a href="#" class="tool-button" onclick="joinWaitlist('Process Efficiency Analyzer')">Join Waitlist</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="newsletter-section">
+        <h2>🚀 Stay Updated on New Tools & Resources</h2>
+        <p>Be the first to access new tools, templates, and guides as they're released. Plus get exclusive tips on operations optimization and AI implementation.</p>
+        <form onsubmit="subscribeNewsletter(event)">
+            <input type="email" placeholder="Enter your email address" class="newsletter-input" required>
+            <button type="submit" class="newsletter-button">Get Free Updates</button>
+        </form>
+        <p style="margin-top: 15px;"><small>Unsubscribe anytime. Your email is safe with us.</small></p>
+    </div>
+
+    <script>
+        function showCategory(categoryId) {
+            // Hide all category contents
+            const contents = document.querySelectorAll('.category-content');
+            contents.forEach(content => content.classList.remove('active'));
+            
+            // Remove active class from all tabs
+            const tabs = document.querySelectorAll('.category-tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            // Show selected category
+            document.getElementById(categoryId).classList.add('active');
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+
+        function joinWaitlist(toolName) {
+            const email = prompt(`Enter your email to join the waitlist for "${toolName}":`);
+            if (email && email.includes('@')) {
+                alert(`Thank you! You've been added to the waitlist for "${toolName}". We'll notify you when it's ready.`);
+                // Here you would normally send the email to your server
+            } else if (email) {
+                alert('Please enter a valid email address.');
+            }
+        }
+
+        function subscribeNewsletter(event) {
+            event.preventDefault();
+            const email = event.target.querySelector('input').value;
+            alert(`Thank you! You've been subscribed with ${email}. Check your email for confirmation.`);
+            // Here you would normally send the email to your server
+            event.target.reset();
+        }
+    </script>
+
+    <footer style="margin-top: 40px; text-align: center; color: #7f8c8d;">
+        <p>© 2025 Luke Thompson | <a href="../index.html">About</a> | <a href="https://theoperationsguide.com">The Operations Guide</a> | <a href="https://linkedin.com/in/ActionVFX">LinkedIn</a></p>
+    </footer>
+</body>
+</html>

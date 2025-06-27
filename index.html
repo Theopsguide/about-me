@@ -23,32 +23,40 @@
     <meta property="twitter:description" content="AI & Technology Expert | TEDx Speaker | Former ActionVFX COO | Founder @TheOperationsGuide | Specializing in AI integration, business automation & digital transformation. Helping SMBs scale with smart technology solutions.">
     <meta property="twitter:image" content="https://github.com/theopsguide/about-me/twitter-card.jpg">
     
-    <!-- Structured Data -->
+    <!-- Enhanced Structured Data with Multiple Schema Types -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Person",
+        "@type": ["Person", "EducationalOrganization", "ProfessionalService"],
         "name": "Luke Thompson",
+        "alternateName": ["Luke Thompson Operations Expert", "Luke Thompson AI Specialist"],
         "jobTitle": "Founder & Chief Operations Architect",
         "worksFor": {
             "@type": "Organization",
-            "name": "The Operations Guide"
+            "name": "The Operations Guide",
+            "url": "https://theoperationsguide.com",
+            "description": "Business operations consulting and AI integration services"
         },
-        "description": "TEDx Speaker, former ActionVFX COO, and business automation specialist helping entrepreneurs streamline operations and build scalable systems.",
+        "description": "TEDx Speaker, former ActionVFX COO, and business automation specialist helping entrepreneurs streamline operations and build scalable systems through AI integration and process optimization.",
         "url": "https://lukethompson.ai",
+        "image": "https://github.com/theopsguide/about-me/profile-image.jpg",
         "sameAs": [
             "https://linkedin.com/in/ActionVFX",
             "https://theoperationsguide.com",
             "https://github.com/theopsguide/about-me",
             "https://lukethompson.ai",
-            "https://tidycal.com/luketh"
+            "https://tidycal.com/luketh",
+            "https://github.com/theopsguide"
         ],
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Johnson City",
             "addressRegion": "Tennessee",
-            "addressCountry": "United States"
+            "addressCountry": "United States",
+            "postalCode": "37601"
         },
+        "email": "contact@theoperationsguide.com",
+        "telephone": "+1-XXX-XXX-XXXX",
         "knowsAbout": [
             "Artificial Intelligence",
             "Machine Learning",
@@ -74,18 +82,188 @@
             "Business Systems",
             "Operational Excellence",
             "Business Efficiency",
-            "Digital Innovation"
+            "Digital Innovation",
+            "Zapier Automation",
+            "n8n Workflows",
+            "Relevance AI",
+            "ActionVFX Leadership"
+        ],
+        "hasCredential": [
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional Certification",
+                "name": "Certified Scrum Product Owner (CSPO)",
+                "issuedBy": "Scrum Alliance",
+                "validFrom": "2022-02-01",
+                "validUntil": "2026-02-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional Certification", 
+                "name": "Certified Agile Leadership Essentials (CAL-E)",
+                "issuedBy": "Scrum Alliance",
+                "validFrom": "2024-02-01",
+                "validUntil": "2026-02-01"
+            },
+            {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "Professional Recognition",
+                "name": "Asana Ambassador",
+                "issuedBy": "Asana",
+                "validFrom": "2019-10-01"
+            }
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "Visual Effects Society",
+                "url": "https://www.visualeffectssociety.com"
+            }
         ],
         "award": [
             "TEDx Speaker - AI and the Art of Adaptability",
             "YouTube Silver Play Button (100K+ subscribers)",
             "296% Funded Kickstarter Campaign ($59,000 raised)",
             "AI-Driven SEO Success (4,614 issues resolved)",
-            "Certified Scrum Product Owner (CSPO)",
-            "Certified Agile Leadership Essentials (CAL-E)",
-            "Asana Ambassador",
             "Visual Effects Society Member"
+        ],
+        "performerIn": [
+            {
+                "@type": "Event",
+                "name": "TEDx Presentation",
+                "description": "AI and the Art of Adaptability",
+                "startDate": "2023-06-01",
+                "location": "TEDx Event",
+                "audience": {
+                    "@type": "Audience",
+                    "name": "Business Leaders and Technology Professionals"
+                }
+            }
+        ],
+        "makesOffer": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI Integration Consulting",
+                    "description": "Custom AI implementation for business operations optimization"
+                },
+                "category": "Business Consulting"
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Business Automation Services",
+                    "description": "Workflow automation and process optimization"
+                },
+                "category": "Business Consulting"
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Speaking Engagements",
+                    "description": "Keynote presentations on AI, operations, and business transformation"
+                },
+                "category": "Professional Speaking"
+            }
         ]
+    }
+    </script>
+
+    <!-- Organization Schema for The Operations Guide -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "The Operations Guide",
+        "url": "https://theoperationsguide.com",
+        "logo": "https://theoperationsguide.com/logo.png",
+        "description": "Business operations consulting and AI integration services helping SMBs streamline operations and automate processes",
+        "founder": {
+            "@type": "Person",
+            "name": "Luke Thompson"
+        },
+        "foundingDate": "2024-10-01",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Johnson City",
+            "addressRegion": "Tennessee",
+            "addressCountry": "United States"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-XXX-XXX-XXXX",
+            "contactType": "customer service",
+            "email": "contact@theoperationsguide.com"
+        },
+        "sameAs": [
+            "https://linkedin.com/company/theoperationsguide",
+            "https://github.com/theopsguide"
+        ],
+        "serviceArea": {
+            "@type": "Place",
+            "name": "United States"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Business Operations Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "AI Integration Consulting"
+                    }
+                },
+                {
+                    "@type": "Offer", 
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Business Process Automation"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service", 
+                        "name": "Operations Optimization"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
+    <!-- WebSite Schema for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Luke Thompson - Professional Profile",
+        "url": "https://github.com/theopsguide/about-me",
+        "description": "Comprehensive professional profile of Luke Thompson, AI Integration Specialist and Operations Expert",
+        "author": {
+            "@type": "Person",
+            "name": "Luke Thompson"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "The Operations Guide"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://github.com/search?q={search_term_string}+user:theopsguide"
+            },
+            "query-input": "required name=search_term_string"
+        },
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Luke Thompson"
+        }
     }
     </script>
     

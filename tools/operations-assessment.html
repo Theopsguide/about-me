@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Operations Readiness Assessment | Luke Thompson</title>
+    <meta name="description" content="Discover your business operations maturity score with this free 15-question assessment. Get personalized recommendations from operations expert Luke Thompson.">
+    <meta name="keywords" content="business operations assessment, operations maturity score, business readiness test, operations consulting, process optimization assessment, business efficiency evaluation">
+    <link rel="canonical" href="https://lukethompson.me/tools/operations-assessment.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Free Operations Readiness Assessment - Luke Thompson">
+    <meta property="og:description" content="Take our free 15-question assessment to discover your operations maturity score and get personalized improvement recommendations.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lukethompson.me/tools/operations-assessment.html">
+    
+    <!-- Schema for Assessment -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Operations Readiness Assessment",
+        "applicationCategory": "BusinessApplication",
+        "creator": {
+            "@type": "Person",
+            "name": "Luke Thompson",
+            "jobTitle": "Operations Expert & AI Business Consultant"
+        },
+        "description": "Interactive assessment tool to evaluate business operations maturity and provide personalized improvement recommendations.",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "InStock"
+        }
+    }
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background: #f8f9fa;
+        }
+        .container { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        .hero { text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 40px; border-radius: 10px; margin-bottom: 40px; }
+        .hero h1 { font-size: 2.2em; margin-bottom: 15px; }
+        .question-container { background: #f8f9fa; padding: 30px; border-radius: 10px; margin: 20px 0; display: none; }
+        .question-container.active { display: block; }
+        .question { font-size: 1.3em; font-weight: bold; color: #2c3e50; margin-bottom: 20px; }
+        .options { display: grid; gap: 15px; }
+        .option { background: white; padding: 15px; border-radius: 8px; border: 2px solid #e9ecef; cursor: pointer; transition: all 0.3s; }
+        .option:hover { border-color: #3498db; background: #f0f8ff; }
+        .option.selected { border-color: #3498db; background: #e3f2fd; }
+        .progress-bar { width: 100%; height: 10px; background: #e9ecef; border-radius: 5px; margin: 20px 0; }
+        .progress-fill { height: 100%; background: linear-gradient(90deg, #3498db, #2ecc71); border-radius: 5px; width: 0%; transition: width 0.3s; }
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: 30px; }
+        .btn { padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; transition: all 0.3s; }
+        .btn-primary { background: #3498db; color: white; }
+        .btn-primary:hover { background: #2980b9; }
+        .btn-secondary { background: #95a5a6; color: white; }
+        .results { display: none; text-align: center; }
+        .score-circle { width: 150px; height: 150px; border-radius: 50%; margin: 20px auto; display: flex; align-items: center; justify-content: center; font-size: 2em; font-weight: bold; color: white; }
+        .recommendations { text-align: left; background: #f8f9fa; padding: 30px; border-radius: 10px; margin: 20px 0; }
+        .nav-links { margin-bottom: 20px; text-align: center; }
+        .nav-links a { margin: 0 15px; color: #3498db; text-decoration: none; }
+        .lead-capture { background: #e8f5e8; padding: 30px; border-radius: 10px; margin-top: 30px; }
+        .form-group { margin: 15px 0; }
+        .form-group input { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <nav class="nav-links">
+        <a href="/">← Back to Home</a>
+        <a href="/services/">Services</a>
+        <a href="/contact/">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="hero">
+            <h1>Operations Readiness Assessment</h1>
+            <p>Discover your business operations maturity score in just 5 minutes</p>
+            <p><strong>Get personalized recommendations to optimize your operations and increase efficiency</strong></p>
+        </div>
+
+        <div id="assessment-intro">
+            <h2>How It Works</h2>
+            <ul>
+                <li><strong>15 Quick Questions</strong> - Takes only 5 minutes to complete</li>
+                <li><strong>Instant Results</strong> - Get your Operations Maturity Score immediately</li>
+                <li><strong>Personalized Recommendations</strong> - Receive specific action items for your business</li>
+                <li><strong>Expert Insights</strong> - Based on 6+ years of COO experience at ActionVFX</li>
+            </ul>
+            
+            <div style="text-align: center; margin: 30px 0;">
+                <button class="btn btn-primary" onclick="startAssessment()">Start Assessment →</button>
+            </div>
+        </div>
+
+        <div class="progress-bar" id="progress-bar" style="display: none;">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <div id="questions-container">
+            <!-- Questions will be populated by JavaScript -->
+        </div>
+
+        <div class="nav-buttons" id="nav-buttons" style="display: none;">
+            <button class="btn btn-secondary" id="prev-btn" onclick="previousQuestion()">← Previous</button>
+            <button class="btn btn-primary" id="next-btn" onclick="nextQuestion()">Next →</button>
+        </div>
+
+        <div class="results" id="results">
+            <h2>Your Operations Maturity Score</h2>
+            <div id="score-circle" class="score-circle"></div>
+            <h3 id="score-label"></h3>
+            
+            <div class="recommendations" id="recommendations">
+                <!-- Recommendations will be populated by JavaScript -->
+            </div>
+
+            <div class="lead-capture">
+                <h3>🚀 Ready to Optimize Your Operations?</h3>
+                <p>Based on your assessment results, I can help you implement specific improvements that will save time and increase efficiency.</p>
+                
+                <form id="results-form" onsubmit="submitAssessment(event)">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="company" placeholder="Company Name">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Get My Personalized Action Plan</button>
+                </form>
+                
+                <p style="margin-top: 20px; text-align: center;">
+                    <small>Or <a href="https://tidycal.com/luketh" target="_blank">schedule a free consultation</a> to discuss your results</small>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            {
+                question: "How would you rate your current business processes?",
+                options: [
+                    { text: "Completely manual and chaotic", points: 1 },
+                    { text: "Some written procedures, but inconsistent", points: 2 },
+                    { text: "Documented processes with regular reviews", points: 3 },
+                    { text: "Highly optimized and automated systems", points: 4 }
+                ]
+            },
+            {
+                question: "How much time do you spend on repetitive administrative tasks?",
+                options: [
+                    { text: "More than 50% of my time", points: 1 },
+                    { text: "25-50% of my time", points: 2 },
+                    { text: "10-25% of my time", points: 3 },
+                    { text: "Less than 10% of my time", points: 4 }
+                ]
+            },
+            {
+                question: "How effectively does your team communicate and collaborate?",
+                options: [
+                    { text: "Constant miscommunication and confusion", points: 1 },
+                    { text: "Communication happens but information gets lost", points: 2 },
+                    { text: "Good communication with established channels", points: 3 },
+                    { text: "Seamless communication with clear protocols", points: 4 }
+                ]
+            },
+            {
+                question: "How do you currently track and measure business performance?",
+                options: [
+                    { text: "No formal tracking systems", points: 1 },
+                    { text: "Basic spreadsheets and manual reports", points: 2 },
+                    { text: "Regular KPI tracking with some automation", points: 3 },
+                    { text: "Real-time dashboards with automated insights", points: 4 }
+                ]
+            },
+            {
+                question: "How well can your business operate without your constant oversight?",
+                options: [
+                    { text: "Nothing happens when I'm not there", points: 1 },
+                    { text: "Basic tasks continue but decisions wait for me", points: 2 },
+                    { text: "Team can handle most daily operations", points: 3 },
+                    { text: "Business runs smoothly with minimal intervention", points: 4 }
+                ]
+            },
+            {
+                question: "How do you handle customer service and support?",
+                options: [
+                    { text: "Reactive responses with no system", points: 1 },
+                    { text: "Email-based support with delayed responses", points: 2 },
+                    { text: "Organized support system with defined processes", points: 3 },
+                    { text: "Automated support with proactive solutions", points: 4 }
+                ]
+            },
+            {
+                question: "How automated are your financial and accounting processes?",
+                options: [
+                    { text: "All manual record keeping", points: 1 },
+                    { text: "Basic accounting software with manual entry", points: 2 },
+                    { text: "Integrated systems with some automation", points: 3 },
+                    { text: "Fully automated financial workflows", points: 4 }
+                ]
+            },
+            {
+                question: "How do you manage project timelines and deliverables?",
+                options: [
+                    { text: "No formal project management", points: 1 },
+                    { text: "Basic task lists and occasional check-ins", points: 2 },
+                    { text: "Project management software with regular updates", points: 3 },
+                    { text: "Automated project tracking with predictive insights", points: 4 }
+                ]
+            },
+            {
+                question: "How effectively do you onboard new employees?",
+                options: [
+                    { text: "No formal onboarding process", points: 1 },
+                    { text: "Basic orientation with minimal documentation", points: 2 },
+                    { text: "Structured onboarding with training materials", points: 3 },
+                    { text: "Comprehensive automated onboarding system", points: 4 }
+                ]
+            },
+            {
+                question: "How do you handle data backup and security?",
+                options: [
+                    { text: "No formal backup or security measures", points: 1 },
+                    { text: "Occasional backups with basic security", points: 2 },
+                    { text: "Regular automated backups with good security", points: 3 },
+                    { text: "Enterprise-level backup and security protocols", points: 4 }
+                ]
+            },
+            {
+                question: "How well do you understand your customer acquisition costs and lifetime value?",
+                options: [
+                    { text: "No tracking of these metrics", points: 1 },
+                    { text: "Basic understanding but no regular analysis", points: 2 },
+                    { text: "Regular tracking with quarterly reviews", points: 3 },
+                    { text: "Real-time tracking with automated optimization", points: 4 }
+                ]
+            },
+            {
+                question: "How scalable are your current operations?",
+                options: [
+                    { text: "Would break down with any growth", points: 1 },
+                    { text: "Can handle modest growth with significant effort", points: 2 },
+                    { text: "Can scale with some process adjustments", points: 3 },
+                    { text: "Built to scale seamlessly with growth", points: 4 }
+                ]
+            },
+            {
+                question: "How do you handle quality control and consistency?",
+                options: [
+                    { text: "No formal quality control processes", points: 1 },
+                    { text: "Ad-hoc quality checks when problems arise", points: 2 },
+                    { text: "Regular quality reviews with defined standards", points: 3 },
+                    { text: "Automated quality control with prevention focus", points: 4 }
+                ]
+            },
+            {
+                question: "How effectively do you use technology and automation?",
+                options: [
+                    { text: "Minimal technology use, mostly manual processes", points: 1 },
+                    { text: "Basic software tools with limited integration", points: 2 },
+                    { text: "Good use of technology with some automation", points: 3 },
+                    { text: "Advanced automation and AI integration", points: 4 }
+                ]
+            },
+            {
+                question: "How well prepared is your business for unexpected challenges?",
+                options: [
+                    { text: "No contingency plans or preparation", points: 1 },
+                    { text: "Basic emergency procedures", points: 2 },
+                    { text: "Solid business continuity planning", points: 3 },
+                    { text: "Comprehensive risk management and resilience systems", points: 4 }
+                ]
+            }
+        ];
+
+        let currentQuestion = 0;
+        let answers = [];
+
+        function startAssessment() {
+            document.getElementById('assessment-intro').style.display = 'none';
+            document.getElementById('progress-bar').style.display = 'block';
+            document.getElementById('nav-buttons').style.display = 'flex';
+            showQuestion(0);
+        }
+
+        function showQuestion(index) {
+            const container = document.getElementById('questions-container');
+            container.innerHTML = '';
+            
+            const questionDiv = document.createElement('div');
+            questionDiv.className = 'question-container active';
+            
+            questionDiv.innerHTML = `
+                <div class="question">${index + 1}. ${questions[index].question}</div>
+                <div class="options">
+                    ${questions[index].options.map((option, i) => `
+                        <div class="option" onclick="selectOption(${index}, ${i}, ${option.points})">${option.text}</div>
+                    `).join('')}
+                </div>
+            `;
+            
+            container.appendChild(questionDiv);
+            updateProgress();
+            updateNavButtons();
+        }
+
+        function selectOption(questionIndex, optionIndex, points) {
+            const options = document.querySelectorAll('.option');
+            options.forEach(option => option.classList.remove('selected'));
+            options[optionIndex].classList.add('selected');
+            
+            answers[questionIndex] = points;
+            
+            // Auto-advance after 1 second
+            setTimeout(() => {
+                if (currentQuestion < questions.length - 1) {
+                    nextQuestion();
+                } else {
+                    showResults();
+                }
+            }, 1000);
+        }
+
+        function nextQuestion() {
+            if (currentQuestion < questions.length - 1) {
+                currentQuestion++;
+                showQuestion(currentQuestion);
+            } else {
+                showResults();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                showQuestion(currentQuestion);
+            }
+        }
+
+        function updateProgress() {
+            const progress = ((currentQuestion + 1) / questions.length) * 100;
+            document.getElementById('progress-fill').style.width = progress + '%';
+        }
+
+        function updateNavButtons() {
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            
+            prevBtn.style.display = currentQuestion === 0 ? 'none' : 'block';
+            nextBtn.textContent = currentQuestion === questions.length - 1 ? 'Get Results →' : 'Next →';
+        }
+
+        function showResults() {
+            document.getElementById('questions-container').style.display = 'none';
+            document.getElementById('nav-buttons').style.display = 'none';
+            document.getElementById('progress-bar').style.display = 'none';
+            document.getElementById('results').style.display = 'block';
+            
+            const totalScore = answers.reduce((sum, score) => sum + score, 0);
+            const maxScore = questions.length * 4;
+            const percentage = Math.round((totalScore / maxScore) * 100);
+            
+            const scoreCircle = document.getElementById('score-circle');
+            const scoreLabel = document.getElementById('score-label');
+            
+            let level, color, recommendations;
+            
+            if (percentage >= 85) {
+                level = "Operations Leader";
+                color = "#27ae60";
+                recommendations = `
+                    <h4>🏆 Congratulations! You're an Operations Leader</h4>
+                    <p>Your business has excellent operational systems. Focus on:</p>
+                    <ul>
+                        <li><strong>Advanced AI Integration:</strong> Implement cutting-edge AI tools for predictive analytics</li>
+                        <li><strong>Scaling Excellence:</strong> Document and systematize your best practices for expansion</li>
+                        <li><strong>Innovation Leadership:</strong> Stay ahead with emerging technology adoption</li>
+                        <li><strong>Mentoring Others:</strong> Share your expertise with other business leaders</li>
+                    </ul>
+                `;
+            } else if (percentage >= 70) {
+                level = "Operations Optimizer";
+                color = "#3498db";
+                recommendations = `
+                    <h4>🚀 Great Job! You're an Operations Optimizer</h4>
+                    <p>You have solid systems with room for optimization. Priority areas:</p>
+                    <ul>
+                        <li><strong>Automation Expansion:</strong> Identify remaining manual processes for automation</li>
+                        <li><strong>Integration Improvements:</strong> Connect your existing tools for better data flow</li>
+                        <li><strong>Advanced Analytics:</strong> Implement predictive reporting and insights</li>
+                        <li><strong>Team Empowerment:</strong> Enhance delegation and decision-making protocols</li>
+                    </ul>
+                `;
+            } else if (percentage >= 50) {
+                level = "Operations Builder";
+                color = "#f39c12";
+                recommendations = `
+                    <h4>⚡ Good Progress! You're an Operations Builder</h4>
+                    <p>You're on the right track but need systematic improvements. Focus on:</p>
+                    <ul>
+                        <li><strong>Process Documentation:</strong> Create standard operating procedures for key workflows</li>
+                        <li><strong>Basic Automation:</strong> Implement simple automation tools (Zapier, etc.)</li>
+                        <li><strong>Communication Systems:</strong> Establish clear channels and protocols</li>
+                        <li><strong>Performance Tracking:</strong> Set up KPIs and regular review processes</li>
+                    </ul>
+                `;
+            } else {
+                level = "Operations Starter";
+                color = "#e74c3c";
+                recommendations = `
+                    <h4>🎯 Let's Get Started! You're an Operations Starter</h4>
+                    <p>Great potential! Your immediate priorities should be:</p>
+                    <ul>
+                        <li><strong>Process Mapping:</strong> Document your current workflows and identify bottlenecks</li>
+                        <li><strong>Quick Wins:</strong> Implement simple tools for task management and communication</li>
+                        <li><strong>Time Audit:</strong> Track where you and your team spend time each day</li>
+                        <li><strong>Foundation Building:</strong> Establish basic systems before adding complexity</li>
+                    </ul>
+                `;
+            }
+            
+            scoreCircle.style.background = color;
+            scoreCircle.textContent = percentage + '%';
+            scoreLabel.textContent = level;
+            document.getElementById('recommendations').innerHTML = recommendations;
+        }
+
+        function submitAssessment(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const company = document.getElementById('company').value;
+            
+            // Here you would normally send the data to your server
+            alert(`Thank you, ${name}! Your personalized action plan will be sent to ${email} within 24 hours.`);
+            
+            // Redirect to booking page
+            window.open('https://tidycal.com/luketh', '_blank');
+        }
+    </script>
+</body>
+</html>

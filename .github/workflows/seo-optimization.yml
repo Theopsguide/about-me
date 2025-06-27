@@ -1,0 +1,161 @@
+name: SEO Optimization and Content Validation
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+  schedule:
+    # Run weekly SEO checks
+    - cron: '0 9 * * 1'
+
+jobs:
+  seo-audit:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        
+    - name: Install SEO tools
+      run: |
+        npm install -g lighthouse
+        npm install -g html-validator-cli
+        
+    - name: Validate HTML structure
+      run: |
+        html-validator --file=index.html --verbose || true
+        
+    - name: Check for broken links
+      uses: lycheeverse/lychee-action@v1.5.1
+      with:
+        args: --verbose --no-progress './**/*.md' './**/*.html'
+        fail: false
+        
+    - name: Lighthouse SEO audit
+      run: |
+        lighthouse --only-categories=seo --output=json --output-path=lighthouse-seo.json --chrome-flags="--headless" file://$(pwd)/index.html || true
+        
+    - name: Generate SEO report
+      run: |
+        echo "# SEO Audit Report - $(date)" > seo-report.md
+        echo "" >> seo-report.md
+        echo "## Files Checked" >> seo-report.md
+        find . -name "*.md" -o -name "*.html" | head -10 >> seo-report.md
+        echo "" >> seo-report.md
+        echo "## Audit Complete" >> seo-report.md
+        echo "Automated SEO validation completed successfully." >> seo-report.md
+        
+    - name: Upload SEO artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: seo-audit-results
+        path: |
+          lighthouse-seo.json
+          seo-report.md
+
+  content-optimization:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Check for SEO best practices
+      run: |
+        echo "# Content Optimization Report" > content-report.md
+        echo "" >> content-report.md
+        
+        # Check for meta descriptions in HTML files
+        echo "## Meta Description Check" >> content-report.md
+        if grep -q 'meta name="description"' index.html; then
+          echo "✅ Meta description found in index.html" >> content-report.md
+        else
+          echo "❌ Meta description missing in index.html" >> content-report.md
+        fi
+        
+        # Check for structured data
+        echo "" >> content-report.md
+        echo "## Structured Data Check" >> content-report.md
+        if grep -q 'application/ld+json' index.html; then
+          echo "✅ Structured data found in index.html" >> content-report.md
+        else
+          echo "❌ Structured data missing in index.html" >> content-report.md
+        fi
+        
+        # Check for H1 tags in markdown files
+        echo "" >> content-report.md
+        echo "## Header Structure Check" >> content-report.md
+        for file in *.md; do
+          if [ -f "$file" ]; then
+            h1_count=$(grep -c "^# " "$file" || true)
+            if [ "$h1_count" -eq 1 ]; then
+              echo "✅ $file has proper H1 structure" >> content-report.md
+            elif [ "$h1_count" -eq 0 ]; then
+              echo "❌ $file missing H1 header" >> content-report.md
+            else
+              echo "⚠️ $file has multiple H1 headers ($h1_count)" >> content-report.md
+            fi
+          fi
+        done
+        
+        # Check for internal linking
+        echo "" >> content-report.md
+        echo "## Internal Linking Check" >> content-report.md
+        link_count=$(grep -r "\]\(\./" *.md | wc -l || true)
+        echo "📊 Found $link_count internal links in markdown files" >> content-report.md
+        
+        cat content-report.md
+        
+    - name: Upload content optimization report
+      uses: actions/upload-artifact@v3
+      with:
+        name: content-optimization-report
+        path: content-report.md
+
+  repository-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        
+    - name: Generate repository statistics
+      run: |
+        echo "# Repository Statistics - $(date)" > repo-stats.md
+        echo "" >> repo-stats.md
+        
+        echo "## Content Overview" >> repo-stats.md
+        echo "- **Markdown files:** $(find . -name "*.md" | wc -l)" >> repo-stats.md
+        echo "- **HTML files:** $(find . -name "*.html" | wc -l)" >> repo-stats.md
+        echo "- **Total files:** $(find . -type f | wc -l)" >> repo-stats.md
+        echo "" >> repo-stats.md
+        
+        echo "## Word Count Analysis" >> repo-stats.md
+        total_words=0
+        for file in *.md; do
+          if [ -f "$file" ]; then
+            words=$(wc -w < "$file")
+            echo "- **$file:** $words words" >> repo-stats.md
+            total_words=$((total_words + words))
+          fi
+        done
+        echo "- **Total content:** $total_words words" >> repo-stats.md
+        echo "" >> repo-stats.md
+        
+        echo "## Git Statistics" >> repo-stats.md
+        echo "- **Total commits:** $(git rev-list --all --count)" >> repo-stats.md
+        echo "- **Contributors:** $(git shortlog -sn | wc -l)" >> repo-stats.md
+        echo "- **Last updated:** $(git log -1 --format=%cd --date=short)" >> repo-stats.md
+        
+        cat repo-stats.md
+        
+    - name: Upload repository statistics
+      uses: actions/upload-artifact@v3
+      with:
+        name: repository-statistics
+        path: repo-stats.md

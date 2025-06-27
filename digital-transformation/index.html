@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Transformation Consulting | Luke Thompson - Technology Strategy Expert</title>
+    <meta name="description" content="Expert digital transformation consulting by Luke Thompson. Help your business leverage technology, implement digital workflows, and build competitive advantages through strategic technology adoption.">
+    <meta name="keywords" content="digital transformation consulting, technology strategy, digital workflows, business technology adoption, digital innovation, technology consulting, digital modernization, enterprise technology, Luke Thompson digital transformation">
+    <meta name="author" content="Luke Thompson">
+    
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://github.com/theopsguide/about-me/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Digital Transformation",
+                "item": "https://github.com/theopsguide/about-me/digital-transformation/"
+            }
+        ]
+    }
+    </script>
+    
+    <!-- Service Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Digital Transformation Consulting",
+        "provider": {
+            "@type": "Person",
+            "name": "Luke Thompson",
+            "jobTitle": "Digital Transformation & Technology Strategy Expert",
+            "url": "https://lukethompson.ai"
+        },
+        "description": "Comprehensive digital transformation consulting to help businesses leverage technology for competitive advantage and operational excellence.",
+        "serviceType": "Digital Transformation",
+        "areaServed": "United States",
+        "offers": {
+            "@type": "Offer",
+            "name": "Digital Transformation Strategy",
+            "description": "End-to-end digital transformation planning and implementation"
+        }
+    }
+    </script>
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        .breadcrumb {
+            margin-bottom: 20px;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            color: #7f8c8d;
+        }
+        .breadcrumb a { color: #3498db; text-decoration: none; margin-right: 5px; }
+        .breadcrumb span { margin: 0 5px; }
+        .hero {
+            background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .hero h1 { margin: 0; font-size: 2.5em; }
+        .hero p { font-size: 1.2em; margin-top: 15px; }
+        .section { margin: 40px 0; }
+        .section h2 { color: #2c3e50; border-bottom: 3px solid #9b59b6; padding-bottom: 10px; }
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        .service-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #9b59b6;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .service-card h3 { color: #2c3e50; margin-top: 0; }
+        .transformation-stages {
+            background: #ecf0f1;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        .stage {
+            background: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-left: 4px solid #3498db;
+            border-radius: 5px;
+        }
+        .stage h4 { margin-top: 0; color: #2c3e50; }
+        .benefits-list {
+            background: #e8f5e8;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .benefits-list h3 { color: #27ae60; margin-top: 0; }
+        .technology-stack {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .tech-category {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        .tech-category h4 { margin-top: 0; color: #8e44ad; }
+        .cta-section {
+            background: #2c3e50;
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #9b59b6;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .case-study {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .case-study h3 { color: #2c3e50; margin-top: 0; }
+        .metrics {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .metric {
+            text-align: center;
+            margin: 10px;
+        }
+        .metric-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #9b59b6;
+        }
+        .metric-label {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <nav class="breadcrumb">
+        <a href="../index.html">Luke Thompson</a>
+        <span>></span>
+        <span>Digital Transformation</span>
+    </nav>
+
+    <div class="hero">
+        <h1>Digital Transformation Consulting</h1>
+        <p>Transform your business with strategic technology adoption that drives growth, efficiency, and competitive advantage</p>
+    </div>
+
+    <div class="section">
+        <h2>Why Digital Transformation Matters</h2>
+        <p>In today's rapidly evolving business landscape, digital transformation isn't just an option—it's essential for survival and growth. Organizations that successfully embrace digital technologies see significant improvements in efficiency, customer satisfaction, and market position.</p>
+        
+        <p>As someone who has led digital transformation initiatives at ActionVFX, scaling from a small startup to an industry leader, I understand both the challenges and opportunities that come with technological change.</p>
+        
+        <div class="benefits-list">
+            <h3>Benefits of Strategic Digital Transformation</h3>
+            <ul>
+                <li><strong>Operational Efficiency:</strong> Streamline processes and eliminate manual bottlenecks</li>
+                <li><strong>Competitive Advantage:</strong> Leverage technology for unique market positioning</li>
+                <li><strong>Scalability:</strong> Build systems that grow with your business</li>
+                <li><strong>Customer Experience:</strong> Enhance client interactions and satisfaction</li>
+                <li><strong>Data-Driven Decisions:</strong> Access better insights for strategic planning</li>
+                <li><strong>Cost Reduction:</strong> Automate expensive manual processes</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Digital Transformation Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>🎯 Strategy & Assessment</h3>
+                <p>Comprehensive evaluation of your current technology landscape and development of a strategic roadmap for digital transformation.</p>
+                <ul>
+                    <li>Digital maturity assessment</li>
+                    <li>Technology gap analysis</li>
+                    <li>Transformation roadmap development</li>
+                    <li>ROI and risk assessment</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>🔄 Process Digitization</h3>
+                <p>Convert manual processes to digital workflows that improve efficiency, accuracy, and transparency across your organization.</p>
+                <ul>
+                    <li>Workflow analysis and redesign</li>
+                    <li>Digital process implementation</li>
+                    <li>Automation integration</li>
+                    <li>Quality control systems</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>📊 Data & Analytics</h3>
+                <p>Implement data collection, analysis, and reporting systems that provide actionable insights for better decision-making.</p>
+                <ul>
+                    <li>Data strategy development</li>
+                    <li>Analytics platform implementation</li>
+                    <li>Dashboard and reporting design</li>
+                    <li>Performance monitoring systems</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>☁️ Cloud Migration</h3>
+                <p>Strategic migration to cloud platforms that reduce costs, improve flexibility, and enable remote collaboration.</p>
+                <ul>
+                    <li>Cloud readiness assessment</li>
+                    <li>Migration strategy planning</li>
+                    <li>Platform selection and setup</li>
+                    <li>Security and compliance</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>🤝 Customer Experience</h3>
+                <p>Digital solutions that enhance customer interactions, from initial contact through ongoing relationship management.</p>
+                <ul>
+                    <li>CRM system implementation</li>
+                    <li>Customer portal development</li>
+                    <li>Communication automation</li>
+                    <li>Feedback and review systems</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>👥 Team Enablement</h3>
+                <p>Ensure your team is equipped and trained to succeed with new digital tools and processes.</p>
+                <ul>
+                    <li>Change management planning</li>
+                    <li>Training program development</li>
+                    <li>User adoption strategies</li>
+                    <li>Ongoing support systems</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Digital Transformation Methodology</h2>
+        <div class="transformation-stages">
+            <h3>The EVOLVE Framework</h3>
+            
+            <div class="stage">
+                <h4>🔍 E - Evaluate Current State</h4>
+                <p>Comprehensive assessment of existing systems, processes, and digital capabilities to identify transformation opportunities.</p>
+            </div>
+            
+            <div class="stage">
+                <h4>🎯 V - Vision & Strategy</h4>
+                <p>Develop clear digital transformation vision aligned with business objectives and create detailed implementation strategy.</p>
+            </div>
+            
+            <div class="stage">
+                <h4>⚡ O - Optimize & Implement</h4>
+                <p>Execute transformation initiatives with focus on quick wins and sustainable long-term improvements.</p>
+            </div>
+            
+            <div class="stage">
+                <h4>👥 L - Lead Change</h4>
+                <p>Manage organizational change, train teams, and ensure successful adoption of new digital capabilities.</p>
+            </div>
+            
+            <div class="stage">
+                <h4>📊 V - Validate & Measure</h4>
+                <p>Monitor performance, measure ROI, and validate that transformation objectives are being achieved.</p>
+            </div>
+            
+            <div class="stage">
+                <h4>🔄 E - Evolve Continuously</h4>
+                <p>Establish ongoing optimization processes and prepare for future technological developments.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Technology Stack & Platforms</h2>
+        <p>I work with leading technology platforms and tools to deliver comprehensive digital transformation solutions:</p>
+        
+        <div class="technology-stack">
+            <div class="tech-category">
+                <h4>Business Platforms</h4>
+                <ul>
+                    <li>Microsoft 365 / Google Workspace</li>
+                    <li>Salesforce / HubSpot</li>
+                    <li>Slack / Microsoft Teams</li>
+                    <li>Notion / Asana / Monday.com</li>
+                </ul>
+            </div>
+            
+            <div class="tech-category">
+                <h4>Automation Tools</h4>
+                <ul>
+                    <li>Zapier / Microsoft Power Automate</li>
+                    <li>n8n / Make (Integromat)</li>
+                    <li>Relevance AI / OpenAI</li>
+                    <li>Custom workflow solutions</li>
+                </ul>
+            </div>
+            
+            <div class="tech-category">
+                <h4>Analytics & Reporting</h4>
+                <ul>
+                    <li>Google Analytics / Adobe Analytics</li>
+                    <li>Power BI / Tableau</li>
+                    <li>Custom dashboard solutions</li>
+                    <li>Performance monitoring tools</li>
+                </ul>
+            </div>
+            
+            <div class="tech-category">
+                <h4>Cloud Infrastructure</h4>
+                <ul>
+                    <li>AWS / Microsoft Azure / Google Cloud</li>
+                    <li>Cloud storage and collaboration</li>
+                    <li>Security and backup solutions</li>
+                    <li>Scalable hosting platforms</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Digital Transformation Success Story</h2>
+        <div class="case-study">
+            <h3>ActionVFX: From Manual Processes to Digital Excellence</h3>
+            <p><strong>Challenge:</strong> ActionVFX needed to transform from manual, inconsistent processes to scalable digital operations that could support rapid growth in the competitive VFX market.</p>
+            
+            <p><strong>Transformation Approach:</strong></p>
+            <ul>
+                <li><strong>Process Digitization:</strong> Converted manual workflows to automated digital processes</li>
+                <li><strong>AI Integration:</strong> Implemented custom AI tools for content optimization and SEO</li>
+                <li><strong>Performance Systems:</strong> Built comprehensive tracking and reporting capabilities</li>
+                <li><strong>Team Enablement:</strong> Trained team on new digital tools and processes</li>
+                <li><strong>Continuous Optimization:</strong> Established ongoing improvement and innovation cycles</li>
+            </ul>
+            
+            <div class="metrics">
+                <div class="metric">
+                    <div class="metric-number">9+</div>
+                    <div class="metric-label">Years of Growth</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-number">100K+</div>
+                    <div class="metric-label">Community Built</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-number">4,614</div>
+                    <div class="metric-label">AI-Automated Tasks</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-number">Leader</div>
+                    <div class="metric-label">Industry Position</div>
+                </div>
+            </div>
+            
+            <p><strong>Results:</strong> Successfully scaled ActionVFX from startup to industry leader through strategic digital transformation, establishing new standards for operational excellence in the VFX industry.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Industries & Use Cases</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>🎨 Creative & Media</h3>
+                <p>Digital asset management, content workflow automation, and creative process optimization.</p>
+            </div>
+            
+            <div class="service-card">
+                <h3>💼 Professional Services</h3>
+                <p>Client relationship management, service delivery automation, and performance tracking systems.</p>
+            </div>
+            
+            <div class="service-card">
+                <h3>🛒 E-commerce & Retail</h3>
+                <p>Inventory management, customer experience optimization, and sales process automation.</p>
+            </div>
+            
+            <div class="service-card">
+                <h3>💡 Technology Companies</h3>
+                <p>Product development workflows, customer success automation, and scalable operations.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <h2>Ready to Transform Your Business?</h2>
+        <p>Digital transformation doesn't have to be overwhelming. Let's discuss how strategic technology adoption can accelerate your growth and create competitive advantages.</p>
+        <a href="https://tidycal.com/luketh" class="cta-button" target="_blank">Schedule Transformation Consultation</a>
+    </div>
+
+    <footer style="margin-top: 40px; text-align: center; color: #7f8c8d;">
+        <p>© 2025 Luke Thompson | <a href="../index.html">About</a> | <a href="https://theoperationsguide.com">The Operations Guide</a> | <a href="https://linkedin.com/in/ActionVFX">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
