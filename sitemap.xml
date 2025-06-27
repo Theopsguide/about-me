@@ -64,29 +64,69 @@
   </url>
 
   <url>
-    <loc>https://lukethompson.me/about/</loc>
-    <lastmod>2025-06-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Portfolio and Expertise Pages -->
-  <url>
-    <loc>https://lukethompson.me/ai-business-consulting/</loc>
+    <loc>https://lukethompson.me/faq.html</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
+  <!-- Tools and Interactive Content -->
   <url>
-    <loc>https://lukethompson.me/operations-optimization/</loc>
+    <loc>https://lukethompson.me/tools/operations-assessment.html</loc>
+    <lastmod>2025-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Industry-Specific Pages -->
+  <url>
+    <loc>https://lukethompson.me/industries/marketing-agencies.html</loc>
+    <lastmod>2025-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lukethompson.me/industries/ecommerce.html</loc>
+    <lastmod>2025-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Resources and Downloads -->
+  <url>
+    <loc>https://lukethompson.me/resources/</loc>
+    <lastmod>2025-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Media and Press -->
+  <url>
+    <loc>https://lukethompson.me/media/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
+  <!-- Blog and Content -->
   <url>
-    <loc>https://lukethompson.me/business-automation/</loc>
+    <loc>https://lukethompson.me/blog/</loc>
+    <lastmod>2025-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://lukethompson.me/blog/ai-implementation-reality-check-2025.html</loc>
+    <lastmod>2025-06-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Technology Showcase -->
+  <url>
+    <loc>https://lukethompson.me/technology/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
