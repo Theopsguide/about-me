@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Luke Thompson Professional Profile</title>
+    <meta name="description" content="Search Luke Thompson's comprehensive professional profile, articles, tools, and AI expertise resources.">
+    <meta name="keywords" content="search Luke Thompson, AI expertise search, business automation search, technology consultant search">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .search-header {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .search-header h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .search-header p {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        
+        .search-container {
+            position: relative;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .search-input {
+            width: 100%;
+            padding: 15px 50px 15px 20px;
+            font-size: 1.1em;
+            border: 2px solid #e0e0e0;
+            border-radius: 50px;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+        
+        .search-input:focus {
+            border-color: #3498db;
+        }
+        
+        .search-button {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+        
+        .search-filters {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .filter-label {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-right: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .filter-tag {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            font-size: 0.9em;
+        }
+        
+        .filter-tag:hover {
+            background: #1976d2;
+            color: white;
+        }
+        
+        .filter-tag.active {
+            background: #1976d2;
+            color: white;
+            border-color: #0d47a1;
+        }
+        
+        .search-results {
+            display: none;
+        }
+        
+        .results-header {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .results-count {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+        
+        .result-item {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .result-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .result-title a {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+        
+        .result-title a:hover {
+            color: #3498db;
+        }
+        
+        .result-type {
+            display: inline-block;
+            background: #e8f5e8;
+            color: #27ae60;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        
+        .result-excerpt {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        
+        .result-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        
+        .result-tag {
+            background: #f0f0f0;
+            color: #666;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.8em;
+        }
+        
+        .no-results {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .no-results h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .no-results p {
+            color: #7f8c8d;
+        }
+        
+        .quick-links {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .quick-links h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .quick-links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .quick-link {
+            display: block;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #2c3e50;
+            transition: all 0.3s ease;
+            border-left: 3px solid #3498db;
+        }
+        
+        .quick-link:hover {
+            background: #e3f2fd;
+            transform: translateY(-2px);
+        }
+        
+        .quick-link-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .quick-link-desc {
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="search-header">
+            <h1>🔍 Search</h1>
+            <p>Find everything about Luke Thompson's AI expertise, business automation insights, and professional resources</p>
+            
+            <div class="search-container">
+                <input type="text" class="search-input" id="searchInput" placeholder="Search for AI tools, automation guides, case studies...">
+                <button class="search-button" id="searchButton">🔍</button>
+            </div>
+        </div>
+        
+        <div class="search-filters">
+            <div class="filter-group">
+                <div class="filter-label">Content Type:</div>
+                <div class="filter-tag" data-filter="all">All Content</div>
+                <div class="filter-tag" data-filter="blog">Blog Posts</div>
+                <div class="filter-tag" data-filter="tools">Interactive Tools</div>
+                <div class="filter-tag" data-filter="case-studies">Case Studies</div>
+                <div class="filter-tag" data-filter="guides">Guides</div>
+                <div class="filter-tag" data-filter="resources">Resources</div>
+            </div>
+            
+            <div class="filter-group">
+                <div class="filter-label">Topics:</div>
+                <div class="filter-tag" data-filter="ai">Artificial Intelligence</div>
+                <div class="filter-tag" data-filter="automation">Business Automation</div>
+                <div class="filter-tag" data-filter="seo">SEO Optimization</div>
+                <div class="filter-tag" data-filter="operations">Operations</div>
+                <div class="filter-tag" data-filter="technology">Technology</div>
+            </div>
+        </div>
+        
+        <div class="quick-links">
+            <h3>Popular Resources</h3>
+            <div class="quick-links-grid">
+                <a href="tools/ai-readiness-calculator.html" class="quick-link">
+                    <div class="quick-link-title">🤖 AI Readiness Calculator</div>
+                    <div class="quick-link-desc">Assess your business's AI implementation readiness</div>
+                </a>
+                <a href="tools/automation-roi-calculator.html" class="quick-link">
+                    <div class="quick-link-title">📊 Automation ROI Calculator</div>
+                    <div class="quick-link-desc">Calculate return on investment for automation projects</div>
+                </a>
+                <a href="blog/building-ai-powered-seo-tools.md" class="quick-link">
+                    <div class="quick-link-title">🛠️ Building AI-Powered SEO Tools</div>
+                    <div class="quick-link-desc">Technical deep dive into AI SEO optimization</div>
+                </a>
+                <a href="AI-EXPERTISE-DEEP-DIVE.md" class="quick-link">
+                    <div class="quick-link-title">🧠 AI Expertise Deep Dive</div>
+                    <div class="quick-link-desc">Comprehensive overview of AI capabilities</div>
+                </a>
+                <a href="CASE-STUDIES.md" class="quick-link">
+                    <div class="quick-link-title">📈 Case Studies</div>
+                    <div class="quick-link-desc">Real-world AI and automation success stories</div>
+                </a>
+                <a href="https://tidycal.com/luketh" class="quick-link">
+                    <div class="quick-link-title">📅 Schedule Consultation</div>
+                    <div class="quick-link-desc">Book a strategy session for your business</div>
+                </a>
+            </div>
+        </div>
+        
+        <div id="searchResults" class="search-results">
+            <div class="results-header">
+                <div class="results-count" id="resultsCount">0 results found</div>
+            </div>
+            <div id="resultsList"></div>
+        </div>
+    </div>
+
+    <script>
+        // Content database for search
+        const searchData = [
+            {
+                title: "AI Readiness Calculator",
+                type: "tool",
+                url: "tools/ai-readiness-calculator.html",
+                excerpt: "Interactive tool to assess your business's readiness for AI implementation with personalized recommendations and roadmap.",
+                tags: ["ai", "calculator", "business", "readiness", "assessment"],
+                content: "AI readiness calculator assessment business artificial intelligence implementation strategy roadmap personalized recommendations"
+            },
+            {
+                title: "Automation ROI Calculator",
+                type: "tool", 
+                url: "tools/automation-roi-calculator.html",
+                excerpt: "Calculate the return on investment for business automation projects with detailed cost-benefit analysis.",
+                tags: ["automation", "roi", "calculator", "business", "cost-benefit"],
+                content: "automation ROI calculator return investment business cost benefit analysis financial impact"
+            },
+            {
+                title: "Building AI-Powered SEO Tools: A Technical Deep Dive",
+                type: "blog",
+                url: "blog/building-ai-powered-seo-tools.md",
+                excerpt: "Technical guide to building custom AI tools that resolved 4,614 SEO issues and achieved 80% performance improvement.",
+                tags: ["ai", "seo", "technical", "programming", "automation"],
+                content: "AI SEO tools technical implementation GPT-4 automation optimization programming python javascript"
+            },
+            {
+                title: "AI Implementation Patterns for Business Operations in 2025",
+                type: "blog",
+                url: "blog/ai-implementation-patterns-2025.md",
+                excerpt: "Comprehensive guide to proven AI implementation patterns and architectures for successful business integration.",
+                tags: ["ai", "implementation", "patterns", "business", "operations"],
+                content: "AI implementation patterns business operations architecture integration strategy 2025 trends"
+            },
+            {
+                title: "The Future of Business Automation: Trends and Predictions for 2025",
+                type: "blog",
+                url: "blog/future-of-business-automation-2025.md",
+                excerpt: "Expert analysis of emerging automation trends and predictions for the future of business operations.",
+                tags: ["automation", "trends", "future", "business", "predictions"],
+                content: "business automation future trends 2025 predictions technology operational excellence digital transformation"
+            },
+            {
+                title: "AI Expertise Deep Dive",
+                type: "guide",
+                url: "AI-EXPERTISE-DEEP-DIVE.md",
+                excerpt: "Comprehensive overview of advanced AI integration and implementation expertise across multiple domains.",
+                tags: ["ai", "expertise", "integration", "implementation", "advanced"],
+                content: "AI expertise artificial intelligence machine learning implementation integration advanced capabilities"
+            },
+            {
+                title: "Technology Stack Showcase",
+                type: "resource",
+                url: "TECHNOLOGY-STACK-SHOWCASE.md", 
+                excerpt: "Complete portfolio of technology expertise including AI tools, automation platforms, and development frameworks.",
+                tags: ["technology", "stack", "tools", "platforms", "development"],
+                content: "technology stack tools platforms development frameworks AI automation programming"
+            },
+            {
+                title: "Case Studies & Success Stories",
+                type: "case-studies",
+                url: "CASE-STUDIES.md",
+                excerpt: "Real-world examples of AI and automation implementations with measurable business results and ROI.",
+                tags: ["case-studies", "success", "results", "roi", "business"],
+                content: "case studies success stories AI automation implementation results ROI business impact"
+            },
+            {
+                title: "Business Automation Playbook",
+                type: "guide",
+                url: "BUSINESS-AUTOMATION-PLAYBOOK.md",
+                excerpt: "Step-by-step guide to implementing business automation systems that scale operations and improve efficiency.",
+                tags: ["automation", "playbook", "business", "operations", "efficiency"],
+                content: "business automation playbook operations efficiency scaling systems implementation guide"
+            },
+            {
+                title: "AI Integration Guide",
+                type: "guide",
+                url: "AI-INTEGRATION-GUIDE.md",
+                excerpt: "End-to-end framework for integrating AI into business operations with practical implementation strategies.",
+                tags: ["ai", "integration", "guide", "framework", "implementation"],
+                content: "AI integration guide framework implementation strategy business operations practical"
+            }
+        ];
+        
+        let currentFilters = new Set(['all']);
+        let searchResults = [];
+        
+        // Search functionality
+        function performSearch(query) {
+            const lowerQuery = query.toLowerCase();
+            
+            if (!query.trim()) {
+                searchResults = [];
+                displayResults();
+                return;
+            }
+            
+            searchResults = searchData.filter(item => {
+                // Check if item matches current filters
+                const matchesFilter = currentFilters.has('all') || 
+                    currentFilters.has(item.type) ||
+                    item.tags.some(tag => currentFilters.has(tag));
+                
+                if (!matchesFilter) return false;
+                
+                // Check if item matches search query
+                const searchableText = `${item.title} ${item.excerpt} ${item.content} ${item.tags.join(' ')}`.toLowerCase();
+                return searchableText.includes(lowerQuery);
+            });
+            
+            displayResults();
+        }
+        
+        function displayResults() {
+            const resultsContainer = document.getElementById('searchResults');
+            const resultsCount = document.getElementById('resultsCount');
+            const resultsList = document.getElementById('resultsList');
+            
+            if (searchResults.length === 0) {
+                resultsContainer.style.display = 'none';
+                return;
+            }
+            
+            resultsContainer.style.display = 'block';
+            resultsCount.textContent = `${searchResults.length} result${searchResults.length !== 1 ? 's' : ''} found`;
+            
+            resultsList.innerHTML = searchResults.map(item => `
+                <div class="result-item">
+                    <div class="result-type">${item.type.replace('-', ' ')}</div>
+                    <div class="result-title">
+                        <a href="${item.url}" target="_blank">${item.title}</a>
+                    </div>
+                    <div class="result-excerpt">${item.excerpt}</div>
+                    <div class="result-tags">
+                        ${item.tags.map(tag => `<span class="result-tag">${tag}</span>`).join('')}
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // Filter functionality
+        function setupFilters() {
+            const filterTags = document.querySelectorAll('.filter-tag');
+            
+            filterTags.forEach(tag => {
+                tag.addEventListener('click', () => {
+                    const filter = tag.dataset.filter;
+                    
+                    if (filter === 'all') {
+                        currentFilters.clear();
+                        currentFilters.add('all');
+                        filterTags.forEach(t => t.classList.remove('active'));
+                        tag.classList.add('active');
+                    } else {
+                        if (currentFilters.has('all')) {
+                            currentFilters.clear();
+                            filterTags[0].classList.remove('active');
+                        }
+                        
+                        if (currentFilters.has(filter)) {
+                            currentFilters.delete(filter);
+                            tag.classList.remove('active');
+                        } else {
+                            currentFilters.add(filter);
+                            tag.classList.add('active');
+                        }
+                        
+                        if (currentFilters.size === 0) {
+                            currentFilters.add('all');
+                            filterTags[0].classList.add('active');
+                        }
+                    }
+                    
+                    const currentQuery = document.getElementById('searchInput').value;
+                    performSearch(currentQuery);
+                });
+            });
+            
+            // Set default active filter
+            filterTags[0].classList.add('active');
+        }
+        
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const searchButton = document.getElementById('searchButton');
+            
+            setupFilters();
+            
+            searchInput.addEventListener('input', (e) => {
+                performSearch(e.target.value);
+            });
+            
+            searchButton.addEventListener('click', () => {
+                performSearch(searchInput.value);
+            });
+            
+            searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    performSearch(searchInput.value);
+                }
+            });
+        });
+    </script>
+
+    <!-- Schema Markup for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Luke Thompson Professional Profile Search",
+        "url": "https://github.com/theopsguide/about-me/search.html",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://github.com/theopsguide/about-me/search.html?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Luke Thompson"
+        }
+    }
+    </script>
+</body>
+</html>

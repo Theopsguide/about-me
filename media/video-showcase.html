@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Showcase - Luke Thompson AI & Business Automation Expert</title>
+    <meta name="description" content="Watch Luke Thompson's TEDx talk, technical presentations, and insights on AI implementation, business automation, and operational excellence.">
+    <meta name="keywords" content="Luke Thompson videos, TEDx AI talk, business automation presentations, AI implementation videos, technology leadership content">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.2em;
+        }
+        
+        .featured-video {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        
+        .featured-video h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 2em;
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        
+        .video-info {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .video-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .video-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .video-thumbnail {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            background: #e0e0e0;
+        }
+        
+        .video-thumbnail img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255,255,255,0.9);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            color: #e74c3c;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .play-button:hover {
+            background: white;
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+        
+        .video-content {
+            padding: 25px;
+        }
+        
+        .video-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .video-description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .video-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+        
+        .video-duration {
+            background: #3498db;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+        
+        .video-stats {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .topics-section {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .topic-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+            transition: all 0.3s ease;
+        }
+        
+        .topic-card:hover {
+            background: #e3f2fd;
+            transform: translateY(-2px);
+        }
+        
+        .topic-title {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .topic-count {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .cta-section h3 {
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        
+        .cta-button {
+            background: white;
+            color: #667eea;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(255,255,255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎥 Video Showcase</h1>
+            <p>Insights on AI, automation, and business transformation</p>
+        </div>
+        
+        <div class="featured-video">
+            <h2>🌟 Featured: TEDx Talk - AI and the Art of Adaptability</h2>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/KvHIs3Z6W30" 
+                    title="Luke Thompson TEDx Talk - AI and the Art of Adaptability" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="video-info">
+                <h3>About This Talk</h3>
+                <p>In this TEDx presentation, I explore the transformative potential of AI, the necessity of adaptability in the modern workplace, and the importance of reskilling in our rapidly evolving technological landscape. This talk addresses three critical themes that define our relationship with artificial intelligence and organizational change.</p>
+                
+                <h4>Key Topics Covered:</h4>
+                <ul>
+                    <li><strong>AI's Transformative Potential:</strong> Understanding AI as a fundamental shift in problem-solving and value creation</li>
+                    <li><strong>The Necessity of Adaptability:</strong> How adaptability becomes a competitive advantage in an AI-enhanced future</li>
+                    <li><strong>The Importance of Reskilling:</strong> Identifying which skills to develop and creating learning cultures for continuous growth</li>
+                </ul>
+                
+                <div class="video-stats">
+                    <div class="stat">📅 <span>June 2023</span></div>
+                    <div class="stat">⏱️ <span>18 minutes</span></div>
+                    <div class="stat">👁️ <span>2,400+ views</span></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="topics-section">
+            <h2>📚 Content Categories</h2>
+            <p>Explore videos organized by topic and expertise area</p>
+            
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <div class="topic-title">🤖 AI Implementation</div>
+                    <div class="topic-count">Technical guides, case studies, and best practices</div>
+                </div>
+                
+                <div class="topic-card">
+                    <div class="topic-title">⚙️ Business Automation</div>
+                    <div class="topic-count">Workflow optimization and process automation</div>
+                </div>
+                
+                <div class="topic-card">
+                    <div class="topic-title">🎯 SEO & Marketing</div>
+                    <div class="topic-count">AI-powered SEO tools and strategies</div>
+                </div>
+                
+                <div class="topic-card">
+                    <div class="topic-title">👥 Leadership & Operations</div>
+                    <div class="topic-count">Team building and operational excellence</div>
+                </div>
+                
+                <div class="topic-card">
+                    <div class="topic-title">🎤 Speaking & Interviews</div>
+                    <div class="topic-count">Conference talks and podcast appearances</div>
+                </div>
+                
+                <div class="topic-card">
+                    <div class="topic-title">🛠️ Technical Tutorials</div>
+                    <div class="topic-count">Hands-on implementation guides</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="video-grid">
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/KvHIs3Z6W30/maxresdefault.jpg" alt="TEDx Talk Thumbnail">
+                    <div class="play-button">▶</div>
+                    <div class="video-duration">18:24</div>
+                </div>
+                <div class="video-content">
+                    <div class="video-title">AI and the Art of Adaptability - TEDx Talk</div>
+                    <div class="video-description">
+                        Exploring the transformative potential of AI and the critical importance of adaptability in our evolving technological landscape.
+                    </div>
+                    <div class="video-meta">
+                        <span>June 2023</span>
+                        <div class="video-stats">
+                            <div class="stat">👁️ 2.4K</div>
+                            <div class="stat">👍 127</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2em; font-weight: bold;">
+                        Coming Soon
+                    </div>
+                    <div class="video-duration">15:30</div>
+                </div>
+                <div class="video-content">
+                    <div class="video-title">Building AI-Powered SEO Tools: Technical Deep Dive</div>
+                    <div class="video-description">
+                        Step-by-step walkthrough of building the AI tools that resolved 4,614 SEO issues and improved performance by 80%.
+                    </div>
+                    <div class="video-meta">
+                        <span>Coming Soon</span>
+                        <div class="video-stats">
+                            <div class="stat">🔔 Notify</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <div style="background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2em; font-weight: bold;">
+                        In Production
+                    </div>
+                    <div class="video-duration">12:45</div>
+                </div>
+                <div class="video-content">
+                    <div class="video-title">Business Automation ROI: Real-World Case Studies</div>
+                    <div class="video-description">
+                        Detailed analysis of automation implementations with measurable ROI results from actual business transformations.
+                    </div>
+                    <div class="video-meta">
+                        <span>In Production</span>
+                        <div class="video-stats">
+                            <div class="stat">📅 Q1 2025</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <div style="background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2em; font-weight: bold;">
+                        Podcast Series
+                    </div>
+                    <div class="video-duration">Various</div>
+                </div>
+                <div class="video-content">
+                    <div class="video-title">Ask An Artist Podcast Highlights</div>
+                    <div class="video-description">
+                        Best moments and insights from hosting ActionVFX's podcast, featuring interviews with VFX industry professionals.
+                    </div>
+                    <div class="video-meta">
+                        <span>2021-2023</span>
+                        <div class="video-stats">
+                            <div class="stat">🎧 24 Episodes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <div style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2em; font-weight: bold;">
+                        Planning
+                    </div>
+                    <div class="video-duration">20:00</div>
+                </div>
+                <div class="video-content">
+                    <div class="video-title">The Future of AI in Business Operations</div>
+                    <div class="video-description">
+                        Predictions and trends for AI adoption in business operations, featuring expert analysis and practical implementation strategies.
+                    </div>
+                    <div class="video-meta">
+                        <span>Planned</span>
+                        <div class="video-stats">
+                            <div class="stat">📋 Outline Ready</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-card">
+                <div class="video-thumbnail">
+                    <div style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); height: 100%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2em; font-weight: bold;">
+                        Tutorial Series
+                    </div>
+                    <div class="video-duration">Series</div>
+                </div>
+                <div class="video-content">
+                    <div class="video-title">AI Tools Masterclass: From Concept to Implementation</div>
+                    <div class="video-description">
+                        Comprehensive video series covering AI tool development, from initial concept through production deployment and optimization.
+                    </div>
+                    <div class="video-meta">
+                        <span>In Development</span>
+                        <div class="video-stats">
+                            <div class="stat">📚 8-Part Series</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="cta-section">
+            <h3>🎬 Want to Collaborate on Video Content?</h3>
+            <p>I'm always interested in creating educational content, speaking at events, and sharing insights on AI and business automation.</p>
+            <a href="https://tidycal.com/luketh" class="cta-button" target="_blank">
+                📅 Schedule a Discussion
+            </a>
+        </div>
+    </div>
+
+    <!-- Schema Markup for Video Content -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "AI and the Art of Adaptability - TEDx Talk",
+        "description": "Luke Thompson's TEDx presentation exploring the transformative potential of AI, the necessity of adaptability in the modern workplace, and the importance of reskilling in our rapidly evolving technological landscape.",
+        "thumbnailUrl": "https://img.youtube.com/vi/KvHIs3Z6W30/maxresdefault.jpg",
+        "uploadDate": "2023-06-15",
+        "duration": "PT18M24S",
+        "embedUrl": "https://www.youtube.com/embed/KvHIs3Z6W30",
+        "publisher": {
+            "@type": "Person",
+            "name": "Luke Thompson",
+            "url": "https://theopsguide.github.io/about-me/"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Luke Thompson"
+        }
+    }
+    </script>
+
+    <script>
+        // Track video interactions
+        function trackVideoPlay(videoTitle) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'video_play', {
+                    'video_title': videoTitle,
+                    'event_category': 'engagement'
+                });
+            }
+        }
+        
+        // Add click tracking to video cards
+        document.addEventListener('DOMContentLoaded', function() {
+            const videoCards = document.querySelectorAll('.video-card');
+            
+            videoCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    const title = this.querySelector('.video-title').textContent;
+                    trackVideoPlay(title);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

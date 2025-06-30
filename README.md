@@ -32,6 +32,17 @@
 - **[⚙️ AI Tools Showcase](./AI-TOOLS-SHOWCASE.md)** - Custom AI solutions & production systems
 - **[🤖 AI-Generated Insights](./AI-GENERATED-INSIGHTS.md)** - Demonstrating AI capabilities through intelligent content
 
+### **🚀 Interactive Tools & Calculators**
+- **[🤖 AI Readiness Calculator](./tools/ai-readiness-calculator.html)** - Assess your business's AI implementation readiness
+- **[📊 Automation ROI Calculator](./tools/automation-roi-calculator.html)** - Calculate return on investment for automation projects
+- **[🔍 Comprehensive Search](./search.html)** - Search all content, tools, and resources
+- **[🎥 Video Showcase](./media/video-showcase.html)** - TEDx talks, tutorials, and technical presentations
+
+### **📚 Latest Technical Blog Posts**
+- **[🛠️ Building AI-Powered SEO Tools](./blog/building-ai-powered-seo-tools.md)** - Technical deep dive with code examples
+- **[🏗️ AI Implementation Patterns 2025](./blog/ai-implementation-patterns-2025.md)** - Proven patterns for AI integration
+- **[🔮 Future of Business Automation](./blog/future-of-business-automation-2025.md)** - Trends and predictions for 2025
+
 ### **📊 Performance & Authority**
 - **[🏆 Social Proof & Authority](./SOCIAL-PROOF-AUTHORITY.md)** - Professional recognition & industry authority
 - **[📈 Real-Time Metrics Dashboard](./REAL-TIME-METRICS.md)** - Live business intelligence & success metrics
@@ -42,6 +53,8 @@
 - **[🔍 SEO Keywords & Strategy](./KEYWORDS.md)** - Complete keyword targeting approach
 - **[🗺️ Site Map & Content Index](./SITEMAP.md)** - Comprehensive repository navigation
 - **[📚 Articles Collection](./articles/)** - Thought leadership and industry insights
+- **[📡 RSS Feed](./rss.xml)** - Subscribe to latest content and updates
+- **[📝 JSON Feed](./feed.json)** - Machine-readable content syndication
 
 ---
 

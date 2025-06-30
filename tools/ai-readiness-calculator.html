@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Readiness Calculator - Luke Thompson</title>
+    <meta name="description" content="Calculate your business's AI readiness score with Luke Thompson's comprehensive assessment tool. Get personalized recommendations for AI implementation.">
+    <meta name="keywords" content="AI readiness, business AI assessment, AI implementation calculator, Luke Thompson AI tools, AI consulting, artificial intelligence readiness">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .calculator-card {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+        }
+        
+        .question-group {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .question {
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+        
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .option {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .option:hover {
+            background: #e3f2fd;
+            border-color: #2196f3;
+        }
+        
+        .option input[type="radio"] {
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+        
+        .calculate-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: block;
+            margin: 30px auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .calculate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        .results {
+            display: none;
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 30px;
+            border-left: 5px solid #27ae60;
+        }
+        
+        .score-display {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        
+        .score-number {
+            font-size: 4em;
+            font-weight: bold;
+            color: #27ae60;
+            display: block;
+        }
+        
+        .score-label {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-top: 10px;
+        }
+        
+        .recommendations {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+        .recommendation {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: #e8f5e8;
+            border-radius: 8px;
+            border-left: 3px solid #27ae60;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .cta-btn {
+            background: white;
+            color: #667eea;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(255,255,255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator-card">
+            <h1>AI Readiness Calculator</h1>
+            <p class="subtitle">Assess your business's readiness for AI implementation in 5 minutes</p>
+            
+            <form id="aiReadinessForm">
+                <div class="question-group">
+                    <div class="question">1. What is your current level of data organization and accessibility?</div>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="data" value="4">
+                            <span>All business data is centralized, clean, and easily accessible via APIs</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="data" value="3">
+                            <span>Most data is organized, with some manual processing required</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="data" value="2">
+                            <span>Data exists but is scattered across multiple systems</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="data" value="1">
+                            <span>Data is mostly unorganized or difficult to access</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">2. How would you describe your team's technical capabilities?</div>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="technical" value="4">
+                            <span>We have developers/technical staff who can implement and maintain AI systems</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="technical" value="3">
+                            <span>We have some technical knowledge and can learn new tools</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="technical" value="2">
+                            <span>Basic technical skills, prefer no-code/low-code solutions</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="technical" value="1">
+                            <span>Limited technical experience, need significant external support</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">3. What is your current process automation maturity?</div>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="automation" value="4">
+                            <span>We have extensive automation with tools like Zapier, n8n, or custom systems</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="automation" value="3">
+                            <span>We use some automation tools for basic workflows</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="automation" value="2">
+                            <span>We've experimented with automation but limited implementation</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="automation" value="1">
+                            <span>Most processes are manual</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">4. How clear are your AI use case goals and success metrics?</div>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="goals" value="4">
+                            <span>We have specific, measurable goals and success metrics defined</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="goals" value="3">
+                            <span>We have general goals but need to refine metrics</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="goals" value="2">
+                            <span>We know we want AI but aren't sure about specific applications</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="goals" value="1">
+                            <span>We're exploring AI but don't have clear objectives yet</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="question-group">
+                    <div class="question">5. What is your budget and timeline for AI implementation?</div>
+                    <div class="options">
+                        <label class="option">
+                            <input type="radio" name="resources" value="4">
+                            <span>Dedicated budget and 3-6 month timeline for implementation</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="resources" value="3">
+                            <span>Moderate budget with 6-12 month timeline</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="resources" value="2">
+                            <span>Limited budget, flexible timeline</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="resources" value="1">
+                            <span>Exploring options, no firm budget or timeline</span>
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="calculate-btn">Calculate My AI Readiness Score</button>
+            </form>
+
+            <div id="results" class="results">
+                <div class="score-display">
+                    <span id="scoreNumber" class="score-number">0</span>
+                    <div class="score-label">AI Readiness Score</div>
+                    <div id="scoreDescription" class="score-description"></div>
+                </div>
+                
+                <div class="recommendations">
+                    <h3>Your Personalized AI Implementation Roadmap:</h3>
+                    <div id="recommendationsList"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2>Ready to Accelerate Your AI Journey?</h2>
+            <p>Get a personalized AI implementation strategy tailored to your business needs and current readiness level.</p>
+            <a href="https://tidycal.com/luketh" class="cta-btn" target="_blank">Schedule Your AI Strategy Session</a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('aiReadinessForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            let totalScore = 0;
+            let answeredQuestions = 0;
+            
+            for (let [key, value] of formData.entries()) {
+                totalScore += parseInt(value);
+                answeredQuestions++;
+            }
+            
+            if (answeredQuestions < 5) {
+                alert('Please answer all questions to calculate your AI readiness score.');
+                return;
+            }
+            
+            const percentage = Math.round((totalScore / 20) * 100);
+            
+            document.getElementById('scoreNumber').textContent = percentage + '%';
+            
+            let description = '';
+            let recommendations = [];
+            
+            if (percentage >= 80) {
+                description = 'Excellent - Ready for Advanced AI Implementation';
+                recommendations = [
+                    'Start with high-impact AI projects like predictive analytics or intelligent automation',
+                    'Consider building custom AI solutions for competitive advantage',
+                    'Implement AI governance and quality assurance frameworks',
+                    'Explore cutting-edge AI technologies like GPT-4 integration or computer vision',
+                    'Plan for AI team expansion and advanced skill development'
+                ];
+            } else if (percentage >= 60) {
+                description = 'Good - Ready for Structured AI Adoption';
+                recommendations = [
+                    'Begin with proven AI tools and platforms (OpenAI API, Relevance AI)',
+                    'Invest in data infrastructure improvements for better AI outcomes',
+                    'Start with low-risk, high-value AI use cases',
+                    'Develop internal AI competencies through training and hiring',
+                    'Create AI pilot projects to build confidence and experience'
+                ];
+            } else if (percentage >= 40) {
+                description = 'Fair - Foundation Building Required';
+                recommendations = [
+                    'Focus on data organization and accessibility improvements',
+                    'Implement basic automation using no-code tools (Zapier, n8n)',
+                    'Define clear AI objectives and success metrics',
+                    'Build team capabilities through AI literacy training',
+                    'Start with simple AI applications like chatbots or basic analytics'
+                ];
+            } else {
+                description = 'Getting Started - Foundational Work Needed';
+                recommendations = [
+                    'Begin with process documentation and data audit',
+                    'Implement basic digital tools and workflows',
+                    'Define business objectives that AI could support',
+                    'Invest in team education about AI capabilities and benefits',
+                    'Consider partnering with AI consultants for guided implementation'
+                ];
+            }
+            
+            document.getElementById('scoreDescription').textContent = description;
+            
+            const recommendationsList = document.getElementById('recommendationsList');
+            recommendationsList.innerHTML = '';
+            
+            recommendations.forEach(rec => {
+                const div = document.createElement('div');
+                div.className = 'recommendation';
+                div.textContent = '• ' + rec;
+                recommendationsList.appendChild(div);
+            });
+            
+            document.getElementById('results').style.display = 'block';
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+
+    <!-- Schema Markup for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AI Readiness Calculator",
+        "description": "Free tool to assess business readiness for AI implementation with personalized recommendations",
+        "url": "https://github.com/theopsguide/about-me/tools/ai-readiness-calculator.html",
+        "applicationCategory": "BusinessApplication",
+        "author": {
+            "@type": "Person",
+            "name": "Luke Thompson",
+            "jobTitle": "AI Integration Specialist"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+</body>
+</html>
