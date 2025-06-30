@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Implementation Cost Calculator - Luke Thompson</title>
+    <meta name="description" content="Calculate the true cost and ROI of implementing AI in your business operations. Get accurate estimates for technology, training, and implementation costs.">
+    <meta name="keywords" content="AI implementation cost, AI ROI calculator, business automation cost, AI consulting calculator, Luke Thompson AI tools">
+    <link rel="canonical" href="https://theopsguide.github.io/about-me/tools/ai-implementation-cost-calculator.html">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "AI Implementation Cost Calculator",
+        "description": "Calculate the true cost and ROI of implementing AI in your business operations",
+        "author": {
+            "@type": "Person",
+            "name": "Luke Thompson"
+        },
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web Browser"
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .calculator-content {
+            padding: 40px;
+        }
+        
+        .input-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .input-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .form-field {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .form-field label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #2c3e50;
+        }
+        
+        .form-field input, .form-field select {
+            padding: 12px;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-field input:focus, .form-field select:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            border: 2px solid #e1e5e9;
+            transition: all 0.3s ease;
+        }
+        
+        .checkbox-item:hover {
+            border-color: #3498db;
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            margin-right: 10px;
+            transform: scale(1.2);
+        }
+        
+        .calculate-btn {
+            background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: block;
+            margin: 30px auto;
+        }
+        
+        .calculate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(39, 174, 96, 0.3);
+        }
+        
+        .results-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            display: none;
+        }
+        
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .result-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            border-left: 4px solid #3498db;
+        }
+        
+        .result-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .result-label {
+            color: #7f8c8d;
+            font-weight: 500;
+        }
+        
+        .breakdown-section {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+        
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        .breakdown-item:last-child {
+            border-bottom: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .recommendations {
+            background: #e8f5e8;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+            border-left: 4px solid #27ae60;
+        }
+        
+        .recommendations h3 {
+            color: #27ae60;
+            margin-bottom: 15px;
+        }
+        
+        .consultation-cta {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 25px;
+        }
+        
+        .consultation-cta h3 {
+            margin-bottom: 10px;
+        }
+        
+        .consultation-btn {
+            background: white;
+            color: #e74c3c;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .consultation-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .input-group {
+                grid-template-columns: 1fr;
+            }
+            
+            .checkbox-group {
+                grid-template-columns: 1fr;
+            }
+            
+            .results-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Implementation Cost Calculator</h1>
+            <p>Get accurate estimates for implementing AI in your business operations</p>
+        </div>
+        
+        <div class="calculator-content">
+            <form id="costCalculatorForm">
+                <div class="input-section">
+                    <h2>Company Information</h2>
+                    <div class="input-group">
+                        <div class="form-field">
+                            <label for="companySize">Company Size</label>
+                            <select id="companySize" required>
+                                <option value="">Select company size</option>
+                                <option value="startup">Startup (1-10 employees)</option>
+                                <option value="small">Small Business (11-50 employees)</option>
+                                <option value="medium">Medium Business (51-200 employees)</option>
+                                <option value="large">Large Enterprise (200+ employees)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-field">
+                            <label for="industry">Industry</label>
+                            <select id="industry" required>
+                                <option value="">Select your industry</option>
+                                <option value="saas">SaaS/Technology</option>
+                                <option value="ecommerce">E-commerce/Retail</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="finance">Financial Services</option>
+                                <option value="manufacturing">Manufacturing</option>
+                                <option value="professional">Professional Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-field">
+                            <label for="currentRevenue">Annual Revenue (USD)</label>
+                            <select id="currentRevenue" required>
+                                <option value="">Select revenue range</option>
+                                <option value="under500k">Under $500K</option>
+                                <option value="500k-1m">$500K - $1M</option>
+                                <option value="1m-5m">$1M - $5M</option>
+                                <option value="5m-10m">$5M - $10M</option>
+                                <option value="10m-50m">$10M - $50M</option>
+                                <option value="over50m">Over $50M</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-field">
+                            <label for="techMaturity">Current Technology Maturity</label>
+                            <select id="techMaturity" required>
+                                <option value="">Select maturity level</option>
+                                <option value="basic">Basic (Manual processes, spreadsheets)</option>
+                                <option value="intermediate">Intermediate (Some automation, CRM/ERP)</option>
+                                <option value="advanced">Advanced (Integrated systems, analytics)</option>
+                                <option value="cutting-edge">Cutting-edge (AI-ready infrastructure)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="input-section">
+                    <h2>AI Implementation Scope</h2>
+                    <p>Select the AI capabilities you want to implement:</p>
+                    
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="customerService" name="aiCapabilities" value="customer-service">
+                            <label for="customerService">Customer Service Automation</label>
+                        </div>
+                        
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="processAutomation" name="aiCapabilities" value="process-automation">
+                            <label for="processAutomation">Business Process Automation</label>
+                        </div>
+                        
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="predictiveAnalytics" name="aiCapabilities" value="predictive-analytics">
+                            <label for="predictiveAnalytics">Predictive Analytics</label>
+                        </div>
+                        
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="contentGeneration" name="aiCapabilities" value="content-generation">
+                            <label for="contentGeneration">Content Generation</label>
+                        </div>
+                        
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="qualityAssurance" name="aiCapabilities" value="quality-assurance">
+                            <label for="qualityAssurance">Automated Quality Assurance</label>
+                        </div>
+                        
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="resourceOptimization" name="aiCapabilities" value="resource-optimization">
+                            <label for="resourceOptimization">Resource Optimization</label>
+                        </div>
+                        
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="salesAutomation" name="aiCapabilities" value="sales-automation">
+                            <label for="salesAutomation">Sales Process Automation</label>
+                        </div>
+                        
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="marketingAI" name="aiCapabilities" value="marketing-ai">
+                            <label for="marketingAI">Marketing AI & Personalization</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="input-section">
+                    <h2>Implementation Preferences</h2>
+                    <div class="input-group">
+                        <div class="form-field">
+                            <label for="timeline">Desired Implementation Timeline</label>
+                            <select id="timeline" required>
+                                <option value="">Select timeline</option>
+                                <option value="aggressive">Aggressive (3-6 months)</option>
+                                <option value="standard">Standard (6-12 months)</option>
+                                <option value="gradual">Gradual (12-18 months)</option>
+                                <option value="phased">Phased approach (18+ months)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-field">
+                            <label for="supportLevel">Desired Support Level</label>
+                            <select id="supportLevel" required>
+                                <option value="">Select support level</option>
+                                <option value="diy">DIY with guidance</option>
+                                <option value="hybrid">Hybrid (consulting + internal team)</option>
+                                <option value="full-service">Full-service implementation</option>
+                                <option value="managed">Ongoing managed services</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="calculate-btn">Calculate AI Implementation Cost</button>
+            </form>
+            
+            <div id="results" class="results-section">
+                <h2>Your AI Implementation Cost Estimate</h2>
+                
+                <div class="results-grid">
+                    <div class="result-card">
+                        <span id="totalCost" class="result-number">$0</span>
+                        <div class="result-label">Total Implementation Cost</div>
+                    </div>
+                    
+                    <div class="result-card">
+                        <span id="monthlyOperational" class="result-number">$0</span>
+                        <div class="result-label">Monthly Operational Cost</div>
+                    </div>
+                    
+                    <div class="result-card">
+                        <span id="expectedROI" class="result-number">0%</span>
+                        <div class="result-label">Expected First Year ROI</div>
+                    </div>
+                    
+                    <div class="result-card">
+                        <span id="paybackPeriod" class="result-number">0</span>
+                        <div class="result-label">Payback Period (Months)</div>
+                    </div>
+                </div>
+                
+                <div class="breakdown-section">
+                    <h3>Cost Breakdown</h3>
+                    <div id="costBreakdown"></div>
+                </div>
+                
+                <div id="recommendations" class="recommendations">
+                    <h3>🚀 Recommendations for Your Business</h3>
+                    <div id="recommendationsList"></div>
+                </div>
+                
+                <div class="consultation-cta">
+                    <h3>Ready to Start Your AI Implementation?</h3>
+                    <p>Get a personalized implementation strategy and accurate budget planning</p>
+                    <a href="https://tidycal.com/luketh" target="_blank" class="consultation-btn">Schedule Free Strategy Session</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Cost calculation engine
+        const costCalculator = {
+            // Base costs by company size
+            baseCosts: {
+                'startup': { setup: 15000, monthly: 2500 },
+                'small': { setup: 35000, monthly: 5500 },
+                'medium': { setup: 75000, monthly: 12000 },
+                'large': { setup: 150000, monthly: 25000 }
+            },
+            
+            // AI capability costs
+            capabilityCosts: {
+                'customer-service': { setup: 8000, monthly: 1200 },
+                'process-automation': { setup: 12000, monthly: 1800 },
+                'predictive-analytics': { setup: 15000, monthly: 2200 },
+                'content-generation': { setup: 6000, monthly: 900 },
+                'quality-assurance': { setup: 10000, monthly: 1500 },
+                'resource-optimization': { setup: 18000, monthly: 2500 },
+                'sales-automation': { setup: 9000, monthly: 1300 },
+                'marketing-ai': { setup: 11000, monthly: 1600 }
+            },
+            
+            // Timeline multipliers
+            timelineMultipliers: {
+                'aggressive': 1.3,
+                'standard': 1.0,
+                'gradual': 0.85,
+                'phased': 0.75
+            },
+            
+            // Support level multipliers
+            supportMultipliers: {
+                'diy': 0.4,
+                'hybrid': 0.7,
+                'full-service': 1.0,
+                'managed': 1.4
+            },
+            
+            // Industry complexity multipliers
+            industryMultipliers: {
+                'healthcare': 1.4,
+                'finance': 1.3,
+                'manufacturing': 1.2,
+                'saas': 0.9,
+                'ecommerce': 1.0,
+                'professional': 1.1,
+                'other': 1.0
+            }
+        };
+        
+        document.getElementById('costCalculatorForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            calculateCosts();
+        });
+        
+        function calculateCosts() {
+            const formData = new FormData(document.getElementById('costCalculatorForm'));
+            const companySize = document.getElementById('companySize').value;
+            const industry = document.getElementById('industry').value;
+            const timeline = document.getElementById('timeline').value;
+            const supportLevel = document.getElementById('supportLevel').value;
+            const selectedCapabilities = Array.from(document.querySelectorAll('input[name="aiCapabilities"]:checked')).map(cb => cb.value);
+            
+            // Calculate base costs
+            const baseCost = costCalculator.baseCosts[companySize];
+            let totalSetupCost = baseCost.setup;
+            let totalMonthlyCost = baseCost.monthly;
+            
+            // Add capability costs
+            selectedCapabilities.forEach(capability => {
+                const capCost = costCalculator.capabilityCosts[capability];
+                totalSetupCost += capCost.setup;
+                totalMonthlyCost += capCost.monthly;
+            });
+            
+            // Apply multipliers
+            const timelineMultiplier = costCalculator.timelineMultipliers[timeline];
+            const supportMultiplier = costCalculator.supportMultipliers[supportLevel];
+            const industryMultiplier = costCalculator.industryMultipliers[industry];
+            
+            totalSetupCost *= timelineMultiplier * supportMultiplier * industryMultiplier;
+            totalMonthlyCost *= supportMultiplier * industryMultiplier;
+            
+            // Calculate ROI estimates
+            const annualOperationalCost = totalMonthlyCost * 12;
+            const estimatedAnnualSavings = calculateEstimatedSavings(companySize, selectedCapabilities.length);
+            const roi = ((estimatedAnnualSavings - annualOperationalCost) / (totalSetupCost + annualOperationalCost)) * 100;
+            const paybackMonths = Math.ceil((totalSetupCost + annualOperationalCost) / (estimatedAnnualSavings / 12));
+            
+            // Display results
+            displayResults({
+                totalSetupCost: Math.round(totalSetupCost),
+                totalMonthlyCost: Math.round(totalMonthlyCost),
+                roi: Math.round(roi),
+                paybackMonths: paybackMonths,
+                selectedCapabilities: selectedCapabilities,
+                companySize: companySize,
+                industry: industry
+            });
+        }
+        
+        function calculateEstimatedSavings(companySize, capabilityCount) {
+            const baseSavings = {
+                'startup': 50000,
+                'small': 150000,
+                'medium': 400000,
+                'large': 1000000
+            };
+            
+            return baseSavings[companySize] * (1 + (capabilityCount * 0.2));
+        }
+        
+        function displayResults(results) {
+            document.getElementById('totalCost').textContent = '$' + results.totalSetupCost.toLocaleString();
+            document.getElementById('monthlyOperational').textContent = '$' + results.totalMonthlyCost.toLocaleString();
+            document.getElementById('expectedROI').textContent = results.roi + '%';
+            document.getElementById('paybackPeriod').textContent = results.paybackMonths;
+            
+            // Cost breakdown
+            const breakdown = document.getElementById('costBreakdown');
+            breakdown.innerHTML = `
+                <div class="breakdown-item">
+                    <span>Base Implementation</span>
+                    <span>$${Math.round(results.totalSetupCost * 0.4).toLocaleString()}</span>
+                </div>
+                <div class="breakdown-item">
+                    <span>AI Capabilities (${results.selectedCapabilities.length} selected)</span>
+                    <span>$${Math.round(results.totalSetupCost * 0.4).toLocaleString()}</span>
+                </div>
+                <div class="breakdown-item">
+                    <span>Training & Change Management</span>
+                    <span>$${Math.round(results.totalSetupCost * 0.15).toLocaleString()}</span>
+                </div>
+                <div class="breakdown-item">
+                    <span>Contingency & Optimization</span>
+                    <span>$${Math.round(results.totalSetupCost * 0.05).toLocaleString()}</span>
+                </div>
+                <div class="breakdown-item">
+                    <span><strong>Total Implementation Cost</strong></span>
+                    <span><strong>$${results.totalSetupCost.toLocaleString()}</strong></span>
+                </div>
+            `;
+            
+            // Recommendations
+            const recommendations = generateRecommendations(results);
+            document.getElementById('recommendationsList').innerHTML = recommendations;
+            
+            // Show results
+            document.getElementById('results').style.display = 'block';
+            document.getElementById('results').scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function generateRecommendations(results) {
+            let recommendations = [];
+            
+            if (results.roi > 200) {
+                recommendations.push("✅ Excellent ROI potential! This implementation should be prioritized.");
+            } else if (results.roi > 100) {
+                recommendations.push("👍 Good ROI expected. Consider starting with highest-impact capabilities first.");
+            } else {
+                recommendations.push("⚠️ Consider starting with a smaller scope to prove ROI before full implementation.");
+            }
+            
+            if (results.paybackMonths <= 12) {
+                recommendations.push("🚀 Fast payback period - excellent business case for AI investment.");
+            } else if (results.paybackMonths <= 24) {
+                recommendations.push("📈 Reasonable payback period - focus on quick wins in Year 1.");
+            } else {
+                recommendations.push("🎯 Consider phased approach to reduce upfront investment and prove value incrementally.");
+            }
+            
+            if (results.selectedCapabilities.length > 5) {
+                recommendations.push("💡 Consider starting with 2-3 core capabilities and expanding based on success.");
+            }
+            
+            if (results.companySize === 'startup') {
+                recommendations.push("🌱 As a startup, focus on AI that directly supports growth: customer service and sales automation.");
+            }
+            
+            recommendations.push("📞 Schedule a free strategy session to refine this estimate and create your implementation roadmap.");
+            
+            return recommendations.map(rec => `<p style="margin-bottom: 10px;">${rec}</p>`).join('');
+        }
+        
+        // Track tool usage
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackToolUsage('AI Cost Calculator', { action: 'page_load' });
+            }
+        });
+        
+        document.getElementById('costCalculatorForm').addEventListener('submit', function() {
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackToolUsage('AI Cost Calculator', { 
+                    action: 'calculation_completed',
+                    company_size: document.getElementById('companySize').value,
+                    industry: document.getElementById('industry').value
+                });
+            }
+        });
+    </script>
+</body>
+</html>

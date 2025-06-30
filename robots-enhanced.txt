@@ -1,0 +1,77 @@
+# Enhanced robots.txt for Luke Thompson's Professional Profile
+# Optimized for AI-era search crawlers and SEO
+
+User-agent: *
+Allow: /
+
+# Main sitemap
+Sitemap: https://theopsguide.github.io/about-me/sitemap-enhanced.xml
+Sitemap: https://theopsguide.github.io/about-me/sitemap.xml
+
+# RSS and JSON feeds for content syndication
+Sitemap: https://theopsguide.github.io/about-me/rss.xml
+
+# Allow specific AI and search bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# AI Training and Research Bots
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 2
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 2
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 3
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 2
+
+User-agent: Anthropic-AI
+Allow: /
+Crawl-delay: 2
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 2
+
+# LinkedIn and professional networks
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 5
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Academic and research crawlers
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 10
+
+# Disallow common non-essential paths (none for this site)
+# All content is public and intended for indexing
+
+# Crawl-delay for generic crawlers
+User-agent: *
+Crawl-delay: 5
+
+# Host directive for canonicalization
+Host: theopsguide.github.io

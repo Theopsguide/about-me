@@ -1,0 +1,321 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://theopsguide.github.io/about-me/#person",
+      "name": "Luke Thompson",
+      "alternateName": ["Luke Thompson AI Expert", "Luke Thompson Operations Specialist"],
+      "url": "https://theopsguide.github.io/about-me/",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://theopsguide.github.io/about-me/images/luke-thompson-profile.png",
+        "width": 400,
+        "height": 400,
+        "caption": "Luke Thompson - AI Integration Expert and Operations Specialist"
+      },
+      "jobTitle": "Founder & Chief Operations Architect",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "The Operations Guide",
+        "url": "https://theoperationsguide.com",
+        "@id": "https://theoperationsguide.com/#organization"
+      },
+      "alumniOf": [
+        {
+          "@type": "Organization",
+          "name": "ActionVFX",
+          "url": "https://actionvfx.com"
+        }
+      ],
+      "knowsAbout": [
+        {
+          "@type": "Thing",
+          "name": "Artificial Intelligence",
+          "sameAs": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+        },
+        {
+          "@type": "Thing", 
+          "name": "Machine Learning",
+          "sameAs": "https://en.wikipedia.org/wiki/Machine_learning"
+        },
+        {
+          "@type": "Thing",
+          "name": "Business Process Automation",
+          "sameAs": "https://en.wikipedia.org/wiki/Business_process_automation"
+        },
+        {
+          "@type": "Thing",
+          "name": "Operations Management",
+          "sameAs": "https://en.wikipedia.org/wiki/Operations_management"
+        },
+        {
+          "@type": "Thing",
+          "name": "Digital Transformation",
+          "sameAs": "https://en.wikipedia.org/wiki/Digital_transformation"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Certified Scrum Product Owner (CSPO)",
+          "issuedBy": {
+            "@type": "Organization",
+            "name": "Scrum Alliance"
+          },
+          "validFrom": "2022-02-01",
+          "validUntil": "2026-02-01"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Certified Agile Leadership Essentials (CAL-E)",
+          "issuedBy": {
+            "@type": "Organization",
+            "name": "Scrum Alliance"
+          },
+          "validFrom": "2024-02-01",
+          "validUntil": "2026-02-01"
+        }
+      ],
+      "award": [
+        "TEDx Speaker - AI and the Art of Adaptability",
+        "YouTube Silver Play Button (100K+ subscribers)",
+        "296% Funded Kickstarter Campaign",
+        "AI-Driven SEO Success (4,614 issues resolved)"
+      ],
+      "performerIn": [
+        {
+          "@type": "Event",
+          "name": "TEDx Talk",
+          "description": "AI and the Art of Adaptability",
+          "startDate": "2023-06-01",
+          "location": "TEDx Event",
+          "url": "https://www.youtube.com/watch?v=KvHIs3Z6W30"
+        }
+      ],
+      "sameAs": [
+        "https://linkedin.com/in/ActionVFX",
+        "https://theoperationsguide.com",
+        "https://github.com/theopsguide",
+        "https://tidycal.com/luketh"
+      ],
+      "email": "contact@theoperationsguide.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Johnson City",
+        "addressRegion": "Tennessee",
+        "addressCountry": "United States"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://theoperationsguide.com/#organization",
+      "name": "The Operations Guide",
+      "url": "https://theoperationsguide.com",
+      "logo": "https://theoperationsguide.com/logo.png",
+      "description": "Business operations consulting and AI integration services helping SMBs streamline operations and automate processes",
+      "founder": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "foundingDate": "2024-10-01",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Johnson City",
+        "addressRegion": "Tennessee",
+        "addressCountry": "United States"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "contact@theoperationsguide.com",
+        "url": "https://tidycal.com/luketh"
+      },
+      "serviceArea": {
+        "@type": "Place",
+        "name": "United States"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Business Operations Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Integration Consulting",
+              "description": "Custom AI implementation for business operations optimization",
+              "provider": {
+                "@type": "Person",
+                "@id": "https://theopsguide.github.io/about-me/#person"
+              }
+            },
+            "category": "Business Consulting"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Business Process Automation",
+              "description": "Workflow automation and process optimization using AI and technology",
+              "provider": {
+                "@type": "Person",
+                "@id": "https://theopsguide.github.io/about-me/#person"
+              }
+            },
+            "category": "Business Consulting"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Operations Optimization",
+              "description": "Comprehensive business operations analysis and improvement",
+              "provider": {
+                "@type": "Person",
+                "@id": "https://theopsguide.github.io/about-me/#person"
+              }
+            },
+            "category": "Business Consulting"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://theopsguide.github.io/about-me/#website",
+      "name": "Luke Thompson - Professional Profile",
+      "url": "https://theopsguide.github.io/about-me/",
+      "description": "Comprehensive professional profile of Luke Thompson, AI Integration Specialist and Operations Expert",
+      "author": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://theoperationsguide.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://theopsguide.github.io/about-me/search.html?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "mainEntity": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      }
+    },
+    {
+      "@type": "Blog",
+      "@id": "https://theopsguide.github.io/about-me/blog/#blog",
+      "name": "Luke Thompson Technical Blog",
+      "description": "Technical insights on AI implementation, business automation, and operations optimization",
+      "url": "https://theopsguide.github.io/about-me/blog/",
+      "author": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://theoperationsguide.com/#organization"
+      },
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Advanced AI Automation Patterns for Business Operations (2025)",
+          "url": "https://theopsguide.github.io/about-me/blog/advanced-ai-automation-patterns-2025.html",
+          "datePublished": "2025-01-01",
+          "dateModified": "2025-01-01",
+          "author": {
+            "@type": "Person",
+            "@id": "https://theopsguide.github.io/about-me/#person"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://theoperationsguide.com/#organization"
+          },
+          "description": "Five cutting-edge AI automation strategies that deliver measurable ROI for business operations",
+          "keywords": ["AI automation", "business operations", "machine learning", "process optimization"],
+          "wordCount": 4500,
+          "timeRequired": "PT12M"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Case Study: How AI Scaled Operations from 10 to 100+ Team Members",
+          "url": "https://theopsguide.github.io/about-me/blog/scaling-operations-with-ai-case-study.html",
+          "datePublished": "2025-01-01",
+          "dateModified": "2025-01-01",
+          "author": {
+            "@type": "Person",
+            "@id": "https://theopsguide.github.io/about-me/#person"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://theoperationsguide.com/#organization"
+          },
+          "description": "Detailed breakdown of implementing AI-driven operations systems that enabled 10x team growth",
+          "keywords": ["AI operations scaling", "team growth automation", "business case study"],
+          "wordCount": 5200,
+          "timeRequired": "PT15M"
+        }
+      ]
+    },
+    {
+      "@type": "WebApplication",
+      "name": "AI Implementation Cost Calculator",
+      "url": "https://theopsguide.github.io/about-me/tools/ai-implementation-cost-calculator.html",
+      "description": "Calculate the true cost and ROI of implementing AI in your business operations",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web Browser",
+      "author": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "WebApplication",
+      "name": "Business AI Maturity Assessment",
+      "url": "https://theopsguide.github.io/about-me/tools/business-ai-maturity-assessment.html",
+      "description": "Comprehensive assessment tool to evaluate organizational AI readiness and implementation strategy",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web Browser",
+      "author": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "AI and the Art of Adaptability - TEDx Talk",
+      "description": "TEDx presentation exploring the transformative potential of AI and the importance of adaptability in the modern workplace",
+      "thumbnailUrl": "https://img.youtube.com/vi/KvHIs3Z6W30/maxresdefault.jpg",
+      "uploadDate": "2023-06-01",
+      "duration": "PT18M",
+      "embedUrl": "https://www.youtube.com/embed/KvHIs3Z6W30",
+      "url": "https://www.youtube.com/watch?v=KvHIs3Z6W30",
+      "author": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "TEDx Talks"
+      }
+    }
+  ]
+}
