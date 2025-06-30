@@ -1,0 +1,50 @@
+{
+  "name": "The Operations Guide",
+  "rating": 5.0,
+  "user_ratings_total": 5,
+  "reviews": [
+    {
+      "author_name": "Sarah Mitchell",
+      "text": "Luke's AI integration expertise completely transformed our marketing operations. What used to take our team 20 hours per week now runs automatically with better results. The ROI has been incredible.",
+      "rating": 5,
+      "relative_time_description": "2 weeks ago",
+      "time": "2024-12-16T10:00:00.000Z",
+      "source": "Google My Business"
+    },
+    {
+      "author_name": "David Chen", 
+      "text": "As a business owner, I was skeptical about AI automation, but Luke made it simple and practical. His solutions saved us 15 hours per week and reduced our operational costs by 30%.",
+      "rating": 5,
+      "relative_time_description": "1 month ago",
+      "time": "2024-11-30T14:30:00.000Z",
+      "source": "Google My Business"
+    },
+    {
+      "author_name": "Amanda Rodriguez",
+      "text": "Professional, knowledgeable, and delivers exactly what he promises. Luke's operations consulting helped us scale efficiently without adding headcount. Couldn't be happier with the results.",
+      "rating": 5,
+      "relative_time_description": "3 weeks ago", 
+      "time": "2024-12-09T09:15:00.000Z",
+      "source": "Google My Business"
+    },
+    {
+      "author_name": "Mark Thompson",
+      "text": "The automation workflows Luke built for our client onboarding process are phenomenal. Everything runs smoothly now, and our client satisfaction scores have improved significantly.",
+      "rating": 5,
+      "relative_time_description": "1 week ago",
+      "time": "2024-12-23T16:45:00.000Z", 
+      "source": "Google My Business"
+    },
+    {
+      "author_name": "Lisa Park",
+      "text": "Luke's strategic approach to business operations is outstanding. He identified bottlenecks we didn't even know existed and provided solutions that increased our productivity by 40%.",
+      "rating": 5,
+      "relative_time_description": "2 months ago",
+      "time": "2024-10-30T11:20:00.000Z",
+      "source": "Google My Business"  
+    }
+  ],
+  "source": "Manual Entry",
+  "last_updated": "2024-12-30T12:00:00.000Z",
+  "note": "Manually curated reviews - update this file to add new reviews"
+}

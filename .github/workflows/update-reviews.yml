@@ -1,0 +1,44 @@
+name: Update Google My Business Reviews (Free Method)
+
+on:
+  schedule:
+    # Run weekly on Sundays at 8 AM UTC
+    - cron: '0 8 * * 0'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-reviews:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-js-version: '18'
+        
+    - name: Install dependencies
+      run: |
+        npm install puppeteer
+        
+    - name: Use Manual Reviews (Free Method)
+      run: |
+        cp .github/scripts/manual-reviews.json reviews-data.json || echo "Using existing reviews data"
+        
+    - name: Update testimonials page
+      run: |
+        node .github/scripts/update-testimonials.js
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add testimonials/index.html reviews-data.json
+        git diff --staged --quiet || git commit -m "🔄 Auto-update business reviews (free method)
+
+        Updated testimonials page with latest reviews using free scraping.
+        
+        🤖 Generated with Claude Code"
+        git push

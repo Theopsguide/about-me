@@ -1,9 +1,13 @@
-# Luke Thompson 🚀
-### Operations Expert | AI Integration Specialist | TEDx Speaker | Business Automation Consultant
+<div align="center">
+  <img src="images/luke-thompson-profile.png" alt="Luke Thompson" width="200" style="border-radius: 50%;">
+  
+  # Luke Thompson 🚀
+  ### Operations Expert | AI Integration Specialist | TEDx Speaker | Business Automation Consultant
 
-**Former ActionVFX COO/CMO | Founder of The Operations Guide | Helping SMBs Build AI-Driven Operations**
+  **Former ActionVFX COO/CMO | Founder of The Operations Guide | Helping SMBs Build AI-Driven Operations**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ActionVFX-blue?logo=linkedin)](https://linkedin.com/in/ActionVFX) [![Website](https://img.shields.io/badge/Website-lukethompson.ai-green)](https://lukethompson.ai) [![Company](https://img.shields.io/badge/Company-The%20Operations%20Guide-orange)](https://theoperationsguide.com) ![Location](https://img.shields.io/badge/Location-Tennessee%2C%20USA-lightgrey)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-ActionVFX-blue?logo=linkedin)](https://linkedin.com/in/ActionVFX) [![Website](https://img.shields.io/badge/Website-lukethompson.ai-green)](https://lukethompson.ai) [![Company](https://img.shields.io/badge/Company-The%20Operations%20Guide-orange)](https://theoperationsguide.com) ![Location](https://img.shields.io/badge/Location-Tennessee%2C%20USA-lightgrey)
+</div>
 
 ---
 
@@ -21,8 +25,20 @@
 - [🌐 Connect With Me](#-connect-with-me)
 
 ## 📁 Additional Resources
+
+### **🤖 AI & Technology Expertise**
+- **[🧠 AI Expertise Deep Dive](./AI-EXPERTISE-DEEP-DIVE.md)** - Advanced AI integration & implementation mastery
+- **[🛠️ Technology Stack Showcase](./TECHNOLOGY-STACK-SHOWCASE.md)** - Comprehensive technology expertise portfolio
+- **[⚙️ AI Tools Showcase](./AI-TOOLS-SHOWCASE.md)** - Custom AI solutions & production systems
+- **[🤖 AI-Generated Insights](./AI-GENERATED-INSIGHTS.md)** - Demonstrating AI capabilities through intelligent content
+
+### **📊 Performance & Authority**
+- **[🏆 Social Proof & Authority](./SOCIAL-PROOF-AUTHORITY.md)** - Professional recognition & industry authority
+- **[📈 Real-Time Metrics Dashboard](./REAL-TIME-METRICS.md)** - Live business intelligence & success metrics
 - **[📖 Detailed Expertise Areas](./TOPICS.md)** - Comprehensive breakdown of skills and competencies
 - **[💼 Case Studies & Portfolio](./CASE-STUDIES.md)** - Detailed project results and business impact
+
+### **🔍 SEO & Content Strategy**
 - **[🔍 SEO Keywords & Strategy](./KEYWORDS.md)** - Complete keyword targeting approach
 - **[🗺️ Site Map & Content Index](./SITEMAP.md)** - Comprehensive repository navigation
 - **[📚 Articles Collection](./articles/)** - Thought leadership and industry insights
@@ -91,6 +107,14 @@ No jargon. No complexity. Just practical, results-driven strategies that give yo
 **"AI and the Art of Adaptability"** (June 2023)
 
 Delivered a TEDx talk exploring the transformative potential of AI, the necessity of adaptability in the modern workplace, and the importance of reskilling in our rapidly evolving technological landscape.
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=KvHIs3Z6W30" target="_blank">
+    <img src="https://img.youtube.com/vi/KvHIs3Z6W30/maxresdefault.jpg" alt="Luke Thompson TEDx Talk - AI and the Art of Adaptability" width="600">
+  </a>
+  
+  **[Watch: AI and the Art of Adaptability - TEDx Talk](https://www.youtube.com/watch?v=KvHIs3Z6W30)**
+</div>
 
 ### Podcast Host
 **"Ask An Artist" Podcast** (July 2021 - July 2023)
