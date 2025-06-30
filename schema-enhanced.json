@@ -1,0 +1,160 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://theopsguide.github.io/about-me/#person",
+      "name": "Luke Thompson",
+      "alternateName": ["Luke Thompson AI Expert", "Luke Thompson Operations Consultant"],
+      "jobTitle": "Founder & Chief Operations Architect",
+      "description": "TEDx Speaker, former ActionVFX COO, and business automation specialist helping entrepreneurs streamline operations through AI integration.",
+      "url": "https://theopsguide.github.io/about-me/",
+      "image": "https://theopsguide.github.io/about-me/images/luke-thompson-profile.png",
+      "sameAs": [
+        "https://linkedin.com/in/lukethompsonfilm",
+        "https://theoperationsguide.com",
+        "https://github.com/theopsguide",
+        "https://tidycal.com/luketh"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://theoperationsguide.com/#organization",
+        "name": "The Operations Guide",
+        "description": "Business operations consulting and AI integration services"
+      },
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "AI Integration Consultant",
+        "occupationalCategory": "15-1299.09",
+        "description": "Specializes in implementing AI solutions for business operations optimization"
+      },
+      "knowsAbout": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Business Automation",
+        "Operations Management",
+        "Process Optimization",
+        "Digital Transformation",
+        "SEO Optimization",
+        "Team Leadership"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Certified Scrum Product Owner (CSPO)",
+          "issuedBy": "Scrum Alliance",
+          "validFrom": "2022-02-01",
+          "validThrough": "2026-02-01"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Certified Agile Leadership Essentials (CAL-E)",
+          "issuedBy": "Scrum Alliance",
+          "validFrom": "2024-02-01",
+          "validThrough": "2026-02-01"
+        }
+      ],
+      "award": [
+        "TEDx Speaker - AI and the Art of Adaptability",
+        "YouTube Silver Play Button (100K+ subscribers)",
+        "296% Funded Kickstarter Campaign"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://theopsguide.github.io/about-me/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Luke Thompson's expertise in AI and business automation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Luke Thompson specializes in implementing practical AI solutions for business operations, including custom AI tools for SEO optimization, content generation, and process automation. His experience includes successfully resolving 4,614 SEO issues using custom AI tools and improving operational efficiency through intelligent automation systems."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Luke Thompson help small and medium businesses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Luke helps SMBs transform chaotic operations into streamlined, scalable systems through strategic process optimization, AI integration, and automation implementation. His approach focuses on practical, no-jargon solutions that give business owners back their time so they can focus on growth rather than busywork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are Luke Thompson's notable achievements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Key achievements include: 296% funded Kickstarter campaign raising $59,000, AI-driven SEO transformation resolving 4,614 issues with 80% improvement, YouTube channel growth from 0 to 100K+ subscribers, TEDx speaker on AI and adaptability, and 9+ years scaling ActionVFX as COO."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://theoperationsguide.com/#service",
+      "name": "The Operations Guide",
+      "founder": {
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "description": "Business operations consulting and AI integration services helping SMBs streamline operations and automate processes",
+      "serviceType": ["Business Consulting", "AI Integration", "Process Automation"],
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Business Operations Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Integration Consulting",
+              "description": "Custom AI implementation for business operations optimization"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Business Process Automation",
+              "description": "Workflow automation and process optimization"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Operations Optimization",
+              "description": "Strategic operations consulting for scalable growth"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "AI and the Art of Adaptability - TEDx Talk",
+      "description": "Luke Thompson's TEDx presentation exploring the transformative potential of AI and the importance of adaptability",
+      "thumbnailUrl": "https://img.youtube.com/vi/KvHIs3Z6W30/maxresdefault.jpg",
+      "uploadDate": "2023-06-15",
+      "duration": "PT18M24S",
+      "embedUrl": "https://www.youtube.com/embed/KvHIs3Z6W30",
+      "author": {
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      }
+    },
+    {
+      "@type": "Article",
+      "headline": "Building AI-Powered SEO Tools: A Technical Deep Dive",
+      "description": "Technical guide to building custom AI tools that resolved 4,614 SEO issues",
+      "author": {
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "datePublished": "2025-06-30",
+      "url": "https://theopsguide.github.io/about-me/blog/building-ai-powered-seo-tools.md"
+    }
+  ]
+}

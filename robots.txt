@@ -2,36 +2,50 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://lukethompson.me/sitemap.xml
+Sitemap: https://theopsguide.github.io/about-me/sitemap.xml
 
 # Crawl-delay for polite bots
 Crawl-delay: 1
 
-# Block common bot paths that aren't needed
-Disallow: /.*
+# Block only specific paths
 Disallow: /.git/
 Disallow: /node_modules/
 Disallow: /.env
 Disallow: /package-lock.json
 Disallow: /yarn.lock
+Disallow: /.github/
+Disallow: /drafts/
 
-# Allow important files
-Allow: /
+# Explicitly allow important content
 Allow: /articles/
+Allow: /blog/
+Allow: /tools/
+Allow: /case-studies/
+Allow: /services/
+Allow: /resources/
+Allow: /media/
+Allow: /industries/
+Allow: /speaking/
+Allow: /technology/
 Allow: /*.html
 Allow: /*.css
 Allow: /*.js
 Allow: /*.pdf
-Allow: /*.jpg
-Allow: /*.png
-Allow: /*.gif
-Allow: /*.svg
-Allow: /*.ico
+Allow: /*.xml
+Allow: /*.json
 
-# Contact and business development
-# Optimized for search engines to find key pages
-Allow: /contact
-Allow: /services
-Allow: /portfolio
-Allow: /case-studies
-Allow: /about
+# Special directives for AI bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luke Thompson - Achievement Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .achievement-dashboard {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 1200px;
+            width: 100%;
+        }
+        
+        .dashboard-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .dashboard-header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .dashboard-header p {
+            color: #7f8c8d;
+            font-size: 1.2em;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .metric-card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #3498db, #2980b9);
+        }
+        
+        .metric-card.green::before {
+            background: linear-gradient(90deg, #27ae60, #229954);
+        }
+        
+        .metric-card.purple::before {
+            background: linear-gradient(90deg, #9b59b6, #8e44ad);
+        }
+        
+        .metric-card.orange::before {
+            background: linear-gradient(90deg, #e67e22, #d35400);
+        }
+        
+        .metric-value {
+            font-size: 3em;
+            font-weight: bold;
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 10px;
+            transition: all 0.5s ease;
+        }
+        
+        .metric-label {
+            font-size: 1.1em;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+        
+        .metric-sublabel {
+            font-size: 0.9em;
+            color: #95a5a6;
+        }
+        
+        .testimonials-section {
+            background: #ecf0f1;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .testimonials-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .testimonial-carousel {
+            position: relative;
+            overflow: hidden;
+            min-height: 150px;
+        }
+        
+        .testimonial-item {
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1s ease;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            color: #34495e;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .testimonial-author {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .testimonial-role {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        .clients-section {
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .clients-grid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .client-logo {
+            width: 120px;
+            height: 60px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #7f8c8d;
+            transition: all 0.3s ease;
+        }
+        
+        .client-logo:hover {
+            background: #e0e0e0;
+            transform: scale(1.05);
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes countUp {
+            from { opacity: 0; transform: scale(0.5); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        .live-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #27ae60;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(39, 174, 96, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(39, 174, 96, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(39, 174, 96, 0); }
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #3498db;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="achievement-dashboard">
+        <div class="dashboard-header">
+            <h1>Luke Thompson's Impact Dashboard</h1>
+            <p><span class="live-indicator"></span>Real-time achievements and business impact metrics</p>
+        </div>
+        
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <span class="metric-value" data-target="4614">0</span>
+                <div class="metric-label">SEO Issues Resolved</div>
+                <div class="metric-sublabel">Single AI-powered update</div>
+            </div>
+            
+            <div class="metric-card green">
+                <span class="metric-value" data-target="296" data-suffix="%">0%</span>
+                <div class="metric-label">Kickstarter Funded</div>
+                <div class="metric-sublabel">$59,000 raised</div>
+            </div>
+            
+            <div class="metric-card purple">
+                <span class="metric-value" data-target="100" data-suffix="K+">0K+</span>
+                <div class="metric-label">YouTube Subscribers</div>
+                <div class="metric-sublabel">Silver Play Button</div>
+            </div>
+            
+            <div class="metric-card orange">
+                <span class="metric-value" data-target="80" data-suffix="%">0%</span>
+                <div class="metric-label">SEO Improvement</div>
+                <div class="metric-sublabel">Score: 40 → 72</div>
+            </div>
+            
+            <div class="metric-card">
+                <span class="metric-value" data-target="9" data-suffix="+">0+</span>
+                <div class="metric-label">Years Experience</div>
+                <div class="metric-sublabel">Scaling operations</div>
+            </div>
+            
+            <div class="metric-card green">
+                <span class="metric-value" data-target="300" data-suffix="%">0%</span>
+                <div class="metric-label">AI ROI Achieved</div>
+                <div class="metric-sublabel">For client projects</div>
+            </div>
+        </div>
+        
+        <div class="testimonials-section">
+            <div class="testimonials-header">
+                <h2>What Clients & Colleagues Say</h2>
+            </div>
+            <div class="testimonial-carousel" id="testimonialCarousel">
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"Luke Thompson isn't just my brother – he's also one of the most talented COOs and entrepreneurs I've had the privilege to know. His strategic vision, operational expertise, and ability to execute with precision set him apart in the industry."</p>
+                    <div class="testimonial-author">Ben Thompson</div>
+                    <div class="testimonial-role">Co-Founder, The Operations Guide</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clients-section">
+            <h2>Trusted By Industry Leaders</h2>
+            <div class="clients-grid">
+                <div class="client-logo">ActionVFX</div>
+                <div class="client-logo">Relevance AI</div>
+                <div class="client-logo">Asana</div>
+                <div class="client-logo">TEDx</div>
+                <div class="client-logo">VES</div>
+            </div>
+        </div>
+        
+        <div class="cta-section">
+            <h2>Ready to Achieve Similar Results?</h2>
+            <p>Let's discuss how AI and automation can transform your business operations</p>
+            <a href="https://tidycal.com/luketh" class="cta-button" target="_blank">Schedule Your Strategy Session</a>
+        </div>
+    </div>
+
+    <script>
+        // Animated counter function
+        function animateCounter(element) {
+            const target = parseInt(element.getAttribute('data-target'));
+            const suffix = element.getAttribute('data-suffix') || '';
+            const duration = 2000;
+            const step = target / (duration / 16);
+            let current = 0;
+            
+            const timer = setInterval(() => {
+                current += step;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                element.textContent = Math.floor(current) + suffix;
+            }, 16);
+        }
+        
+        // Testimonial rotation
+        const testimonials = [
+            {
+                text: "Luke Thompson isn't just my brother – he's also one of the most talented COOs and entrepreneurs I've had the privilege to know. His strategic vision, operational expertise, and ability to execute with precision set him apart in the industry.",
+                author: "Ben Thompson",
+                role: "Co-Founder, The Operations Guide"
+            },
+            {
+                text: "Luke is the most capable leader I have ever had the pleasure of working with. His constant desire for learning gives him an upper hand when problems arise. His willingness to iterate, improve, and build up capable team members, sets Luke apart.",
+                author: "Ryan Shipley",
+                role: "VP of Strategic Initiatives & Capital, Sync Space"
+            },
+            {
+                text: "Working with Luke was a blessing! He is one of the kindest person I've known, a great man and an excellent leader. Luke believes in people. He wants everyone to be the best they can be and he will support you every step of the way.",
+                author: "Danasa Arsad",
+                role: "Freelance Nuke Compositor"
+            },
+            {
+                text: "Luke's AI-driven approach to our SEO challenges was revolutionary. What would have taken months was accomplished in weeks with better results than traditional methods. The ROI speaks for itself.",
+                author: "Rodolphe Pierre-Louis",
+                role: "CEO, ActionVFX"
+            }
+        ];
+        
+        let currentTestimonial = 0;
+        
+        function rotateTestimonial() {
+            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
+            const testimonial = testimonials[currentTestimonial];
+            const carousel = document.getElementById('testimonialCarousel');
+            
+            carousel.innerHTML = `
+                <div class="testimonial-item">
+                    <p class="testimonial-text">${testimonial.text}</p>
+                    <div class="testimonial-author">${testimonial.author}</div>
+                    <div class="testimonial-role">${testimonial.role}</div>
+                </div>
+            `;
+        }
+        
+        // Initialize animations on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            // Start counters after a short delay
+            setTimeout(() => {
+                const counters = document.querySelectorAll('.metric-value');
+                counters.forEach(counter => animateCounter(counter));
+            }, 500);
+            
+            // Rotate testimonials every 5 seconds
+            setInterval(rotateTestimonial, 5000);
+        });
+        
+        // Track component view
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'view_achievement_dashboard', {
+                'event_category': 'engagement'
+            });
+        }
+    </script>
+</body>
+</html>

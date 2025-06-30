@@ -347,6 +347,12 @@
             const name = form.querySelector('input[type="text"]').value;
             const email = form.querySelector('input[type="email"]').value;
             
+            // Track resource download
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackResourceDownload(resourceName, 'template');
+                Analytics.trackEmailSignup(resourceName, 'resource_download');
+            }
+            
             // Here you would normally send the data to your server
             alert(`Thank you, ${name}! Your ${resourceName} download link has been sent to ${email}.`);
             
@@ -358,9 +364,18 @@
             event.preventDefault();
             
             const email = event.target.querySelector('input[type="email"]').value;
+            
+            // Track email signup
+            if (typeof Analytics !== 'undefined') {
+                Analytics.trackEmailSignup('newsletter', 'general');
+            }
+            
             alert(`Thank you! You've been subscribed to resource updates at ${email}.`);
         }
     </script>
+    
+    <!-- Include analytics tracking -->
+    <script src="/analytics-tracking.js"></script>
 
     <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd;">
         <div class="nav-links">

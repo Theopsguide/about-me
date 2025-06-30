@@ -5,7 +5,7 @@
 
   <!-- Homepage - Most important page -->
   <url>
-    <loc>https://lukethompson.me/</loc>
+    <loc>https://theopsguide.github.io/about-me/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -13,7 +13,7 @@
 
   <!-- Articles/Blog Section -->
   <url>
-    <loc>https://lukethompson.me/articles/</loc>
+    <loc>https://theopsguide.github.io/about-me/articles/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -21,21 +21,21 @@
 
   <!-- Individual Articles -->
   <url>
-    <loc>https://lukethompson.me/articles/ai-automation-future-small-business.html</loc>
+    <loc>https://theopsguide.github.io/about-me/articles/ai-automation-future-small-business.html</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://lukethompson.me/articles/operations-excellence-framework.html</loc>
+    <loc>https://theopsguide.github.io/about-me/articles/operations-excellence-framework.html</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://lukethompson.me/articles/building-scalable-business-systems.html</loc>
+    <loc>https://theopsguide.github.io/about-me/articles/building-scalable-business-systems.html</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -43,28 +43,28 @@
 
   <!-- Business Pages -->
   <url>
-    <loc>https://lukethompson.me/services/</loc>
+    <loc>https://theopsguide.github.io/about-me/services/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://lukethompson.me/case-studies/</loc>
+    <loc>https://theopsguide.github.io/about-me/case-studies/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://lukethompson.me/contact/</loc>
+    <loc>https://theopsguide.github.io/about-me/contact/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://lukethompson.me/faq.html</loc>
+    <loc>https://theopsguide.github.io/about-me/faq.html</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -72,7 +72,7 @@
 
   <!-- Tools and Interactive Content -->
   <url>
-    <loc>https://lukethompson.me/tools/operations-assessment.html</loc>
+    <loc>https://theopsguide.github.io/about-me/tools/operations-assessment.html</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -80,14 +80,14 @@
 
   <!-- Industry-Specific Pages -->
   <url>
-    <loc>https://lukethompson.me/industries/marketing-agencies.html</loc>
+    <loc>https://theopsguide.github.io/about-me/industries/marketing-agencies.html</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://lukethompson.me/industries/ecommerce.html</loc>
+    <loc>https://theopsguide.github.io/about-me/industries/ecommerce.html</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -95,7 +95,7 @@
 
   <!-- Resources and Downloads -->
   <url>
-    <loc>https://lukethompson.me/resources/</loc>
+    <loc>https://theopsguide.github.io/about-me/resources/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -103,7 +103,7 @@
 
   <!-- Media and Press -->
   <url>
-    <loc>https://lukethompson.me/media/</loc>
+    <loc>https://theopsguide.github.io/about-me/media/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -111,14 +111,14 @@
 
   <!-- Blog and Content -->
   <url>
-    <loc>https://lukethompson.me/blog/</loc>
+    <loc>https://theopsguide.github.io/about-me/blog/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://lukethompson.me/blog/ai-implementation-reality-check-2025.html</loc>
+    <loc>https://theopsguide.github.io/about-me/blog/ai-implementation-reality-check-2025.html</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -126,7 +126,7 @@
 
   <!-- Technology Showcase -->
   <url>
-    <loc>https://lukethompson.me/technology/</loc>
+    <loc>https://theopsguide.github.io/about-me/technology/</loc>
     <lastmod>2025-06-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
