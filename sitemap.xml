@@ -6,9 +6,49 @@
   <!-- Homepage - Most important page -->
   <url>
     <loc>https://theopsguide.github.io/about-me/</loc>
-    <lastmod>2025-06-27</lastmod>
+    <lastmod>2025-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- Enhanced Homepage -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/index-enhanced.html</loc>
+    <lastmod>2025-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- AI Expertise Portfolio - High Priority -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/AI-EXPERTISE-PORTFOLIO.md</loc>
+    <lastmod>2025-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Repository Topics and SEO -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/REPOSITORY-TOPICS.md</loc>
+    <lastmod>2025-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Link Building Strategy -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/LINK-BUILDING-STRATEGY.md</loc>
+    <lastmod>2025-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Advanced Schema Data -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/schema-advanced.json</loc>
+    <lastmod>2025-06-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Articles/Blog Section -->

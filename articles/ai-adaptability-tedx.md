@@ -2,7 +2,7 @@
 
 *Originally published on LinkedIn • July 11, 2023*
 
-In the rapidly evolving world of technology, artificial intelligence (AI) stands out as one of the most significant developments I've had the opportunity to witness in my years spent at [ActionVFX](https://www.actionvfx.com/).
+In the rapidly evolving world of technology, artificial intelligence (AI) stands out as one of the most significant developments I've had the opportunity to witness in my years working in technology and operations at companies like ActionVFX.
 
 This was the foundation of my TEDx talk titled "AI and the Art of Adaptability." In it, I share my thoughts on the transformative potential of AI, the necessity of adaptability, and the importance of reskilling.
 

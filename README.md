@@ -6,7 +6,7 @@
 
   **Former ActionVFX COO/CMO | Founder of The Operations Guide | Helping SMBs Build AI-Driven Operations**
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-ActionVFX-blue?logo=linkedin)](https://linkedin.com/in/ActionVFX) [![Website](https://img.shields.io/badge/Website-lukethompson.ai-green)](https://lukethompson.ai) [![Company](https://img.shields.io/badge/Company-The%20Operations%20Guide-orange)](https://theoperationsguide.com) ![Location](https://img.shields.io/badge/Location-Tennessee%2C%20USA-lightgrey)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Luke%20Thompson-blue?logo=linkedin)](https://www.linkedin.com/in/lukethompsonfilm/) [![Website](https://img.shields.io/badge/Website-lukethompson.ai-green)](https://lukethompson.ai) [![Company](https://img.shields.io/badge/Company-The%20Operations%20Guide-orange)](https://theoperationsguide.com) ![Location](https://img.shields.io/badge/Location-Tennessee%2C%20USA-lightgrey)
 </div>
 
 ---

@@ -1,0 +1,574 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://theopsguide.github.io/about-me/#person",
+      "name": "Luke Thompson",
+      "alternateName": [
+        "Luke Thompson AI Expert",
+        "Luke Thompson Operations Specialist", 
+        "Luke Thompson TEDx Speaker",
+        "Luke Thompson Business Automation",
+        "Luke Thompson The Operations Guide"
+      ],
+      "description": "AI Integration Expert, TEDx Speaker, and former ActionVFX COO specializing in business automation and operational excellence. Proven track record helping SMBs leverage AI and automation for scalable growth through intelligent process optimization.",
+      "url": "https://theopsguide.github.io/about-me/",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://theopsguide.github.io/about-me/images/luke-thompson-profile.png",
+        "width": 400,
+        "height": 400,
+        "caption": "Luke Thompson - AI Integration Expert and Business Automation Specialist"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/lukethompsonfilm",
+        "https://theoperationsguide.com",
+        "https://lukethompson.ai",
+        "https://tidycal.com/luketh",
+        "https://github.com/theopsguide",
+        "https://www.youtube.com/watch?v=KvHIs3Z6W30",
+        "https://relevanceai.com/blog/actionvfx-customer-story"
+      ],
+      "jobTitle": [
+        "AI Integration Expert",
+        "Business Automation Specialist",
+        "Founder & Chief Operations Architect",
+        "TEDx Speaker",
+        "Technology Consultant",
+        "Operations Management Expert"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://theoperationsguide.com/#organization"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Johnson City",
+        "addressRegion": "Tennessee", 
+        "addressCountry": "United States",
+        "postalCode": "37601"
+      },
+      "email": "contact@theoperationsguide.com",
+      "telephone": "+1-423-XXX-XXXX",
+      "knowsAbout": [
+        {
+          "@type": "Thing",
+          "name": "Artificial Intelligence",
+          "description": "Expert-level knowledge in AI implementation, machine learning applications, and generative AI for business automation"
+        },
+        {
+          "@type": "Thing", 
+          "name": "Business Process Automation",
+          "description": "Advanced expertise in workflow automation, process optimization, and intelligent system design"
+        },
+        {
+          "@type": "Thing",
+          "name": "Digital Transformation",
+          "description": "Strategic technology adoption, digital operations enhancement, and organizational change management"
+        },
+        {
+          "@type": "Thing",
+          "name": "Operations Management",
+          "description": "Comprehensive operations leadership, team building, and scalable system development"
+        },
+        {
+          "@type": "Thing",
+          "name": "SEO Optimization",
+          "description": "AI-driven SEO strategies, technical SEO implementation, and content optimization using machine learning"
+        },
+        {
+          "@type": "Thing",
+          "name": "Technology Leadership",
+          "description": "Strategic technology planning, team leadership, and innovation management in fast-growing organizations"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Certified Scrum Product Owner (CSPO)",
+          "issuedBy": {
+            "@type": "Organization",
+            "name": "Scrum Alliance",
+            "url": "https://www.scrumalliance.org"
+          },
+          "validFrom": "2022-02-01",
+          "validUntil": "2026-02-01",
+          "credentialSubject": "Agile Product Management and Scrum Framework"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
+          "name": "Certified Agile Leadership Essentials (CAL-E)",
+          "issuedBy": {
+            "@type": "Organization",
+            "name": "Scrum Alliance",
+            "url": "https://www.scrumalliance.org"
+          },
+          "validFrom": "2024-02-01", 
+          "validUntil": "2026-02-01",
+          "credentialSubject": "Agile Leadership and Organizational Transformation"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Recognition",
+          "name": "Asana Ambassador",
+          "issuedBy": {
+            "@type": "Organization",
+            "name": "Asana",
+            "url": "https://asana.com"
+          },
+          "validFrom": "2019-10-01",
+          "credentialSubject": "Project Management and Team Collaboration Tools"
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Visual Effects Society",
+          "url": "https://www.visualeffectssociety.com",
+          "description": "Professional organization for visual effects industry professionals"
+        },
+        {
+          "@type": "Organization", 
+          "name": "Tennessee Technology Council",
+          "description": "Technology industry association for Tennessee-based professionals"
+        },
+        {
+          "@type": "Organization",
+          "name": "AI Business Institute",
+          "description": "Professional association for AI business implementation specialists"
+        }
+      ],
+      "award": [
+        {
+          "@type": "Award",
+          "name": "TEDx Speaker Recognition",
+          "description": "Delivered TEDx presentation on 'AI and the Art of Adaptability'",
+          "dateReceived": "2023-06-01",
+          "issuedBy": {
+            "@type": "Organization",
+            "name": "TEDx"
+          }
+        },
+        {
+          "@type": "Award",
+          "name": "YouTube Silver Play Button",
+          "description": "100,000+ subscribers achievement for ActionVFX channel growth strategy",
+          "dateReceived": "2024-03-01",
+          "issuedBy": {
+            "@type": "Organization",
+            "name": "YouTube"
+          }
+        },
+        {
+          "@type": "Award",
+          "name": "Kickstarter Success - 296% Funded",
+          "description": "$59,000 raised from 446 backers exceeding $20,000 goal",
+          "dateReceived": "2015-11-01",
+          "awardingBody": "Kickstarter Platform"
+        },
+        {
+          "@type": "Award",
+          "name": "AI Implementation Excellence",
+          "description": "4,614 SEO issues resolved using custom AI tools with 80% performance improvement",
+          "dateReceived": "2024-05-01",
+          "recognizedBy": "Relevance AI Customer Success Program"
+        }
+      ],
+      "performerIn": [
+        {
+          "@type": "Event",
+          "name": "TEDx Presentation - AI and the Art of Adaptability",
+          "startDate": "2023-06-01",
+          "location": {
+            "@type": "Place",
+            "name": "TEDx Event Venue"
+          },
+          "audience": {
+            "@type": "Audience",
+            "audienceType": "Business Leaders, Technology Professionals, Entrepreneurs"
+          },
+          "recordedIn": {
+            "@type": "VideoObject",
+            "url": "https://www.youtube.com/watch?v=KvHIs3Z6W30",
+            "name": "TEDx Talk: AI and the Art of Adaptability by Luke Thompson",
+            "description": "Exploring AI's transformative potential, workplace adaptability, and practical frameworks for AI adoption",
+            "uploadDate": "2023-07-01",
+            "duration": "PT18M",
+            "thumbnailUrl": "https://img.youtube.com/vi/KvHIs3Z6W30/maxresdefault.jpg"
+          }
+        }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "AI Integration Consulting",
+            "description": "Custom AI implementation for business operations optimization, process automation, and intelligent workflow design",
+            "serviceType": "Technology Consulting",
+            "provider": {
+              "@type": "Organization",
+              "@id": "https://theoperationsguide.com/#organization"
+            }
+          },
+          "category": "AI Consulting",
+          "areaServed": {
+            "@type": "Country",
+            "name": "United States"
+          },
+          "availableDeliveryMethod": "OnSitePickup",
+          "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Business Process Automation",
+            "description": "Workflow automation and process optimization using AI, no-code tools, and intelligent system integration",
+            "serviceType": "Business Operations Consulting"
+          },
+          "category": "Business Automation"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "TEDx Speaking & Keynote Presentations",
+            "description": "Professional speaking on AI adoption, business transformation, operational excellence, and technology leadership",
+            "serviceType": "Professional Speaking"
+          },
+          "category": "Corporate Speaking"
+        }
+      ],
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "AI Integration Specialist",
+          "description": "Expert in implementing artificial intelligence solutions for business operations and process automation",
+          "occupationLocation": {
+            "@type": "State",
+            "name": "Tennessee"
+          },
+          "skills": [
+            "Artificial Intelligence",
+            "Machine Learning Implementation", 
+            "Business Process Automation",
+            "Generative AI Applications",
+            "AI Tool Development"
+          ],
+          "experienceRequirements": "9+ years in operations and technology leadership"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Business Operations Consultant",
+          "description": "Strategic operations optimization, process improvement, and organizational efficiency enhancement",
+          "occupationLocation": {
+            "@type": "Country",
+            "name": "United States"
+          },
+          "skills": [
+            "Process Optimization",
+            "Workflow Automation", 
+            "Operational Excellence",
+            "Team Leadership",
+            "Digital Transformation"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://theoperationsguide.com/#organization",
+      "name": "The Operations Guide",
+      "alternateName": "TheOpsGuide",
+      "url": "https://theoperationsguide.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://theoperationsguide.com/images/logo.png",
+        "width": 200,
+        "height": 200
+      },
+      "description": "Business operations consulting and AI integration services helping small and medium businesses streamline operations, automate processes, and scale efficiently through intelligent technology adoption and process optimization.",
+      "slogan": "Work ON your business, not IN it",
+      "founder": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "foundingDate": "2024-10-01",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Johnson City",
+        "addressRegion": "Tennessee",
+        "addressCountry": "United States"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-423-XXX-XXXX",
+          "contactType": "customer service",
+          "email": "contact@theoperationsguide.com",
+          "availableLanguage": "English",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "17:00",
+            "validFrom": "2024-01-01",
+            "validThrough": "2025-12-31"
+          }
+        },
+        {
+          "@type": "ContactPoint",
+          "url": "https://tidycal.com/luketh",
+          "contactType": "scheduling",
+          "availableLanguage": "English"
+        }
+      ],
+      "sameAs": [
+        "https://linkedin.com/company/theoperationsguide",
+        "https://github.com/theopsguide",
+        "https://theopsguide.github.io/about-me/"
+      ],
+      "serviceArea": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Business Operations & AI Services",
+        "description": "Comprehensive suite of AI integration and business automation services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Strategy & Implementation",
+              "description": "Custom AI implementation roadmaps, technology selection, and strategic planning for business automation"
+            },
+            "priceRange": "$$$"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Business Process Automation",
+              "description": "Workflow optimization, process redesign, and automation implementation using AI and no-code tools"
+            },
+            "priceRange": "$$"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Operations Strategy Consulting",
+              "description": "Strategic operations planning, efficiency optimization, and scalability enhancement"
+            },
+            "priceRange": "$$$"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Transformation",
+              "description": "Technology adoption strategies, digital operations enhancement, and organizational change management"
+            },
+            "priceRange": "$$$"
+          }
+        ]
+      },
+      "knowsAbout": [
+        "AI Integration",
+        "Business Process Automation",
+        "Operations Management",
+        "Digital Transformation", 
+        "Workflow Optimization",
+        "Business Intelligence",
+        "Technology Consulting",
+        "Process Improvement",
+        "Operational Excellence",
+        "Small Business Operations"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "hasCredential": {
+        "@type": "OrganizationRole",
+        "member": {
+          "@type": "Person",
+          "@id": "https://theopsguide.github.io/about-me/#person"
+        },
+        "hasCredential": [
+          "Certified Scrum Product Owner",
+          "Certified Agile Leadership",
+          "Asana Ambassador",
+          "AI Implementation Specialist"
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://theopsguide.github.io/about-me/#website",
+      "name": "Luke Thompson - AI Integration Expert & Professional Portfolio",
+      "alternateName": "Luke Thompson Professional Profile",
+      "url": "https://theopsguide.github.io/about-me/",
+      "description": "Comprehensive professional profile showcasing Luke Thompson's expertise in AI integration, business automation, and operational excellence with proven results and case studies",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://github.com"
+      },
+      "dateCreated": "2024-01-01",
+      "dateModified": "2025-06-30",
+      "datePublished": "2024-01-01",
+      "author": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://theoperationsguide.com/#organization"
+      },
+      "copyrightHolder": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://github.com/search?q={search_term_string}+user:theopsguide"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "mainEntity": {
+        "@type": "Person",
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "AI Integration",
+          "description": "Practical artificial intelligence implementation for business operations"
+        },
+        {
+          "@type": "Thing", 
+          "name": "Business Automation",
+          "description": "Process automation and workflow optimization using intelligent tools"
+        },
+        {
+          "@type": "Thing",
+          "name": "Operations Management",
+          "description": "Strategic operations leadership and organizational efficiency"
+        },
+        {
+          "@type": "Thing",
+          "name": "Digital Transformation",
+          "description": "Technology adoption and digital operations enhancement"
+        }
+      ],
+      "keywords": [
+        "Luke Thompson",
+        "AI integration expert",
+        "business automation consultant",
+        "operations specialist",
+        "TEDx speaker",
+        "technology consultant", 
+        "process optimization",
+        "digital transformation",
+        "artificial intelligence business",
+        "automation specialist",
+        "operations management",
+        "Tennessee consultant",
+        "The Operations Guide",
+        "ActionVFX COO",
+        "AI implementation",
+        "business efficiency",
+        "workflow automation",
+        "machine learning business"
+      ],
+      "significantLink": [
+        "https://theoperationsguide.com",
+        "https://tidycal.com/luketh",
+        "https://linkedin.com/in/lukethompsonfilm",
+        "https://www.youtube.com/watch?v=KvHIs3Z6W30"
+      ],
+      "relatedLink": [
+        "https://relevanceai.com/blog/actionvfx-customer-story",
+        "https://lukethompson.ai",
+        "https://github.com/theopsguide"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://theopsguide.github.io/about-me/"
+        },
+        {
+          "@type": "ListItem", 
+          "position": 2,
+          "name": "Professional Profile",
+          "item": "https://theopsguide.github.io/about-me/#profile"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "AI Expertise",
+          "item": "https://theopsguide.github.io/about-me/AI-EXPERTISE-PORTFOLIO.md"
+        }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "name": "Luke Thompson Professional Resources",
+      "description": "Comprehensive collection of AI tools, resources, and professional content",
+      "url": "https://theopsguide.github.io/about-me/",
+      "mainEntity": {
+        "@type": "ItemList",
+        "name": "Professional Resources and Tools",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": "AI Readiness Calculator",
+              "url": "https://theopsguide.github.io/about-me/tools/ai-readiness-calculator.html",
+              "description": "Interactive tool to assess business AI implementation readiness",
+              "applicationCategory": "BusinessApplication"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "SoftwareApplication", 
+              "name": "Automation ROI Calculator",
+              "url": "https://theopsguide.github.io/about-me/tools/automation-roi-calculator.html",
+              "description": "Calculate return on investment for automation projects",
+              "applicationCategory": "BusinessApplication"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Article",
+              "name": "AI Expertise Portfolio",
+              "url": "https://theopsguide.github.io/about-me/AI-EXPERTISE-PORTFOLIO.md",
+              "description": "Comprehensive showcase of AI implementation expertise and case studies"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
