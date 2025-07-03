@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Automation ROI Calculator | Luke Thompson - The Operations Guide</title>
+    <meta name="description" content="Calculate the ROI of business automation investments with this comprehensive tool by Luke Thompson. Get personalized analysis and recommendations for automation projects.">
+    <meta name="keywords" content="automation ROI calculator, business automation investment, Luke Thompson automation expert, operations ROI, process automation calculator">
+    <meta name="author" content="Luke Thompson">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Business Automation ROI Calculator | Luke Thompson">
+    <meta property="og:description" content="Calculate the return on investment for your business automation projects. Get detailed financial analysis and recommendations from operations expert Luke Thompson.">
+    <meta property="og:url" content="https://github.com/theopsguide/about-me/tools/business-automation-roi-calculator.html">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Business Automation ROI Calculator | Luke Thompson">
+    <meta property="twitter:description" content="Comprehensive ROI calculator for business automation investments with detailed financial analysis.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .author-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #74b9ff;
+        }
+        
+        .calculator-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .calculator-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .input-section, .results-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #74b9ff;
+            padding-bottom: 5px;
+        }
+        
+        .input-group {
+            margin-bottom: 25px;
+        }
+        
+        .input-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: #34495e;
+        }
+        
+        .input-group input, .input-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #bdc3c7;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        
+        .input-group input:focus, .input-group select:focus {
+            outline: none;
+            border-color: #74b9ff;
+        }
+        
+        .input-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        @media (max-width: 480px) {
+            .input-row {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .calculate-btn {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-top: 20px;
+        }
+        
+        .calculate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(116, 185, 255, 0.3);
+        }
+        
+        .result-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #74b9ff;
+        }
+        
+        .result-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #74b9ff;
+            margin-bottom: 5px;
+        }
+        
+        .result-label {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        .roi-indicator {
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+        .roi-excellent {
+            background: linear-gradient(135deg, #00b894, #00a085);
+            color: white;
+        }
+        
+        .roi-good {
+            background: linear-gradient(135deg, #fdcb6e, #e17055);
+            color: white;
+        }
+        
+        .roi-moderate {
+            background: linear-gradient(135deg, #fd79a8, #e84393);
+            color: white;
+        }
+        
+        .roi-poor {
+            background: linear-gradient(135deg, #636e72, #2d3436);
+            color: white;
+        }
+        
+        .breakdown-section {
+            margin-top: 30px;
+        }
+        
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        .breakdown-item:last-child {
+            border-bottom: none;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .recommendations {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+        
+        .recommendation-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #74b9ff;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .cta-button {
+            background: #e74c3c;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+        }
+        
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: help;
+        }
+        
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -100px;
+            font-size: 12px;
+        }
+        
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Business Automation ROI Calculator</h1>
+            <p>Calculate the return on investment for your automation projects</p>
+            <div class="author-info">
+                <strong>Created by Luke Thompson</strong> | Operations Expert & Automation Specialist<br>
+                <em>Former ActionVFX COO | $2.3M+ Client Cost Savings | 285% Average ROI</em>
+            </div>
+        </div>
+        
+        <div class="calculator-container">
+            <div class="input-section">
+                <h2 class="section-title">💼 Current State Analysis</h2>
+                
+                <div class="input-group">
+                    <label for="employees">Number of Employees</label>
+                    <input type="number" id="employees" placeholder="e.g., 25" oninput="calculateROI()">
+                </div>
+                
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="avgHourlyWage">Average Hourly Wage ($)</label>
+                        <input type="number" id="avgHourlyWage" placeholder="e.g., 35" oninput="calculateROI()">
+                    </div>
+                    <div class="input-group">
+                        <label for="hoursPerWeek">Hours/Week on Manual Tasks</label>
+                        <input type="number" id="hoursPerWeek" placeholder="e.g., 15" oninput="calculateROI()">
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <label for="errorRate">Current Error Rate (%) <span class="tooltip">ℹ️<span class="tooltiptext">Percentage of tasks that require rework or correction</span></span></label>
+                    <input type="number" id="errorRate" placeholder="e.g., 5" step="0.1" oninput="calculateROI()">
+                </div>
+                
+                <div class="input-group">
+                    <label for="errorCost">Average Cost per Error ($)</label>
+                    <input type="number" id="errorCost" placeholder="e.g., 150" oninput="calculateROI()">
+                </div>
+                
+                <h2 class="section-title">🚀 Automation Investment</h2>
+                
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="implementationCost">Implementation Cost ($)</label>
+                        <input type="number" id="implementationCost" placeholder="e.g., 25000" oninput="calculateROI()">
+                    </div>
+                    <div class="input-group">
+                        <label for="monthlyCost">Monthly Operating Cost ($)</label>
+                        <input type="number" id="monthlyCost" placeholder="e.g., 1500" oninput="calculateROI()">
+                    </div>
+                </div>
+                
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="timeReduction">Time Reduction (%)</label>
+                        <input type="number" id="timeReduction" placeholder="e.g., 70" max="100" oninput="calculateROI()">
+                    </div>
+                    <div class="input-group">
+                        <label for="errorReduction">Error Reduction (%)</label>
+                        <input type="number" id="errorReduction" placeholder="e.g., 85" max="100" oninput="calculateROI()">
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <label for="projectType">Project Type</label>
+                    <select id="projectType" onchange="setDefaults(); calculateROI()">
+                        <option value="">Select project type</option>
+                        <option value="customer_service">Customer Service Automation</option>
+                        <option value="data_entry">Data Entry & Processing</option>
+                        <option value="inventory">Inventory Management</option>
+                        <option value="marketing">Marketing Automation</option>
+                        <option value="hr">HR & Payroll</option>
+                        <option value="accounting">Accounting & Finance</option>
+                        <option value="sales">Sales Process Automation</option>
+                        <option value="custom">Custom Solution</option>
+                    </select>
+                </div>
+                
+                <button class="calculate-btn" onclick="calculateROI()">
+                    🧮 Calculate ROI
+                </button>
+            </div>
+            
+            <div class="results-section">
+                <h2 class="section-title">📈 ROI Analysis</h2>
+                
+                <div id="roiResults" style="display: none;">
+                    <div class="result-card">
+                        <div class="result-value" id="roiPercentage">0%</div>
+                        <div class="result-label">Return on Investment (12 months)</div>
+                    </div>
+                    
+                    <div class="roi-indicator" id="roiIndicator">
+                        Calculate your ROI to see results
+                    </div>
+                    
+                    <div class="result-card">
+                        <div class="result-value" id="paybackPeriod">0 months</div>
+                        <div class="result-label">Payback Period</div>
+                    </div>
+                    
+                    <div class="result-card">
+                        <div class="result-value" id="annualSavings">$0</div>
+                        <div class="result-label">Annual Cost Savings</div>
+                    </div>
+                    
+                    <div class="result-card">
+                        <div class="result-value" id="threeYearValue">$0</div>
+                        <div class="result-label">3-Year Net Value</div>
+                    </div>
+                </div>
+                
+                <div id="placeholder" style="text-align: center; color: #7f8c8d; padding: 40px;">
+                    Enter your information to calculate ROI
+                </div>
+            </div>
+        </div>
+        
+        <div class="breakdown-section" id="breakdown" style="display: none;">
+            <div style="background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <h2 class="section-title">💰 Detailed Financial Breakdown</h2>
+                
+                <div id="savingsBreakdown"></div>
+                
+                <div style="margin-top: 30px;">
+                    <h3 style="color: #2c3e50; margin-bottom: 15px;">Investment vs. Returns (5 Years)</h3>
+                    <canvas id="roiChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="recommendations" id="recommendations" style="display: none;">
+            <h2 class="section-title">🎯 Personalized Recommendations</h2>
+            <div id="recommendationsList"></div>
+        </div>
+        
+        <div class="cta-section">
+            <h3>Ready to Implement High-ROI Automation?</h3>
+            <p>Get expert guidance from Luke Thompson, who has delivered $2.3M+ in cost savings for clients with an average ROI of 285%.</p>
+            <a href="https://tidycal.com/luketh" target="_blank" class="cta-button">
+                📅 Schedule Free Automation Consultation
+            </a>
+            <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">
+                Free 30-minute consultation • Customized automation strategy • ROI projections included
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        function setDefaults() {
+            const projectType = document.getElementById('projectType').value;
+            const defaults = {
+                'customer_service': {
+                    timeReduction: 60,
+                    errorReduction: 80,
+                    implementationCost: 15000,
+                    monthlyCost: 800
+                },
+                'data_entry': {
+                    timeReduction: 85,
+                    errorReduction: 95,
+                    implementationCost: 10000,
+                    monthlyCost: 500
+                },
+                'inventory': {
+                    timeReduction: 70,
+                    errorReduction: 90,
+                    implementationCost: 20000,
+                    monthlyCost: 1200
+                },
+                'marketing': {
+                    timeReduction: 65,
+                    errorReduction: 75,
+                    implementationCost: 12000,
+                    monthlyCost: 900
+                },
+                'hr': {
+                    timeReduction: 55,
+                    errorReduction: 85,
+                    implementationCost: 18000,
+                    monthlyCost: 1000
+                },
+                'accounting': {
+                    timeReduction: 75,
+                    errorReduction: 90,
+                    implementationCost: 25000,
+                    monthlyCost: 1500
+                },
+                'sales': {
+                    timeReduction: 50,
+                    errorReduction: 70,
+                    implementationCost: 16000,
+                    monthlyCost: 1100
+                }
+            };
+            
+            if (defaults[projectType]) {
+                const config = defaults[projectType];
+                document.getElementById('timeReduction').value = config.timeReduction;
+                document.getElementById('errorReduction').value = config.errorReduction;
+                document.getElementById('implementationCost').value = config.implementationCost;
+                document.getElementById('monthlyCost').value = config.monthlyCost;
+            }
+        }
+        
+        function calculateROI() {
+            const employees = parseFloat(document.getElementById('employees').value) || 0;
+            const avgHourlyWage = parseFloat(document.getElementById('avgHourlyWage').value) || 0;
+            const hoursPerWeek = parseFloat(document.getElementById('hoursPerWeek').value) || 0;
+            const errorRate = parseFloat(document.getElementById('errorRate').value) || 0;
+            const errorCost = parseFloat(document.getElementById('errorCost').value) || 0;
+            const implementationCost = parseFloat(document.getElementById('implementationCost').value) || 0;
+            const monthlyCost = parseFloat(document.getElementById('monthlyCost').value) || 0;
+            const timeReduction = parseFloat(document.getElementById('timeReduction').value) || 0;
+            const errorReduction = parseFloat(document.getElementById('errorReduction').value) || 0;
+            
+            if (!employees || !avgHourlyWage || !hoursPerWeek || !implementationCost) {
+                return;
+            }
+            
+            // Calculate current costs
+            const weeklyLaborCost = employees * hoursPerWeek * avgHourlyWage;
+            const annualLaborCost = weeklyLaborCost * 52;
+            
+            const weeklyErrors = (employees * hoursPerWeek * errorRate) / 100;
+            const annualErrorCost = weeklyErrors * 52 * errorCost;
+            
+            const totalCurrentAnnualCost = annualLaborCost + annualErrorCost;
+            
+            // Calculate savings
+            const laborSavings = annualLaborCost * (timeReduction / 100);
+            const errorSavings = annualErrorCost * (errorReduction / 100);
+            const totalAnnualSavings = laborSavings + errorSavings;
+            
+            // Calculate costs
+            const totalAnnualCost = (monthlyCost * 12);
+            const netAnnualSavings = totalAnnualSavings - totalAnnualCost;
+            
+            // Calculate ROI metrics
+            const totalFirstYearCost = implementationCost + totalAnnualCost;
+            const firstYearROI = ((netAnnualSavings - implementationCost) / totalFirstYearCost) * 100;
+            const paybackMonths = totalFirstYearCost / (totalAnnualSavings / 12);
+            
+            // Calculate 3-year value
+            const threeYearSavings = totalAnnualSavings * 3;
+            const threeYearCosts = implementationCost + (totalAnnualCost * 3);
+            const threeYearNetValue = threeYearSavings - threeYearCosts;
+            
+            // Display results
+            displayResults({
+                roiPercentage: Math.round(firstYearROI),
+                paybackPeriod: Math.round(paybackMonths * 10) / 10,
+                annualSavings: Math.round(netAnnualSavings),
+                threeYearValue: Math.round(threeYearNetValue),
+                laborSavings: Math.round(laborSavings),
+                errorSavings: Math.round(errorSavings),
+                totalAnnualSavings: Math.round(totalAnnualSavings),
+                totalAnnualCost: Math.round(totalAnnualCost),
+                implementationCost: implementationCost
+            });
+        }
+        
+        function displayResults(results) {
+            document.getElementById('placeholder').style.display = 'none';
+            document.getElementById('roiResults').style.display = 'block';
+            document.getElementById('breakdown').style.display = 'block';
+            document.getElementById('recommendations').style.display = 'block';
+            
+            // Update result displays
+            document.getElementById('roiPercentage').textContent = results.roiPercentage + '%';
+            document.getElementById('paybackPeriod').textContent = results.paybackPeriod + ' months';
+            document.getElementById('annualSavings').textContent = '$' + results.annualSavings.toLocaleString();
+            document.getElementById('threeYearValue').textContent = '$' + results.threeYearValue.toLocaleString();
+            
+            // Update ROI indicator
+            const roiIndicator = document.getElementById('roiIndicator');
+            if (results.roiPercentage >= 200) {
+                roiIndicator.className = 'roi-indicator roi-excellent';
+                roiIndicator.textContent = '🚀 Excellent ROI - Highly Recommended Investment';
+            } else if (results.roiPercentage >= 100) {
+                roiIndicator.className = 'roi-indicator roi-good';
+                roiIndicator.textContent = '✅ Good ROI - Solid Investment Opportunity';
+            } else if (results.roiPercentage >= 50) {
+                roiIndicator.className = 'roi-indicator roi-moderate';
+                roiIndicator.textContent = '⚠️ Moderate ROI - Consider Optimization';
+            } else {
+                roiIndicator.className = 'roi-indicator roi-poor';
+                roiIndicator.textContent = '❌ Low ROI - Needs Strategy Adjustment';
+            }
+            
+            // Update breakdown
+            const breakdown = document.getElementById('savingsBreakdown');
+            breakdown.innerHTML = `
+                <div class="breakdown-item">
+                    <span>Labor Cost Savings:</span>
+                    <span>$${results.laborSavings.toLocaleString()}</span>
+                </div>
+                <div class="breakdown-item">
+                    <span>Error Reduction Savings:</span>
+                    <span>$${results.errorSavings.toLocaleString()}</span>
+                </div>
+                <div class="breakdown-item">
+                    <span>Total Annual Savings:</span>
+                    <span>$${results.totalAnnualSavings.toLocaleString()}</span>
+                </div>
+                <div class="breakdown-item">
+                    <span>Annual Operating Costs:</span>
+                    <span>-$${results.totalAnnualCost.toLocaleString()}</span>
+                </div>
+                <div class="breakdown-item">
+                    <span>Net Annual Benefit:</span>
+                    <span>$${results.annualSavings.toLocaleString()}</span>
+                </div>
+            `;
+            
+            // Generate recommendations
+            generateRecommendations(results);
+        }
+        
+        function generateRecommendations(results) {
+            const recommendationsList = document.getElementById('recommendationsList');
+            let recommendations = [];
+            
+            if (results.roiPercentage >= 200) {
+                recommendations = [
+                    "Your ROI is exceptional! Proceed with implementation immediately.",
+                    "Consider expanding automation to additional processes for even greater returns.",
+                    "Document this success story as a case study for future projects.",
+                    "Explore advanced AI and machine learning applications for your industry."
+                ];
+            } else if (results.roiPercentage >= 100) {
+                recommendations = [
+                    "Solid ROI justifies moving forward with this automation project.",
+                    "Focus on proper change management to ensure successful adoption.",
+                    "Monitor performance closely and optimize based on real results.",
+                    "Plan for scaling successful processes to other areas of your business."
+                ];
+            } else if (results.roiPercentage >= 50) {
+                recommendations = [
+                    "Consider optimizing the automation approach to improve ROI.",
+                    "Look for ways to increase time savings or reduce implementation costs.",
+                    "Start with a smaller pilot project to prove value before full implementation.",
+                    "Explore alternative automation tools or approaches for better efficiency."
+                ];
+            } else {
+                recommendations = [
+                    "Current ROI may not justify immediate investment.",
+                    "Focus on process optimization before implementing automation.",
+                    "Consider starting with simpler, lower-cost automation solutions.",
+                    "Consult with an automation expert to identify better opportunities."
+                ];
+            }
+            
+            recommendationsList.innerHTML = '';
+            recommendations.forEach((rec, index) => {
+                const item = document.createElement('div');
+                item.className = 'recommendation-item';
+                item.innerHTML = `<strong>${index + 1}.</strong> ${rec}`;
+                recommendationsList.appendChild(item);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced AI Readiness Assessment | Luke Thompson - The Operations Guide</title>
+    <meta name="description" content="Comprehensive AI readiness assessment tool by Luke Thompson. Evaluate your organization's AI implementation readiness, identify opportunities, and get personalized recommendations for AI integration strategy.">
+    <meta name="keywords" content="AI readiness assessment, AI implementation tool, business AI strategy, Luke Thompson AI consultant, AI integration planning, business automation assessment">
+    <meta name="author" content="Luke Thompson">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Advanced AI Readiness Assessment | Luke Thompson">
+    <meta property="og:description" content="Evaluate your organization's AI implementation readiness with this comprehensive assessment tool. Get personalized recommendations from AI expert Luke Thompson.">
+    <meta property="og:url" content="https://github.com/theopsguide/about-me/tools/advanced-ai-readiness-assessment.html">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Advanced AI Readiness Assessment | Luke Thompson">
+    <meta property="twitter:description" content="Comprehensive AI readiness evaluation tool with personalized recommendations for successful AI implementation.">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .author-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .assessment-container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .question-group {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ecf0f1;
+            border-radius: 10px;
+            background: #fafbfc;
+        }
+        
+        .question-group h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        .question {
+            margin-bottom: 20px;
+        }
+        
+        .question label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: #34495e;
+        }
+        
+        .question select, .question input[type="range"] {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #bdc3c7;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        
+        .question select:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        .range-value {
+            text-align: center;
+            font-weight: bold;
+            color: #3498db;
+            margin-top: 5px;
+        }
+        
+        .calculate-btn {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: block;
+            margin: 30px auto;
+            min-width: 250px;
+        }
+        
+        .calculate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
+        }
+        
+        .results {
+            display: none;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+        
+        .score-display {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .score-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .recommendations {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+        .recommendation-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .cta-button {
+            background: #e74c3c;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: #ecf0f1;
+            border-radius: 3px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3498db, #2980b9);
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 Advanced AI Readiness Assessment</h1>
+            <p>Comprehensive evaluation of your organization's AI implementation readiness</p>
+            <div class="author-info">
+                <strong>Created by Luke Thompson</strong> | AI Integration Specialist & Operations Expert<br>
+                <em>Former ActionVFX COO | TEDx Speaker | 4,614 SEO Issues Resolved with AI</em>
+            </div>
+        </div>
+        
+        <div class="assessment-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            
+            <form id="aiAssessment">
+                <!-- Business Strategy & Leadership -->
+                <div class="question-group">
+                    <h3>🎯 Business Strategy & Leadership</h3>
+                    
+                    <div class="question">
+                        <label>How would you rate your leadership team's understanding of AI potential for your business?</label>
+                        <select name="leadership_understanding" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Limited - Basic awareness only</option>
+                            <option value="2">Developing - Some understanding but need more education</option>
+                            <option value="3">Good - Solid understanding of AI applications</option>
+                            <option value="4">Advanced - Deep understanding and strategic vision</option>
+                            <option value="5">Expert - Leading AI initiatives and innovation</option>
+                        </select>
+                    </div>
+                    
+                    <div class="question">
+                        <label>Does your organization have a clear AI strategy and roadmap?</label>
+                        <select name="ai_strategy" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">No strategy - Exploring possibilities</option>
+                            <option value="2">Basic plan - High-level vision only</option>
+                            <option value="3">Developing - Strategy in progress</option>
+                            <option value="4">Solid strategy - Clear roadmap with timelines</option>
+                            <option value="5">Comprehensive - Detailed strategy with execution plan</option>
+                        </select>
+                    </div>
+                    
+                    <div class="question">
+                        <label>How committed is leadership to investing in AI implementation?</label>
+                        <select name="investment_commitment" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Minimal - Considering small pilot projects</option>
+                            <option value="2">Cautious - Moderate investment planned</option>
+                            <option value="3">Committed - Significant budget allocated</option>
+                            <option value="4">High priority - Major strategic investment</option>
+                            <option value="5">All-in - Transformational investment commitment</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Data Infrastructure & Technology -->
+                <div class="question-group">
+                    <h3>💾 Data Infrastructure & Technology</h3>
+                    
+                    <div class="question">
+                        <label>How would you rate the quality and accessibility of your business data?</label>
+                        <select name="data_quality" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Poor - Inconsistent, siloed data</option>
+                            <option value="2">Basic - Some organized data with gaps</option>
+                            <option value="3">Good - Well-organized, mostly accessible</option>
+                            <option value="4">Excellent - High-quality, integrated data</option>
+                            <option value="5">Outstanding - Enterprise-grade data infrastructure</option>
+                        </select>
+                    </div>
+                    
+                    <div class="question">
+                        <label>What is your current level of system integration and API connectivity?</label>
+                        <select name="system_integration" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Minimal - Mostly manual processes</option>
+                            <option value="2">Basic - Some automated workflows</option>
+                            <option value="3">Moderate - Good integration between key systems</option>
+                            <option value="4">Advanced - Comprehensive integration platform</option>
+                            <option value="5">Enterprise - Fully integrated ecosystem</option>
+                        </select>
+                    </div>
+                    
+                    <div class="question">
+                        <label>How robust is your cybersecurity and data governance framework?</label>
+                        <select name="security_governance" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Basic - Minimal security measures</option>
+                            <option value="2">Developing - Standard security protocols</option>
+                            <option value="3">Good - Comprehensive security framework</option>
+                            <option value="4">Advanced - Enterprise-grade security</option>
+                            <option value="5">Exceptional - Industry-leading security practices</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Process Maturity & Operations -->
+                <div class="question-group">
+                    <h3>⚙️ Process Maturity & Operations</h3>
+                    
+                    <div class="question">
+                        <label>How well-documented and standardized are your business processes?</label>
+                        <select name="process_documentation" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Minimal - Mostly informal processes</option>
+                            <option value="2">Basic - Some key processes documented</option>
+                            <option value="3">Good - Most processes documented and standardized</option>
+                            <option value="4">Advanced - Comprehensive process management</option>
+                            <option value="5">Exceptional - Continuous process optimization</option>
+                        </select>
+                    </div>
+                    
+                    <div class="question">
+                        <label>What percentage of your current workflows are automated?</label>
+                        <input type="range" name="automation_percentage" min="0" max="100" value="20" oninput="updateRangeValue(this); updateProgress()">
+                        <div class="range-value" id="automation_percentage_value">20%</div>
+                    </div>
+                    
+                    <div class="question">
+                        <label>How effectively does your organization manage change and adoption of new technologies?</label>
+                        <select name="change_management" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Struggling - Significant resistance to change</option>
+                            <option value="2">Developing - Some change management processes</option>
+                            <option value="3">Effective - Good change adoption practices</option>
+                            <option value="4">Advanced - Systematic change management</option>
+                            <option value="5">Exceptional - Change-adaptive culture</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Team Skills & Capabilities -->
+                <div class="question-group">
+                    <h3>👥 Team Skills & Capabilities</h3>
+                    
+                    <div class="question">
+                        <label>What is the overall technical competency level of your team?</label>
+                        <select name="technical_competency" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Basic - Limited technical skills</option>
+                            <option value="2">Developing - Some technical capabilities</option>
+                            <option value="3">Competent - Good technical foundation</option>
+                            <option value="4">Advanced - Strong technical skills across team</option>
+                            <option value="5">Expert - Highly technical and innovative team</option>
+                        </select>
+                    </div>
+                    
+                    <div class="question">
+                        <label>How willing is your team to learn and adopt new AI-powered tools?</label>
+                        <select name="learning_willingness" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Resistant - Significant hesitation about new technology</option>
+                            <option value="2">Cautious - Some willingness with proper support</option>
+                            <option value="3">Open - Generally receptive to new tools</option>
+                            <option value="4">Enthusiastic - Eager to learn and adopt</option>
+                            <option value="5">Champions - Actively driving innovation adoption</option>
+                        </select>
+                    </div>
+                    
+                    <div class="question">
+                        <label>Do you have dedicated resources for AI/automation initiatives?</label>
+                        <select name="dedicated_resources" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">None - Would need to allocate existing resources</option>
+                            <option value="2">Minimal - Part-time allocation possible</option>
+                            <option value="3">Moderate - Some dedicated time/resources</option>
+                            <option value="4">Substantial - Dedicated team members</option>
+                            <option value="5">Comprehensive - Full AI/automation team</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Business Impact & ROI Focus -->
+                <div class="question-group">
+                    <h3>📈 Business Impact & ROI Focus</h3>
+                    
+                    <div class="question">
+                        <label>How clearly defined are your AI implementation success metrics?</label>
+                        <select name="success_metrics" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Undefined - No clear metrics established</option>
+                            <option value="2">Basic - High-level goals only</option>
+                            <option value="3">Defined - Clear success criteria</option>
+                            <option value="4">Comprehensive - Detailed KPIs and benchmarks</option>
+                            <option value="5">Advanced - Integrated performance measurement</option>
+                        </select>
+                    </div>
+                    
+                    <div class="question">
+                        <label>What is your expected timeline for seeing ROI from AI investments?</label>
+                        <select name="roi_timeline" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">3+ years - Long-term strategic investment</option>
+                            <option value="2">2-3 years - Medium-term transformation</option>
+                            <option value="3">1-2 years - Moderate timeline expectations</option>
+                            <option value="4">6-12 months - Expecting fairly quick returns</option>
+                            <option value="5">3-6 months - Need immediate impact</option>
+                        </select>
+                    </div>
+                    
+                    <div class="question">
+                        <label>How critical is AI implementation to your competitive positioning?</label>
+                        <select name="competitive_importance" onchange="updateProgress()">
+                            <option value="">Select an option</option>
+                            <option value="1">Nice to have - Exploring for future benefits</option>
+                            <option value="2">Beneficial - Would provide some advantages</option>
+                            <option value="3">Important - Needed to maintain competitiveness</option>
+                            <option value="4">Critical - Essential for market position</option>
+                            <option value="5">Urgent - Required for survival/growth</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button type="button" class="calculate-btn" onclick="calculateReadiness()">
+                    🚀 Calculate My AI Readiness Score
+                </button>
+            </form>
+        </div>
+        
+        <div class="results" id="results">
+            <div class="score-display">
+                <div class="score-circle" id="scoreCircle">
+                    <span id="scoreValue">0</span>
+                </div>
+                <h2 id="readinessLevel">AI Readiness Level</h2>
+                <p id="readinessDescription">Your organization's AI implementation readiness assessment</p>
+            </div>
+            
+            <div class="recommendations" id="recommendations">
+                <h3>🎯 Personalized Recommendations</h3>
+                <div id="recommendationsList"></div>
+            </div>
+            
+            <div class="cta-section">
+                <h3>Ready to Transform Your Business with AI?</h3>
+                <p>Get personalized AI implementation guidance from Luke Thompson, who has successfully resolved 4,614 SEO issues using AI and helped 50+ businesses achieve operational excellence.</p>
+                <a href="https://tidycal.com/luketh" target="_blank" class="cta-button">
+                    📅 Schedule Free AI Strategy Consultation
+                </a>
+                <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.8;">
+                    Free 30-minute consultation • No commitment required • Actionable insights guaranteed
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function updateProgress() {
+            const form = document.getElementById('aiAssessment');
+            const formData = new FormData(form);
+            const totalQuestions = 15;
+            let answeredQuestions = 0;
+            
+            for (let [key, value] of formData.entries()) {
+                if (value !== '') {
+                    answeredQuestions++;
+                }
+            }
+            
+            const progressPercentage = (answeredQuestions / totalQuestions) * 100;
+            document.getElementById('progressFill').style.width = progressPercentage + '%';
+        }
+        
+        function updateRangeValue(slider) {
+            const valueDisplay = document.getElementById(slider.name + '_value');
+            valueDisplay.textContent = slider.value + '%';
+        }
+        
+        function calculateReadiness() {
+            const form = document.getElementById('aiAssessment');
+            const formData = new FormData(form);
+            let totalScore = 0;
+            let answeredQuestions = 0;
+            
+            for (let [key, value] of formData.entries()) {
+                if (value !== '') {
+                    if (key === 'automation_percentage') {
+                        // Convert percentage to 1-5 scale
+                        totalScore += Math.ceil(parseInt(value) / 20);
+                    } else {
+                        totalScore += parseInt(value);
+                    }
+                    answeredQuestions++;
+                }
+            }
+            
+            if (answeredQuestions < 15) {
+                alert('Please answer all questions to get your complete AI readiness assessment.');
+                return;
+            }
+            
+            const averageScore = totalScore / 15;
+            const readinessScore = Math.round(averageScore * 20); // Convert to 0-100 scale
+            
+            displayResults(readinessScore, averageScore);
+        }
+        
+        function displayResults(score, avgScore) {
+            const resultsSection = document.getElementById('results');
+            const scoreCircle = document.getElementById('scoreCircle');
+            const scoreValue = document.getElementById('scoreValue');
+            const readinessLevel = document.getElementById('readinessLevel');
+            const readinessDescription = document.getElementById('readinessDescription');
+            
+            // Update score display
+            scoreValue.textContent = score;
+            
+            // Determine readiness level and color
+            let level, description, color, recommendations;
+            
+            if (score >= 85) {
+                level = "🚀 AI-Ready Champion";
+                description = "Your organization is exceptionally well-positioned for advanced AI implementation";
+                color = "#27ae60";
+                recommendations = [
+                    "Execute comprehensive AI transformation strategy immediately",
+                    "Implement multiple AI initiatives in parallel across departments",
+                    "Establish center of excellence for AI innovation",
+                    "Pursue advanced AI applications like machine learning and predictive analytics",
+                    "Consider becoming an AI industry leader and case study example"
+                ];
+            } else if (score >= 70) {
+                level = "⭐ AI Implementation Ready";
+                description = "Your organization is well-prepared for successful AI initiatives";
+                color = "#2ecc71";
+                recommendations = [
+                    "Begin with high-impact AI pilot projects in 2-3 key areas",
+                    "Invest in advanced AI tools and platforms for automation",
+                    "Develop comprehensive AI governance and ethics framework",
+                    "Create dedicated AI implementation team and resources",
+                    "Plan for scaling successful pilots across the organization"
+                ];
+            } else if (score >= 55) {
+                level = "🔄 AI Development Path";
+                description = "Your organization has good potential with some preparation needed";
+                color = "#f39c12";
+                recommendations = [
+                    "Focus on data quality and system integration improvements",
+                    "Start with simple automation tools and workflows",
+                    "Invest in team training and AI literacy programs",
+                    "Develop clear AI strategy and success metrics",
+                    "Begin with low-risk, high-value AI pilot projects"
+                ];
+            } else if (score >= 40) {
+                level = "🛠️ AI Foundation Building";
+                description = "Your organization needs foundational work before AI implementation";
+                color = "#e67e22";
+                recommendations = [
+                    "Standardize and document key business processes",
+                    "Improve data quality and accessibility",
+                    "Invest in basic automation and integration tools",
+                    "Build leadership understanding and AI strategy",
+                    "Focus on change management and team readiness"
+                ];
+            } else {
+                level = "🎯 AI Exploration Phase";
+                description = "Your organization should focus on building AI readiness fundamentals";
+                color = "#e74c3c";
+                recommendations = [
+                    "Begin with AI education and awareness programs for leadership",
+                    "Conduct comprehensive business process assessment and optimization",
+                    "Improve basic technology infrastructure and data management",
+                    "Start with simple workflow automation tools",
+                    "Develop organizational change management capabilities"
+                ];
+            }
+            
+            // Update display
+            scoreCircle.style.background = `linear-gradient(135deg, ${color}, ${adjustBrightness(color, -20)})`;
+            readinessLevel.textContent = level;
+            readinessDescription.textContent = description;
+            
+            // Update recommendations
+            const recommendationsList = document.getElementById('recommendationsList');
+            recommendationsList.innerHTML = '';
+            recommendations.forEach((rec, index) => {
+                const item = document.createElement('div');
+                item.className = 'recommendation-item';
+                item.innerHTML = `<strong>${index + 1}.</strong> ${rec}`;
+                recommendationsList.appendChild(item);
+            });
+            
+            // Show results
+            resultsSection.style.display = 'block';
+            resultsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        function adjustBrightness(color, amount) {
+            return '#' + color.replace(/^#/, '').replace(/../g, color => 
+                ('0' + Math.min(255, Math.max(0, parseInt(color, 16) + amount)).toString(16)).substr(-2)
+            );
+        }
+        
+        // Initialize progress bar
+        updateProgress();
+    </script>
+</body>
+</html>
