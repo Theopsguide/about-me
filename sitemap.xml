@@ -6,9 +6,57 @@
   <!-- Homepage - Most important page -->
   <url>
     <loc>https://theopsguide.github.io/about-me/</loc>
-    <lastmod>2025-06-30</lastmod>
+    <lastmod>2025-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- NEW: AI Implementation Framework 2025 - HIGH PRIORITY -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/AI-IMPLEMENTATION-FRAMEWORK-2025.md</loc>
+    <lastmod>2025-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- NEW: Tennessee Business Automation Guide - HIGH PRIORITY -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/TENNESSEE-BUSINESS-AUTOMATION-GUIDE.md</loc>
+    <lastmod>2025-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- NEW: The Operations Guide Case Studies - HIGH PRIORITY -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/THE-OPERATIONS-GUIDE-CASE-STUDIES.md</loc>
+    <lastmod>2025-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NEW: Advanced AI Readiness Assessment Tool -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/tools/advanced-ai-readiness-assessment.html</loc>
+    <lastmod>2025-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NEW: Business Automation ROI Calculator -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/tools/business-automation-roi-calculator.html</loc>
+    <lastmod>2025-01-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- NEW: Small Business Automation Guide -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/industries/small-business-automation-guide.html</loc>
+    <lastmod>2025-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <!-- Enhanced Homepage -->
