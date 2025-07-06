@@ -140,6 +140,11 @@ Delivered a TEDx talk exploring the transformative potential of AI, the necessit
   **[Watch: AI and the Art of Adaptability - TEDx Talk](https://www.youtube.com/watch?v=KvHIs3Z6W30)**
 </div>
 
+### Startup Competition Judge
+**iBUCS (Innovative Buccaneers) Startup Pitch Competition** - East Tennessee State University (May 2025)
+
+Served as judge for ETSU's premier entrepreneurship competition, evaluating student startup pitches in a "Shark Tank" style format. The iBUCS competition provides aspiring entrepreneurs with opportunities to win seed funding and turn innovative ideas into viable businesses through structured mentorship and expert evaluation.
+
 ### Podcast Host
 **"Ask An Artist" Podcast** (July 2021 - July 2023)
 

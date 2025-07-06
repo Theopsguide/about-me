@@ -3,6 +3,7 @@ Allow: /
 
 # Sitemaps
 Sitemap: https://theopsguide.github.io/about-me/sitemap.xml
+Sitemap: https://theopsguide.github.io/about-me/sitemap-images.xml
 
 # Crawl-delay for polite bots
 Crawl-delay: 1

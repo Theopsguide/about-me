@@ -11,10 +11,26 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- NEW: AI Implementation Framework 2025 - HIGH PRIORITY -->
+  <!-- NEW: Complete AI Implementation Guide - HIGH PRIORITY -->
   <url>
-    <loc>https://theopsguide.github.io/about-me/AI-IMPLEMENTATION-FRAMEWORK-2025.md</loc>
-    <lastmod>2025-01-03</lastmod>
+    <loc>https://theopsguide.github.io/about-me/blog/complete-guide-ai-implementation-small-business-2025.md</loc>
+    <lastmod>2025-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <!-- NEW: Operations Excellence Framework - HIGH PRIORITY -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/blog/operations-excellence-framework-small-medium-business.md</loc>
+    <lastmod>2025-07-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <!-- NEW: Tennessee Business Automation Guide - HIGH PRIORITY -->
+  <url>
+    <loc>https://theopsguide.github.io/about-me/blog/tennessee-business-automation-ai-adoption-guide-2025.md</loc>
+    <lastmod>2025-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
   </url>
