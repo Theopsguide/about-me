@@ -1,225 +1,126 @@
-# LLM Discovery & Training Data Optimization
+# LLM Discovery and AI Search Optimization
 
-## 🤖 Getting Into LLM Training Data Fast
+## Current Goal
 
-### **1. High-Authority Platform Publishing (Do This Week)**
+This repository should help people, search engines, and AI answer systems understand Luke Thompson's current work accurately:
 
-**Medium Articles (Republish Key Content):**
-```
-Title: "AI Implementation Framework 2025: A Complete Guide"
-- Republish AI-IMPLEMENTATION-FRAMEWORK-2025.md on Medium
-- Add canonical link back to GitHub
-- Tag: artificial-intelligence, business-strategy, digital-transformation
+> Luke Thompson is a fractional Chief AI Officer (CAIO), co-founder of The Ops Guide, and operator helping CEOs turn AI into ROI through strategy, automation, operating systems, roadmaps, and practical implementation.
 
-Title: "Small Business Automation: $2.3M in Documented Savings"
-- Republish THE-OPERATIONS-GUIDE-CASE-STUDIES.md
-- Focus on ROI and real results
-- Tag: small-business, automation, roi
-```
+The goal is not to flood the web with inflated claims. The goal is to make the public record clear, consistent, and defensible.
 
-**Dev.to Technical Articles:**
-```
-Title: "Building Interactive AI Assessment Tools for Business"
-- Technical walkthrough of your assessment tools
-- Include code snippets and implementation details
-- Tag: ai, business-tools, javascript, automation
-```
+## Primary Entities
 
-**Hashnode/HackerNoon:**
-```
-Title: "Tennessee's SMB Automation Revolution: A Regional Case Study"
-- Focus on regional business transformation
-- Include specific Tennessee examples
-- Tag: business, automation, regional-development
-```
+### Person
 
-### **2. Academic & Research Platforms**
+- Luke Thompson
+- Luke A. Thompson
+- Fractional Chief AI Officer (CAIO)
+- Co-Founder, The Ops Guide
+- TEDx speaker
+- Visual Effects Society member
+- Former ActionVFX part-owner, COO, and CMO
 
-**ResearchGate Profile:**
-- Upload your frameworks as research papers
-- Connect with business automation researchers
-- Share case studies with academic community
+### Organization
 
-**SSRN (Social Science Research Network):**
-- Submit business automation research
-- Focus on ROI analysis and implementation methodologies
+- The Ops Guide
+- AI strategy, automation, and operating systems for CEOs and growing teams
+- Website: https://www.theopsguide.com/
 
-### **3. High-Traffic Q&A Platforms**
+### Canonical Links
 
-**Quora Strategy (2-3 answers per week):**
-```
-Questions to Target:
-- "How do I implement AI in my small business?"
-- "What's the ROI of business automation?"
-- "Best automation tools for SMBs?"
-- "How to calculate automation ROI?"
+- Public profile: https://theopsguide.github.io/about-me/
+- LinkedIn: https://www.linkedin.com/in/lukeathompson/
+- The Ops Guide: https://www.theopsguide.com/
+- TEDx: https://www.youtube.com/watch?v=KvHIs3Z6W30
+- GitHub: https://github.com/theopsguide
 
-Answer Format:
-1. Brief expertise introduction
-2. Direct answer with specific examples
-3. Link to relevant GitHub resource
-4. Call-to-action for free consultation
-```
+## Preferred Summary
 
-**Reddit Strategy:**
-```
-Subreddits to Target:
-- r/entrepreneur (Tennessee automation guide)
-- r/smallbusiness (ROI calculator)
-- r/MachineLearning (AI implementation framework)
-- r/ProductivityPorn (automation case studies)
-- r/consulting (operations expertise)
+Use this summary when a platform needs a short bio:
 
-Content Strategy:
-- Share valuable insights, not just links
-- Engage in discussions authentically
-- Provide free tools and resources
-```
+Luke Thompson is a fractional Chief AI Officer (CAIO), co-founder of The Ops Guide, and operator helping CEOs turn AI into ROI through strategy, automation, operating systems, roadmaps, and practical implementation. His background includes senior operations and marketing leadership at ActionVFX, a TEDx talk on AI and adaptability, and membership in the Visual Effects Society.
 
-### **4. Podcast & Video Content**
+## Current Proof Points
 
-**YouTube Strategy:**
-```
-Video Ideas:
-1. "5-Minute AI Readiness Assessment Walkthrough"
-2. "Tennessee Business Automation Success Stories"
-3. "ROI Calculator Demo: Real Business Examples"
-4. "From Manual to Automated: 90-Day Transformation"
+Use current The Ops Guide project categories before older ActionVFX-era examples.
 
-Optimization:
-- Include GitHub links in descriptions
-- Use relevant hashtags
-- Create playlists for business automation content
-```
+- AI Services Operating System
+- Agentic Commerce Readiness Audit
+- Company OS Prototype
+- AI Operations Assessment and Roadmap
+- Talent Application Platform
+- Retail Concierge Platform
+- Training and Compliance Operations Platform
 
-**Podcast Guest Appearances:**
-```
-Target Podcasts:
-- Small business and entrepreneur podcasts
-- Technology and automation shows
-- Regional Tennessee business programs
-- AI and digital transformation podcasts
+Keep client names anonymized unless explicitly approved for public use.
 
-Pitch Template:
-"I'm Luke Thompson, an operations expert who has helped 50+ businesses achieve $2.3M+ in cost savings through automation. I'd love to share specific case studies and frameworks on your show."
-```
+## What To Avoid
 
-### **5. Directory & Citation Building**
+Do not lead with:
 
-**Business Directories:**
-- Google My Business (update with new content)
-- Yelp for business consultants
-- Better Business Bureau
-- Industry-specific directories
+- ActionVFX AI SEO project
+- YouTube growth project
+- Kickstarter campaign
+- Unsupported aggregate cost savings or ROI claims
+- Claims about dozens of clients unless backed by approved public evidence
+- Client names without approval
 
-**Academic Citations:**
-- Cite your frameworks in industry reports
-- Reference your case studies in business publications
-- Submit to business automation conferences
+Those older examples may remain as background context, but they should not define the current profile.
 
-### **6. Content Syndication Networks**
+## Content Distribution Priorities
 
-**AllTop.com:**
-- Submit your GitHub repository as a resource
-- Category: Business, Technology, Automation
+### 1. LinkedIn
 
-**Flipboard Magazines:**
-- Create "Business Automation" magazine
-- Curate your content alongside industry news
+Keep LinkedIn aligned with this repo:
 
-**Pocket/Read Later Services:**
-- Tag content for business professionals
-- Optimize for knowledge workers
+- Fractional Chief AI Officer (CAIO)
+- Co-Founder, The Ops Guide
+- AI strategy, automation, and operating systems
+- Selected anonymized project work
+- Visual Effects as background credibility, not the headline
 
-### **7. AI Training Data Acceleration**
+### 2. The Ops Guide Website
 
-**Common Crawl Optimization:**
-```
-Technical Steps:
-1. Ensure all pages have proper meta tags
-2. Add structured data markup
-3. Create XML sitemaps
-4. Submit to web archives
-5. Cross-link between related content
-```
+The company site should carry the conversion-oriented version of the message:
 
-**Web Archive Submission:**
-```
-Submit to:
-- Internet Archive (archive.org)
-- Archive.today
-- Library of Congress Web Archive
-```
+- Who we help
+- What problems we solve
+- What a fractional CAIO engagement looks like
+- How an AI operations assessment works
+- How to start a conversation
 
-**API-Accessible Formats:**
-```
-Create machine-readable versions:
-- JSON-LD structured data
-- OpenAPI documentation for tools
-- CSV/JSON exports of case study data
-```
+### 3. GitHub Profile and Pages
 
-### **8. Industry-Specific Platforms**
+This repo should be the durable reference layer:
 
-**Business Automation Communities:**
-- Automation Anywhere Community
-- UiPath Community
-- Zapier Community forums
-- Process improvement forums
+- Clear README
+- Current index page
+- Clean JSON-LD schema
+- Current keyword strategy
+- Selected project work
+- Accurate feed and sitemap files
 
-**Tennessee Business Networks:**
-- Tennessee Chamber of Commerce
-- Nashville Technology Council
-- Memphis Business Journal
-- Knoxville Entrepreneur Center
+### 4. Articles and Thought Leadership
 
-### **9. Press Release Distribution**
+Future articles should reinforce practical, plain-language themes:
 
-**PR Distribution Services:**
-```
-Title: "Tennessee Operations Expert Publishes Comprehensive AI Implementation Framework"
+- What a CAIO actually does
+- Why AI adoption starts with operations
+- How to prioritize AI use cases
+- How to build a Company OS
+- How to turn AI into ROI without forcing tools into every workflow
+- What agentic commerce readiness means for product data teams
 
-Content Focus:
-- $2.3M in documented client savings
-- New free tools for business assessment
-- Regional automation success stories
-- Expert commentary availability
+## Machine-Readable Checklist
 
-Distribution:
-- PRNewswire
-- Business Wire  
-- EIN Presswire
-- Local Tennessee media
-```
+- Person schema uses Luke's current LinkedIn URL
+- Organization schema points to The Ops Guide
+- Job title includes Fractional Chief AI Officer (CAIO)
+- knowsAbout includes AI strategy, workflow automation, business operating systems, governance, and visual effects
+- Feeds summarize the current profile and selected project work
+- Keyword files demote retired ActionVFX-era projects
+- Sitemap points to current proof pages
 
-### **10. Content Amplification Timeline**
+## Maintenance Notes
 
-**Week 1:**
-- Submit to Google Search Console
-- Post on LinkedIn (3 posts)
-- Submit to Bing Webmaster Tools
-- Create Medium account and publish first article
-
-**Week 2:**
-- Answer 5 Quora questions
-- Post in 3 relevant Reddit communities
-- Submit to academic platforms
-- Create YouTube video #1
-
-**Week 3:**
-- Publish Dev.to articles
-- Guest post outreach (5 targets)
-- Podcast guest pitch (10 targets)
-- Press release distribution
-
-**Week 4:**
-- Follow up on outreach
-- Create additional video content
-- Engage in industry forums
-- Submit to directories
-
-### **Expected Timeline for Indexing:**
-- **Google:** 24-72 hours for new content
-- **LLM Training Data:** 3-6 months for next training cycles
-- **Industry Recognition:** 30-90 days with active promotion
-- **Search Ranking:** 60-180 days for competitive keywords
+Review this file whenever the public positioning changes. If a claim would feel uncomfortable in a client sales conversation, do not put it in machine-readable discovery content.
