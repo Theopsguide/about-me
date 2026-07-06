@@ -2,9 +2,11 @@
 
 ## AI Strategy, Automation, and Operating Systems
 
-This page collects current public-facing proof for Luke Thompson and The Ops Guide. The emphasis is on recent work that fits the fractional Chief AI Officer (CAIO) positioning: assessments, roadmaps, workflow systems, internal tools, admin platforms, and practical adoption.
+This page collects current public-facing proof for Luke Thompson and The Ops Guide. The emphasis is on recent work that fits the fractional Chief AI Officer (CAIO) positioning: assessments, roadmaps, workflow systems, internal tools, operational platforms, and practical adoption.
 
 Client names are intentionally anonymized unless approved for public use.
+
+The Ops Guide is also a [Base44](https://base44.com/) partner, helping teams move from operating plan to working apps, internal tools, and client-facing systems more quickly.
 
 ## Why This Replaces the Old Case Studies
 
@@ -20,120 +22,103 @@ The current story is simpler:
 
 **Client type:** B2B services firm
 
-**Context:** The team had real expertise and active AI service ideas, but needed a more repeatable way to package, deliver, validate, and improve client-facing AI services.
+**Context:** The team had strong expertise and active AI service ideas, but needed a more complete operating layer to package, deliver, validate, and improve client-facing services.
 
 **Work included:**
 
-- Centralized service workflows and service catalog navigation
-- AI readiness assessment structure
-- Evidence matching and scoring model support
-- Client delivery checkpoints and run history
-- Deployment readiness and health check workflows
-- Exportable deliverables and reusable templates
+- Service strategy and delivery workflow design
+- Assessment structure and client evidence model
+- Quality checkpoints and operational review paths
+- Reporting and delivery visibility
+- Reusable templates and client-ready outputs
+- Operating rhythm for improving the service over time
 
-**Public takeaway:** AI service delivery becomes more valuable when it is repeatable, governed, and tied to client evidence instead of one-off experimentation.
+**Public takeaway:** AI service delivery becomes more valuable when the whole operating model is clear: what is being sold, how it is delivered, how quality is checked, and how client value is shown.
 
-### 2. Agentic Commerce Readiness Audit
+### 2. Company OS and Knowledge Platform
 
-**Client type:** Ecommerce and product data services team
+**Client type:** Professional services team
 
-**Context:** The client needed a practical way to assess whether brands were ready for AI search, agentic shopping, and product discovery through AI-mediated buying experiences.
-
-**Work included:**
-
-- Productized an AI readiness diagnostic
-- Defined scoring across product data quality, structured data, media readiness, discoverability, distribution, and remediation priority
-- Structured repeatable query testing across AI surfaces
-- Connected findings to executive-ready roadmap recommendations
-- Supported sales and service positioning for the offer
-
-**Public takeaway:** Agentic commerce readiness is not just a marketing idea. It depends on product data quality, structured context, search visibility, and operational follow-through.
-
-### 3. Company OS Prototype
-
-**Client type:** Professional services firm
-
-**Context:** The firm needed one place to manage relationships, projects, proposals, notes, SOPs, and operating context without turning the whole business into a fragile patchwork of disconnected tools.
+**Context:** The team needed a better way to see its relationships, projects, proposals, knowledge, and operating context without relying on disconnected tools and scattered history.
 
 **Work included:**
 
-- Scoped and built a central command center prototype
-- Structured contacts, companies, prospects, contractors, referrals, and project records
-- Designed proposal workflow and project task lists
-- Added lightweight knowledge base and SOP structure
-- Created AI-assisted migration workflows to turn emails, documents, and project history into structured records
-- Included dry-run assistant workflows so recommendations and drafts could be reviewed before action
+- Operating system strategy and information architecture
+- Relationship, project, proposal, and knowledge workflow design
+- Migration planning for existing business context
+- AI-assisted support for organizing and using company knowledge
+- Review-first assistant workflows for recommendations and drafts
+- Practical structure for ongoing team adoption
 
 **Public takeaway:** A Company OS is not just a CRM. It is the operating context that helps a team know what is happening, what matters, and what should happen next.
 
-### 4. AI Operations Assessment and Roadmap
+### 3. AI Operations Assessment and Roadmap
 
-**Client type:** Regulated product company
+**Client type:** Growth-stage operating team
 
-**Context:** The company wanted to understand where AI could help without forcing a broad rollout before the team was ready.
-
-**Work included:**
-
-- Interview and survey-based AI operations assessment
-- Executive summary and full assessment report
-- Use-case findings and quick wins
-- Priority matrix and 12-month implementation roadmap
-- Recommendations around meeting intelligence governance, sales conversation capture, recurring summaries, retailer report ingestion, and executive research support
-
-**Public takeaway:** Good AI work is often a sequencing problem. The right assessment helps leadership decide what to do first, what to avoid, and what needs governance before scale.
-
-### 5. Talent Application Platform
-
-**Client type:** White-glove recruiting brand
-
-**Context:** The brand needed an application-only talent platform that could collect rich candidate information while preserving human review as the decision layer.
+**Context:** The leadership team wanted to understand where AI could help, what risks needed attention, and what should happen first before committing to a broad rollout.
 
 **Work included:**
 
-- Video intake workflow
-- Phase 1 and Phase 2 branching
-- Resume upload and candidate record capture
-- Reviewer dashboard and accepted candidate database
-- Status tracking and email notifications
-- Reapply-window logic
-- Production hardening around recording, payments, webhooks, and security considerations
+- Leadership and team discovery
+- Operational friction mapping
+- AI use-case prioritization
+- Quick wins and risk-aware recommendations
+- Governance and adoption considerations
+- Executive roadmap and implementation sequencing
 
-**Public takeaway:** AI-ready systems still need careful human-centered design. The point is not to remove judgment. The point is to structure the work so judgment has better context.
+**Public takeaway:** Good AI work is often a sequencing problem. A strong roadmap helps leadership decide what to do first, what to avoid, and what needs governance before scale.
 
-### 6. Retail Concierge Platform
+### 4. Talent Operations Platform
 
-**Client type:** Jewelry retailer
+**Client type:** Talent and services business
 
-**Context:** The retailer needed to move from a static web presence toward a more operational customer intake and appointment system.
-
-**Work included:**
-
-- Public website and concierge-style customer flows
-- Booking and appointment pathways
-- Contact options and customer messaging
-- Admin access and review workflows
-- CRM/SMS integration planning and implementation support
-- Client testing and live-domain readiness support
-
-**Public takeaway:** A website can be more than a brochure. Done well, it becomes an intake, service, and follow-up system.
-
-### 7. Training and Compliance Operations Platform
-
-**Client type:** Nonprofit training and compliance program
-
-**Context:** The organization needed reliable workflows for training, onboarding, compliance-adjacent status, and admin control across sensitive user roles.
+**Context:** The business needed a more complete operating platform around its talent pipeline, internal review, communications, and decision process.
 
 **Work included:**
 
-- Facilitator and trainer onboarding status logic
-- Training-material access rules
-- Admin override controls
-- Audit-window status and license status handling
-- Progress calculation fixes
-- Role-protected server behavior
-- Regression-tested fixes across client and server code
+- Full journey mapping from intake through internal review
+- Operational workflow and status visibility design
+- Team-facing review and decision support
+- Communication and follow-up structure
+- Production readiness and reliability considerations
+- A system shape that preserved human judgment while improving consistency
 
-**Public takeaway:** Operational systems are only useful when permissions, status logic, and edge cases are treated seriously.
+**Public takeaway:** Talent operations work best when the system supports the whole journey, not just a single form, database, or review screen.
+
+### 5. Retail Customer Operations Platform
+
+**Client type:** Retail business
+
+**Context:** The business needed its customer experience to function more like an operating system than a static web presence.
+
+**Work included:**
+
+- Public-facing customer journey design
+- Intake and appointment workflow structure
+- Customer communication and follow-up paths
+- Admin visibility and operational handoff support
+- CRM/messaging integration planning
+- Launch readiness and client review support
+
+**Public takeaway:** A customer-facing platform becomes more valuable when it connects the full journey: discovery, intake, scheduling, communication, operations, and follow-up.
+
+### 6. Training and Compliance Operations Platform
+
+**Client type:** Mission-driven organization
+
+**Context:** The organization needed more reliable systems for training, onboarding, status visibility, admin control, and compliance-adjacent operations.
+
+**Work included:**
+
+- Training and onboarding workflow support
+- Role-based access and permissions thinking
+- Status, progress, and administrative visibility
+- Controls for exceptions and override paths
+- Auditability and operational trust
+- Production reliability improvements
+
+**Public takeaway:** Operational systems are only useful when permissions, status, exceptions, and edge cases are treated seriously.
 
 ## Background Credibility
 

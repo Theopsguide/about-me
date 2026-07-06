@@ -38,6 +38,7 @@ I am also a TEDx speaker on AI and adaptability and a member of the Visual Effec
 - Operating system design for growing teams, service firms, and founder-led companies
 - Workflow automation, internal tools, admin dashboards, and knowledge systems
 - AI-enabled service productization and delivery models
+- Base44 partner delivery for rapid operational apps, internal tools, and client-facing systems using [Base44](https://base44.com/)
 - Change management, governance, adoption planning, and executive communication
 - Practical training that helps teams use AI without getting buried in jargon
 
@@ -47,31 +48,27 @@ These are anonymized examples of real project work from the last two years. Clie
 
 ### AI Services Operating System
 
-Built a repeatable service delivery platform for a B2B services firm moving from AI experiments into productized client offerings. The system centralized service workflows, client evidence, scoring models, delivery checkpoints, run history, health checks, and exportable client deliverables so the team could turn internal expertise into repeatable AI-enabled services.
+Designed a more complete operating layer for an AI-enabled services team, bringing service strategy, delivery workflows, assessment structure, quality checkpoints, client context, reporting, and repeatable deliverables into one usable system. The goal was not just to build a tool, but to help the team turn expertise into a clearer, more scalable service model.
 
-### Agentic Commerce Readiness Audit
+### Company OS and Knowledge Platform
 
-Helped productize an AI readiness diagnostic for ecommerce and product data teams preparing for agentic commerce. The audit scored discoverability across product data quality, structured data, media readiness, AI search visibility, distribution, and remediation priority, then translated findings into an executive-ready roadmap.
-
-### Company OS Prototype
-
-Scoped and built a Company OS prototype for a professional services firm that needed one place to manage relationships, projects, proposals, notes, SOPs, and operating context. The pilot included an AI-assisted migration workflow to turn existing emails and documents into structured contacts and project records, plus dry-run assistant workflows for recommendations and drafts before action.
+Created a central operating hub for a professional services team that needed better visibility across relationships, projects, proposals, knowledge, and day-to-day context. The project combined strategy, information architecture, workflow design, data migration planning, and AI-assisted operating support into a more complete business system.
 
 ### AI Operations Assessment and Roadmap
 
-Led an AI operations assessment for a regulated product company, translating interviews and surveys into an executive summary, use-case findings, quick wins, priority matrix, and 12-month roadmap. The work clarified where AI could reduce reporting burden, improve meeting governance, capture sales conversations, and support executive research without forcing a broad rollout before the team was ready.
+Led an AI operations assessment that helped a leadership team move from broad AI curiosity to a practical implementation path. The work translated team input, operational friction, risk considerations, and executive priorities into a clear set of quick wins, decision points, governance needs, and roadmap recommendations.
 
-### Talent Application Platform
+### Talent Operations Platform
 
-Built the first version of an application-only talent platform for a white-glove recruiting brand. The system handled video intake, branching review flows, resume capture, a reviewer dashboard, candidate database, status tracking, email notifications, and reapply-window logic while preserving human review as the decision layer.
+Helped shape a custom talent operations platform around the full candidate journey, from application intake and review workflows to status visibility, communications, internal decision support, and production readiness. The emphasis was on creating a more complete operational backbone while keeping human judgment at the center.
 
-### Retail Concierge Platform
+### Retail Customer Operations Platform
 
-Built a concierge-style website and customer workflow platform for a jewelry retailer, including booking, contact flows, customer messaging, admin access, and CRM/SMS integration. The project turned a static web presence into a more operational customer intake and appointment system.
+Delivered a customer operations platform for a retail business that needed more than a static website. The work connected public-facing experience, customer intake, appointment flow, messaging, admin visibility, and follow-up operations into a more cohesive customer journey.
 
 ### Training and Compliance Operations Platform
 
-Supported a nonprofit operations platform for training, onboarding, and compliance workflows. The work included admin override controls, facilitator progress logic, training-material access rules, audit-window status, license status handling, and regression-tested fixes across client and server code.
+Supported a training and compliance operations platform for a mission-driven organization, improving the systems behind onboarding, role-based access, progress visibility, administrative controls, and production reliability. The work helped make a sensitive operational workflow easier to manage, audit, and trust.
 
 ## Operating Principles
 
@@ -86,6 +83,7 @@ Supported a nonprofit operations platform for training, onboarding, and complian
 
 - Co-Founder, The Ops Guide
 - Fractional Chief AI Officer and AI strategy advisor
+- Base44 Partner for rapid AI-enabled app and operations system delivery
 - Former part-owner, COO, and CMO at ActionVFX
 - TEDx speaker: [AI and the Art of Adaptability](https://www.youtube.com/watch?v=KvHIs3Z6W30)
 - Visual Effects Society member

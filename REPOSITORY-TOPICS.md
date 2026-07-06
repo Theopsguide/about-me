@@ -27,20 +27,20 @@ GitHub allows a limited number of topics. Prioritize the first set.
 17. `tedx-speaker`
 18. `johnson-city-tn`
 19. `tennessee-consultant`
-20. `small-business-ai`
+20. `base44`
 
 ## Optional Swaps
 
 Use these if the repo needs more emphasis on a specific offer:
 
 - `ai-governance`
-- `agentic-commerce`
 - `company-os`
 - `ai-operations`
 - `service-productization`
 - `internal-tools`
 - `process-automation`
 - `executive-roadmap`
+- `small-business-ai`
 
 ## Demoted Topics
 

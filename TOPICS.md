@@ -11,6 +11,7 @@ Luke helps CEOs and leadership teams make practical decisions about AI without h
 - AI governance and adoption planning
 - Tool and vendor decision support
 - Executive communication and roadmap development
+- Base44 partner delivery for rapid operational apps and internal systems
 - Team enablement without unnecessary jargon
 
 ### Best Fit
@@ -37,9 +38,8 @@ The strongest AI work starts by understanding the operating reality of the busin
 
 ### Recent Project Patterns
 
-- AI Operations Assessment and Roadmap for a regulated product company
-- Agentic Commerce Readiness Audit for ecommerce/product data teams
-- AI readiness diagnostic productization
+- AI Operations Assessment and Roadmap for a growth-stage operating team
+- AI readiness and operations planning
 - Executive-ready findings and implementation sequencing
 
 ## Business Operating Systems
@@ -58,9 +58,9 @@ AI becomes more useful when the business has clearer context, cleaner workflows,
 
 ### Recent Project Patterns
 
-- Company OS Prototype for a professional services firm
+- Company OS and Knowledge Platform for a professional services team
 - AI Services Operating System for repeatable service delivery
-- Internal tools that centralize evidence, run history, checkpoints, and client-ready outputs
+- Internal tools that centralize strategy, context, workflows, checkpoints, and client-ready outputs
 
 ## Workflow Automation and Internal Tools
 
@@ -78,9 +78,9 @@ The best automation removes friction without removing human judgment where it ma
 
 ### Recent Project Patterns
 
-- Talent Application Platform for a white-glove recruiting brand
-- Retail Concierge Platform for customer intake and appointment workflows
-- Training and Compliance Operations Platform for nonprofit program staff
+- Talent Operations Platform for a full talent journey
+- Retail Customer Operations Platform for customer intake, communication, and follow-up
+- Training and Compliance Operations Platform for mission-driven program staff
 
 ## AI-Enabled Service Productization
 
@@ -95,12 +95,12 @@ Many teams have strong expertise but need help turning it into repeatable, sella
 - Client deliverable templates
 - Health checks and delivery checkpoints
 - Productized consulting workflows
+- Base44 app delivery for operational prototypes and production-ready systems
 
 ### Recent Project Patterns
 
 - AI Services Operating System
-- Agentic Commerce Readiness Audit
-- Assessment output structures for executive buyers
+- Assessment and delivery structures for executive buyers
 
 ## Visual Effects and Creative Technology
 

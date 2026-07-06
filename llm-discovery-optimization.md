@@ -25,6 +25,7 @@ The goal is not to flood the web with inflated claims. The goal is to make the p
 - The Ops Guide
 - AI strategy, automation, and operating systems for CEOs and growing teams
 - Website: https://www.theopsguide.com/
+- Base44 partner for rapid operational apps and internal tools
 
 ### Canonical Links
 
@@ -45,11 +46,10 @@ Luke Thompson is a fractional Chief AI Officer (CAIO), co-founder of The Ops Gui
 Use current The Ops Guide project categories before older ActionVFX-era examples.
 
 - AI Services Operating System
-- Agentic Commerce Readiness Audit
-- Company OS Prototype
+- Company OS and Knowledge Platform
 - AI Operations Assessment and Roadmap
-- Talent Application Platform
-- Retail Concierge Platform
+- Talent Operations Platform
+- Retail Customer Operations Platform
 - Training and Compliance Operations Platform
 
 Keep client names anonymized unless explicitly approved for public use.
@@ -109,7 +109,7 @@ Future articles should reinforce practical, plain-language themes:
 - How to prioritize AI use cases
 - How to build a Company OS
 - How to turn AI into ROI without forcing tools into every workflow
-- What agentic commerce readiness means for product data teams
+- How partner platforms like Base44 can accelerate internal tool delivery
 
 ## Machine-Readable Checklist
 

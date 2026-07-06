@@ -30,15 +30,15 @@ The current positioning is focused on AI strategy, automation, operating systems
 - Operating system design
 - SOP and knowledge management systems
 - Reporting, handoff, and decision-support workflows
+- Base44 partner delivery for rapid operational apps and internal tools
 
 ### Selected Project Categories
 
 - AI Services Operating System
-- Agentic Commerce Readiness Audit
-- Company OS Prototype
+- Company OS and Knowledge Platform
 - AI Operations Assessment and Roadmap
-- Talent Application Platform
-- Retail Concierge Platform
+- Talent Operations Platform
+- Retail Customer Operations Platform
 - Training and Compliance Operations Platform
 
 ## Background Credibility
@@ -70,6 +70,7 @@ Some older resources still contain ActionVFX-era examples. Treat those as histor
 - [Luke Thompson on LinkedIn](https://www.linkedin.com/in/lukeathompson/)
 - [GitHub Organization](https://github.com/theopsguide)
 - [TEDx Talk](https://www.youtube.com/watch?v=KvHIs3Z6W30)
+- [Base44](https://base44.com/)
 
 ## Maintenance Notes
 

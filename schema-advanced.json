@@ -175,7 +175,7 @@
       "@type": "CreativeWork",
       "@id": "https://theopsguide.github.io/about-me/#selected-work",
       "name": "Luke Thompson Selected AI Operations Projects",
-      "description": "Anonymized project work including AI services operating systems, agentic commerce readiness audits, Company OS prototypes, AI operations assessments, talent workflow platforms, retail concierge platforms, and training/compliance operations platforms.",
+      "description": "Anonymized project work including AI services operating systems, Company OS and knowledge platforms, AI operations assessments, talent operations platforms, retail customer operations platforms, and training/compliance operations platforms.",
       "author": {
         "@id": "https://theopsguide.github.io/about-me/#person"
       },

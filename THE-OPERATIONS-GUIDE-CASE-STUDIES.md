@@ -6,6 +6,8 @@ The Ops Guide helps CEOs and leadership teams turn AI from scattered experiments
 
 This page summarizes recent project work that supports Luke Thompson's fractional Chief AI Officer (CAIO) positioning. Client names are anonymized unless approved for public use.
 
+The Ops Guide is also a [Base44](https://base44.com/) partner, which supports rapid delivery of operational apps, internal tools, and client-facing systems once the operating plan is clear.
+
 ## Core Offer
 
 The Ops Guide helps teams answer five practical questions:
@@ -22,117 +24,101 @@ The Ops Guide helps teams answer five practical questions:
 
 **Client type:** B2B services firm
 
-Built a repeatable service delivery platform for a firm moving from AI experiments into productized client offerings.
+Designed a more complete operating layer for a firm moving from AI experiments into scalable, repeatable client services.
 
 **Highlights:**
 
-- AI readiness assessment workflow
-- Service catalog and delivery navigation
-- Evidence matching and scoring model support
-- Run history, delivery checkpoints, and health checks
-- Exportable client deliverables
-- Reusable templates for repeatable AI-enabled services
+- Service strategy and delivery workflow design
+- Assessment structure and client evidence model
+- Quality checkpoints and operational review paths
+- Reporting and delivery visibility
+- Reusable templates and client-ready outputs
+- Operating rhythm for improving the service over time
 
 **CAIO relevance:** This is the layer between executive AI ambition and repeatable client delivery.
 
-### Agentic Commerce Readiness Audit
-
-**Client type:** Ecommerce and product data services team
-
-Helped productize a diagnostic for brands preparing for AI search, agentic shopping, and product discoverability through AI-mediated buying experiences.
-
-**Highlights:**
-
-- Product data quality scoring
-- Structured data and schema readiness
-- Media readiness and discoverability review
-- AI search visibility and query testing structure
-- Roadmap and remediation recommendations
-- Sales/service positioning for an AI readiness offer
-
-**CAIO relevance:** AI readiness is not just tooling. It requires data quality, discoverability, governance, and a clear remediation path.
-
-### Company OS Prototype
+### Company OS and Knowledge Platform
 
 **Client type:** Professional services firm
 
-Scoped and built a central command center for relationship management, project visibility, proposals, notes, SOPs, and operating context.
+Created a central operating hub for a professional services team that needed clearer visibility across relationships, projects, proposals, knowledge, and day-to-day context.
 
 **Highlights:**
 
-- Contacts, companies, prospects, contractors, and referral records
-- Project task lists and proposal workflows
-- Lightweight knowledge base and SOP structure
-- AI-assisted migration from existing emails and documents
-- Dry-run assistant workflows for recommendations and drafts before action
+- Operating system strategy and information architecture
+- Relationship, project, proposal, and knowledge workflow design
+- Migration planning for existing business context
+- AI-assisted support for organizing and using company knowledge
+- Review-first assistant workflows for recommendations and drafts before action
+- Practical structure for ongoing team adoption
 
 **CAIO relevance:** A good operating system makes AI more useful because it gives the business clearer context to work from.
 
 ### AI Operations Assessment and Roadmap
 
-**Client type:** Regulated product company
+**Client type:** Growth-stage operating team
 
-Led an assessment that helped leadership understand practical AI opportunities without forcing a full rollout before the organization was ready.
+Led an assessment that helped leadership move from broad AI curiosity to a practical implementation path.
 
 **Highlights:**
 
-- Interviews and team survey review
-- Executive summary and full assessment report
-- Use-case findings and quick wins
-- Priority matrix and 12-month roadmap
-- Recommendations for meeting governance, sales capture, reporting, and executive research support
+- Leadership and team discovery
+- Operational friction mapping
+- AI use-case prioritization
+- Quick wins and risk-aware recommendations
+- Governance and adoption considerations
+- Executive roadmap and implementation sequencing
 
 **CAIO relevance:** The best first move is often a clear roadmap, not a rushed implementation.
 
-### Talent Application Platform
+### Talent Operations Platform
 
-**Client type:** White-glove recruiting brand
+**Client type:** Talent and services business
 
-Built the first version of an application-only talent platform with structured intake and human review.
+Helped shape a custom operating platform around the full talent journey, from intake and review to internal visibility, communication, and launch readiness.
 
 **Highlights:**
 
-- Video intake workflow
-- Phase 1 and Phase 2 branching
-- Resume capture and candidate records
-- Reviewer dashboard and accepted candidate database
-- Candidate status tracking and email notifications
-- Reapply-window logic and production hardening support
+- Full journey mapping from intake through internal review
+- Operational workflow and status visibility design
+- Team-facing review and decision support
+- Communication and follow-up structure
+- Production readiness and reliability considerations
+- A system shape that preserved human judgment while improving consistency
 
 **CAIO relevance:** AI-ready workflow design keeps humans in control while improving structure, context, and review quality.
 
-### Retail Concierge Platform
+### Retail Customer Operations Platform
 
-**Client type:** Jewelry retailer
+**Client type:** Retail business
 
-Built a concierge-style customer workflow platform that moved the business beyond a static website.
+Delivered a customer operations platform that moved the business beyond a static web presence into a more connected customer journey.
 
 **Highlights:**
 
-- Public website and customer intake flows
-- Booking and appointment pathways
-- Contact options and customer messaging
-- Admin access and review workflows
-- CRM/SMS integration support
-- Testing and live-domain readiness support
+- Public-facing customer journey design
+- Intake and appointment workflow structure
+- Customer communication and follow-up paths
+- Admin visibility and operational handoff support
+- CRM/messaging integration planning
+- Launch readiness and client review support
 
 **CAIO relevance:** Operational leverage often starts with customer intake, follow-up, and visibility into what is happening.
 
 ### Training and Compliance Operations Platform
 
-**Client type:** Nonprofit training and compliance program
+**Client type:** Mission-driven organization
 
-Supported a platform used for onboarding, training status, compliance-adjacent workflows, and role-based administration.
+Supported a platform used for training, onboarding, status visibility, administrative control, and compliance-adjacent operations.
 
 **Highlights:**
 
-- Facilitator and trainer onboarding status logic
-- Training material access rules
-- Admin override controls
-- Audit-window status and license status handling
-- Progress calculation fixes
-- Role-protected server behavior
-- Regression-tested client and server updates
+- Training and onboarding workflow support
+- Role-based access and permissions thinking
+- Status, progress, and administrative visibility
+- Controls for exceptions and override paths
+- Auditability and operational trust
+- Production reliability improvements
 
 **CAIO relevance:** AI and automation only work when permissions, status, and operational edge cases are reliable.
 
@@ -146,6 +132,7 @@ The work typically includes:
 - Creating executive-readable roadmaps and priority matrices
 - Building admin systems that preserve human judgment
 - Designing repeatable assessment and delivery models
+- Moving from strategy to working systems through partner platforms such as Base44
 - Improving visibility across teams, projects, and decisions
 - Making AI adoption practical enough for real people to use
 

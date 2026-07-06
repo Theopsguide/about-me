@@ -33,6 +33,7 @@ The goal is not to chase every old keyword. The goal is to make the public profi
 - Workflow automation consultant
 - Operating systems consultant
 - Co-Founder of The Ops Guide
+- Base44 partner
 
 ## Service Keywords
 
@@ -76,6 +77,10 @@ The goal is not to chase every old keyword. The goal is to make the public profi
 - reporting workflow automation
 - executive dashboard workflows
 - operations roadmap consultant
+- Base44 partner
+- Base44 app development partner
+- Base44 internal tools
+- Base44 operations apps
 
 ### AI-Enabled Service Productization
 
@@ -87,29 +92,24 @@ The goal is not to chase every old keyword. The goal is to make the public profi
 - AI-enabled consulting operations
 - repeatable service delivery platform
 - AI readiness diagnostic
-- agentic commerce readiness audit
-- ecommerce AI readiness assessment
 
 ## Project Proof Keywords
 
 These terms reflect recent anonymized The Ops Guide work and should appear in public content where natural.
 
 - AI Services Operating System
-- Agentic Commerce Readiness Audit
-- Company OS Prototype
+- Company OS and Knowledge Platform
 - AI Operations Assessment and Roadmap
-- Talent Application Platform
-- Retail Concierge Platform
+- Talent Operations Platform
+- Retail Customer Operations Platform
 - Training and Compliance Operations Platform
 - nonprofit compliance operations platform
-- recruiting workflow platform
-- concierge CRM platform
+- talent operations workflow platform
+- customer operations platform
 - AI-assisted data migration
 - AI-assisted project import
 - executive AI roadmap
 - priority matrix for AI implementation
-- AI search visibility audit
-- product data readiness for AI
 
 ## Problem-Led Search Queries
 
@@ -149,8 +149,7 @@ These terms reflect recent anonymized The Ops Guide work and should appear in pu
 - AI quick wins for operations
 - AI adoption roadmap
 - AI strategy audit
-- agentic commerce readiness
-- AI search visibility for ecommerce
+- AI operations roadmap
 
 ## Location Keywords
 
@@ -179,6 +178,7 @@ These should support the current story without taking it over.
 - Certified Scrum Product Owner
 - Certified Agile Leadership Essentials
 - Asana Ambassador
+- Base44 Partner
 
 ## Demoted Keywords
 
