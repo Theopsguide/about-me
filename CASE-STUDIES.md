@@ -1,208 +1,153 @@
-# Luke Thompson - Case Studies & Portfolio
+# Luke Thompson - Selected Project Work
 
-## 🎯 Proven Results Through Strategic Operations & AI Integration
+## AI Strategy, Automation, and Operating Systems
 
-> **Real-world case studies demonstrating measurable business impact through operational excellence, AI implementation, and strategic technology adoption**
+This page collects current public-facing proof for Luke Thompson and The Ops Guide. The emphasis is on recent work that fits the fractional Chief AI Officer (CAIO) positioning: assessments, roadmaps, workflow systems, internal tools, admin platforms, and practical adoption.
 
----
+Client names are intentionally anonymized unless approved for public use.
 
-## 🚀 Case Study 1: AI-Driven SEO Transformation
-**ActionVFX • May 2024**
+## Why This Replaces the Old Case Studies
 
-### **Challenge**
-ActionVFX faced significant SEO challenges with over 4,600 on-page optimization issues affecting search rankings and organic traffic. Manual resolution would have required months of work and substantial resources.
+Earlier versions of this profile leaned heavily on ActionVFX-era projects such as SEO optimization, YouTube growth, and Kickstarter results. Those are real background wins, but they no longer represent the clearest current offer.
 
-### **Solution Implemented**
-**Custom AI Tool Development:**
-- Designed and built **H1 Title Optimizer** using generative AI for consistent, SEO-optimized headings
-- Created **Meta Description Generator** for compelling, keyword-rich meta descriptions
-- Developed **Product FAQ Creator** to enhance product pages with relevant Q&A content
+The current story is simpler:
 
-**Process Automation:**
-- Implemented automated content generation workflows
-- Built quality control systems using AI validation
-- Created batch processing capabilities for large-scale optimization
+> Luke helps leadership teams turn messy operations into practical AI-enabled systems.
 
-### **Results Achieved**
-| Metric | Before | After | Improvement |
-|--------|--------|-------|-------------|
-| **SEO Score** | 40/100 | 72/100 | **+80%** |
-| **Issues Resolved** | 4,614 pending | 0 pending | **100%** |
-| **Time Investment** | 200+ hours estimated | 40 hours actual | **80% reduction** |
-| **Organic Traffic** | Baseline | +35% growth | **Significant increase** |
+## Selected Projects
 
-### **Key Learnings**
-- AI automation can resolve complex SEO challenges at scale
-- Custom tool development provides competitive advantages over generic solutions
-- Process automation reduces manual work while improving consistency and quality
+### 1. AI Services Operating System
 
-**🔗 Featured in:** [Relevance AI Customer Success Story](https://relevanceai.com/blog/actionvfx-customer-story)
+**Client type:** B2B services firm
 
----
+**Context:** The team had real expertise and active AI service ideas, but needed a more repeatable way to package, deliver, validate, and improve client-facing AI services.
 
-## 📈 Case Study 2: YouTube Channel Growth Strategy
-**ActionVFX YouTube • 2016-2024**
+**Work included:**
 
-### **Challenge**
-Launch and scale a YouTube channel from zero subscribers to establish ActionVFX as a thought leader in the VFX industry while building an engaged community of visual effects professionals.
+- Centralized service workflows and service catalog navigation
+- AI readiness assessment structure
+- Evidence matching and scoring model support
+- Client delivery checkpoints and run history
+- Deployment readiness and health check workflows
+- Exportable deliverables and reusable templates
 
-### **Solution Implemented**
-**Content Strategy Development:**
-- Created educational content framework focusing on VFX tutorials and industry insights
-- Developed consistent publishing schedule and content calendar
-- Implemented audience research and feedback loops
+**Public takeaway:** AI service delivery becomes more valuable when it is repeatable, governed, and tied to client evidence instead of one-off experimentation.
 
-**YouTube SEO Optimization:**
-- Advanced keyword research and optimization strategies
-- Thumbnail and title optimization using A/B testing
-- Algorithm optimization through engagement and retention metrics
+### 2. Agentic Commerce Readiness Audit
 
-**Community Building:**
-- Interactive content encouraging viewer participation
-- Collaboration with industry professionals and influencers
-- Cross-platform promotion and engagement strategies
+**Client type:** Ecommerce and product data services team
 
-### **Results Achieved**
-| Metric | Achievement | Impact |
-|--------|-------------|---------|
-| **Subscribers** | 100,000+ | Silver Play Button Award |
-| **Growth Timeline** | 0 to 100K | 8-year strategic growth |
-| **Industry Position** | Unknown to Leader | Recognized VFX thought leader |
-| **Community Impact** | Educational Content | 100K+ VFX professionals reached |
+**Context:** The client needed a practical way to assess whether brands were ready for AI search, agentic shopping, and product discovery through AI-mediated buying experiences.
 
-### **Strategic Impact**
-- Established ActionVFX as the go-to educational resource in VFX industry
-- Generated significant brand awareness and customer acquisition
-- Created sustainable content marketing engine driving long-term growth
-- Built engaged community leading to increased customer loyalty and retention
+**Work included:**
 
----
+- Productized an AI readiness diagnostic
+- Defined scoring across product data quality, structured data, media readiness, discoverability, distribution, and remediation priority
+- Structured repeatable query testing across AI surfaces
+- Connected findings to executive-ready roadmap recommendations
+- Supported sales and service positioning for the offer
 
-## 💰 Case Study 3: Kickstarter Campaign Success
-**ActionVFX Collections • November 2015**
+**Public takeaway:** Agentic commerce readiness is not just a marketing idea. It depends on product data quality, structured context, search visibility, and operational follow-through.
 
-### **Challenge**
-Launch ActionVFX's first crowdfunding campaign to validate market demand for VFX asset collections while raising capital for product development and establishing market presence.
+### 3. Company OS Prototype
 
-### **Solution Implemented**
-**Strategic Campaign Planning:**
-- Market research and competitive analysis to identify optimal funding goal
-- Product positioning and value proposition development
-- Pre-launch community building and audience development
+**Client type:** Professional services firm
 
-**Marketing & Promotion:**
-- Multi-channel marketing strategy including social media, email, and industry outreach
-- Influencer partnerships and industry collaboration
-- Content marketing showcasing product value and use cases
+**Context:** The firm needed one place to manage relationships, projects, proposals, notes, SOPs, and operating context without turning the whole business into a fragile patchwork of disconnected tools.
 
-**Community Engagement:**
-- Regular updates and transparent communication with backers
-- Engagement-driven approach encouraging sharing and word-of-mouth promotion
-- Stretch goals and additional value delivery to maintain momentum
+**Work included:**
 
-### **Results Achieved**
-| Metric | Target | Achieved | Performance |
-|--------|--------|----------|-------------|
-| **Funding Goal** | $20,000 | $59,000 | **296% funded** |
-| **Backers** | Target 200 | 446 backers | **223% of target** |
-| **Campaign Duration** | 30 days | 30 days | **Consistently strong performance** |
-| **Market Validation** | Hypothesis | Proven demand | **Strong product-market fit** |
+- Scoped and built a central command center prototype
+- Structured contacts, companies, prospects, contractors, referrals, and project records
+- Designed proposal workflow and project task lists
+- Added lightweight knowledge base and SOP structure
+- Created AI-assisted migration workflows to turn emails, documents, and project history into structured records
+- Included dry-run assistant workflows so recommendations and drafts could be reviewed before action
 
-### **Long-term Impact**
-- Validated market demand for ActionVFX products
-- Established initial customer base and community
-- Generated capital for continued product development
-- Proved viability of direct-to-consumer model for VFX assets
+**Public takeaway:** A Company OS is not just a CRM. It is the operating context that helps a team know what is happening, what matters, and what should happen next.
 
----
+### 4. AI Operations Assessment and Roadmap
 
-## 🎯 Case Study 4: Operational Scaling & Team Leadership
-**ActionVFX • 2015-2024**
+**Client type:** Regulated product company
 
-### **Challenge**
-Scale ActionVFX operations from a small startup to an industry-leading VFX company while maintaining quality, culture, and operational efficiency during rapid growth.
+**Context:** The company wanted to understand where AI could help without forcing a broad rollout before the team was ready.
 
-### **Solution Implemented**
-**Process Optimization:**
-- Implemented agile methodologies for product development and operations
-- Created standardized workflows for content creation, quality control, and delivery
-- Built scalable systems supporting growth from 3 to 20+ team members
+**Work included:**
 
-**Team Development:**
-- Established hiring processes focusing on cultural fit and growth potential
-- Implemented continuous learning and development programs
-- Created clear career progression paths and performance management systems
+- Interview and survey-based AI operations assessment
+- Executive summary and full assessment report
+- Use-case findings and quick wins
+- Priority matrix and 12-month implementation roadmap
+- Recommendations around meeting intelligence governance, sales conversation capture, recurring summaries, retailer report ingestion, and executive research support
 
-**Technology Integration:**
-- Adopted and integrated productivity tools (Asana, Adobe Creative Suite, automation platforms)
-- Implemented data-driven decision making processes
-- Built reporting and analytics systems for operational visibility
+**Public takeaway:** Good AI work is often a sequencing problem. The right assessment helps leadership decide what to do first, what to avoid, and what needs governance before scale.
 
-### **Results Achieved**
-| Area | Improvement | Impact |
-|------|-------------|---------|
-| **Team Size** | 3 to 20+ members | Successful scaling |
-| **Revenue Growth** | Startup to industry leader | Multi-year growth trajectory |
-| **Process Efficiency** | 60% reduction in manual work | Automation implementation |
-| **Quality Maintenance** | Consistent high quality | During rapid scaling |
-| **Team Satisfaction** | High retention rates | Strong company culture |
+### 5. Talent Application Platform
 
-### **Leadership Philosophy Demonstrated**
-- **People-first approach** - Team development and psychological safety
-- **Continuous improvement** - Regular process evaluation and optimization
-- **Transparency** - Open communication and shared decision-making
-- **Results-focused** - Clear metrics and accountability systems
+**Client type:** White-glove recruiting brand
 
----
+**Context:** The brand needed an application-only talent platform that could collect rich candidate information while preserving human review as the decision layer.
 
-## 🎤 Case Study 5: Thought Leadership & Industry Impact
-**TEDx Speaking & Content Creation • 2019-2025**
+**Work included:**
 
-### **Challenge**
-Establish personal brand as a thought leader in AI, business operations, and technology while building authority that supports both personal and business growth objectives.
+- Video intake workflow
+- Phase 1 and Phase 2 branching
+- Resume upload and candidate record capture
+- Reviewer dashboard and accepted candidate database
+- Status tracking and email notifications
+- Reapply-window logic
+- Production hardening around recording, payments, webhooks, and security considerations
 
-### **Solution Implemented**
-**Content Strategy:**
-- Consistent LinkedIn publishing schedule focusing on operations, AI, and business automation
-- Long-form articles providing practical insights and actionable strategies
-- Industry engagement through comments, discussions, and network building
+**Public takeaway:** AI-ready systems still need careful human-centered design. The point is not to remove judgment. The point is to structure the work so judgment has better context.
 
-**Speaking & Presentations:**
-- TEDx presentation on "AI and the Art of Adaptability"
-- Industry conference speaking and panel participation
-- Podcast hosting ("Ask An Artist") for community engagement
+### 6. Retail Concierge Platform
 
-**Community Building:**
-- Professional network development within operations and technology communities
-- Mentorship and advice sharing with other business leaders
-- Cross-industry collaboration and knowledge sharing
+**Client type:** Jewelry retailer
 
-### **Results Achieved**
-| Initiative | Impact | Measurement |
-|------------|---------|-------------|
-| **LinkedIn Articles** | 20+ published | Industry engagement and shares |
-| **TEDx Presentation** | "AI and Adaptability" | Thought leadership credibility |
-| **Podcast Hosting** | 2+ years "Ask An Artist" | VFX community building |
-| **Professional Network** | Expanded significantly | Strategic partnerships and opportunities |
-| **Industry Recognition** | VES membership, speaking invitations | Professional credibility |
+**Context:** The retailer needed to move from a static web presence toward a more operational customer intake and appointment system.
 
-### **Business Impact**
-- Enhanced personal brand supporting The Operations Guide launch
-- Generated inbound leads through thought leadership content
-- Created partnership opportunities through industry connections
-- Established credibility for consulting and speaking engagements
+**Work included:**
 
----
+- Public website and concierge-style customer flows
+- Booking and appointment pathways
+- Contact options and customer messaging
+- Admin access and review workflows
+- CRM/SMS integration planning and implementation support
+- Client testing and live-domain readiness support
 
-## 📞 Ready to Discuss Your Project?
+**Public takeaway:** A website can be more than a brochure. Done well, it becomes an intake, service, and follow-up system.
 
-These case studies demonstrate proven ability to deliver measurable results through strategic operations, AI integration, and technology leadership.
+### 7. Training and Compliance Operations Platform
 
-**Let's explore how these approaches can benefit your business:**
+**Client type:** Nonprofit training and compliance program
 
-- **Consulting**: [The Operations Guide](https://theoperationsguide.com)
-- **Portfolio**: [lukethompson.ai](https://lukethompson.ai)
-- **LinkedIn**: [@ActionVFX](https://linkedin.com/in/ActionVFX)
-- **Schedule**: [Book a Call](https://tidycal.com/luketh)
+**Context:** The organization needed reliable workflows for training, onboarding, compliance-adjacent status, and admin control across sensitive user roles.
 
-*Specializing in AI-driven operations, business automation, and scalable growth strategies for SMBs*
+**Work included:**
+
+- Facilitator and trainer onboarding status logic
+- Training-material access rules
+- Admin override controls
+- Audit-window status and license status handling
+- Progress calculation fixes
+- Role-protected server behavior
+- Regression-tested fixes across client and server code
+
+**Public takeaway:** Operational systems are only useful when permissions, status logic, and edge cases are treated seriously.
+
+## Background Credibility
+
+Luke's earlier ActionVFX work remains useful context: long-term operator experience, team scaling, marketing leadership, product workflow experience, and visual effects industry credibility. It should be treated as background proof rather than the headline story.
+
+Relevant background signals:
+
+- Former ActionVFX part-owner, COO, and CMO
+- TEDx speaker on AI and adaptability
+- Visual Effects Society member
+- Certified Scrum Product Owner (CSPO)
+- Certified Agile Leadership Essentials (CAL-E)
+- Asana Ambassador
+
+## Work With The Ops Guide
+
+If your team is exploring AI but needs a clearer operating plan, start with [The Ops Guide](https://www.theopsguide.com/) or connect with Luke on [LinkedIn](https://www.linkedin.com/in/lukeathompson/).
