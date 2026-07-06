@@ -1,127 +1,134 @@
-# Luke Thompson - Expertise & Topic Areas
+# Luke Thompson - Expertise and Topic Areas
 
-## 🤖 Artificial Intelligence & Machine Learning
-**Expert-level practical AI implementation for business operations**
+## Fractional Chief AI Officer (CAIO)
 
-### Core AI Competencies
-- **Custom AI Tool Development** - Built H1 Title Optimizer, Meta Description Generator, Product FAQ Creator
-- **Generative AI Applications** - Content generation, SEO optimization, process automation
-- **AI Integration Strategy** - Implementing AI solutions without technical barriers for business owners
-- **Machine Learning Operations** - Practical ML applications for business process improvement
+Luke helps CEOs and leadership teams make practical decisions about AI without hiring a full-time AI executive.
 
-### AI Success Stories
-- Resolved 4,614 SEO issues using custom AI tools (80% improvement in SEO scores)
-- Automated content generation processes saving 20+ hours weekly
-- Implemented AI-driven quality control systems for content optimization
+### Focus Areas
 
----
+- AI strategy and executive advisory
+- AI use-case prioritization
+- AI governance and adoption planning
+- Tool and vendor decision support
+- Executive communication and roadmap development
+- Team enablement without unnecessary jargon
 
-## 🏢 Business Operations & Process Optimization
-**9+ years scaling operations from startup to industry leader**
+### Best Fit
 
-### Operations Expertise
-- **Workflow Automation** - Streamlining repetitive tasks and eliminating operational bottlenecks
-- **Process Optimization** - Data-driven approach to improving efficiency and reducing waste
-- **Team Leadership** - Building and scaling high-performing operational teams
-- **Systems Thinking** - Holistic approach to business operations and scalability
+- Founder-led companies
+- Growing service firms
+- Small and mid-sized leadership teams
+- Product and operations teams exploring practical AI adoption
+- Organizations that need clarity before implementation
 
-### Proven Operations Results
-- Scaled ActionVFX from startup to industry-leading VFX company
-- Implemented automation systems reducing manual work by 60%
-- Built operational frameworks supporting 100K+ community growth
+## AI Strategy and Operations Assessments
 
----
+The strongest AI work starts by understanding the operating reality of the business.
 
-## 🎯 Digital Marketing & SEO
-**Proven track record in digital growth and search optimization**
+### Focus Areas
 
-### Digital Marketing Competencies
-- **SEO Strategy & Execution** - Technical SEO, content optimization, search ranking improvement
-- **YouTube Growth** - 0 to 100K+ subscribers, Silver Play Button recipient
-- **Content Strategy** - Long-form content, educational series, community building
-- **Social Media Marketing** - LinkedIn thought leadership, professional brand building
+- AI readiness assessments
+- AI operations assessments
+- Interview and survey-based discovery
+- Quick-win identification
+- Priority matrices
+- 12-month implementation roadmaps
+- Workflow, reporting, and knowledge-system review
 
-### Marketing Achievements
-- Improved SEO score from 40 to 72 (80% improvement) using AI-driven optimization
-- Grew YouTube channel to 100,000+ subscribers through strategic content and SEO
-- Published 20+ thought leadership articles on LinkedIn generating industry engagement
+### Recent Project Patterns
 
----
+- AI Operations Assessment and Roadmap for a regulated product company
+- Agentic Commerce Readiness Audit for ecommerce/product data teams
+- AI readiness diagnostic productization
+- Executive-ready findings and implementation sequencing
 
-## 💼 Technology Leadership & Consulting
-**Strategic technology implementation for business growth**
+## Business Operating Systems
 
-### Technology Leadership
-- **Digital Transformation** - Leading technology adoption and change management
-- **Business Automation** - No-code/low-code solutions for operational efficiency
-- **Product Management** - Strategic product development and lifecycle management
-- **Agile Methodologies** - Certified Scrum Product Owner (CSPO) and Agile Leadership (CAL-E)
+AI becomes more useful when the business has clearer context, cleaner workflows, and better ownership.
 
-### Consulting Approach
-- **No-Jargon Communication** - Translating complex technology into actionable business strategies
-- **Practical Implementation** - Focus on solutions that work without requiring technical expertise
-- **ROI-Focused** - Emphasis on measurable business outcomes and time savings
+### Focus Areas
 
----
+- Company OS design
+- CRM and project context design
+- Proposal workflows
+- SOP and knowledge-base structure
+- AI-assisted migration from emails and documents
+- Admin dashboards and operating visibility
+- Dry-run assistant workflows for recommendations and drafts
 
-## 🎬 Visual Effects & Creative Technology
-**Industry expertise in VFX production and creative workflows**
+### Recent Project Patterns
 
-### VFX Industry Experience
-- **Production Management** - End-to-end VFX production pipeline optimization
-- **Creative Technology** - Adobe Creative Suite (Premiere Pro, After Effects)
-- **Industry Leadership** - Former ActionVFX COO/CMO, Visual Effects Society member
-- **Community Building** - "Ask An Artist" podcast host, industry thought leader
+- Company OS Prototype for a professional services firm
+- AI Services Operating System for repeatable service delivery
+- Internal tools that centralize evidence, run history, checkpoints, and client-ready outputs
 
-### Creative Technology Impact
-- Led technology adoption improving VFX production efficiency by 40%
-- Built educational content strategy establishing ActionVFX as industry thought leader
-- Managed successful Kickstarter campaign (296% funded, $59K raised)
+## Workflow Automation and Internal Tools
 
----
+The best automation removes friction without removing human judgment where it matters.
 
-## 🎤 Public Speaking & Thought Leadership
-**TEDx Speaker and industry voice on AI and business adaptability**
+### Focus Areas
 
-### Speaking Topics
-- **AI and Adaptability** - TEDx presentation on workplace transformation and reskilling
-- **Business Operations** - Practical strategies for operational excellence
-- **Technology Integration** - Demystifying AI and automation for business leaders
-- **Leadership & Change Management** - Building adaptable teams and psychological safety
+- Workflow automation
+- Admin tooling
+- Review queues and approval flows
+- Status tracking and notifications
+- CRM/SMS/customer messaging integrations
+- Candidate and application workflows
+- Training, onboarding, and compliance-adjacent systems
 
-### Thought Leadership
-- TEDx Talk: "AI and the Art of Adaptability" (June 2023)
-- Regular LinkedIn content on AI, operations, and business automation
-- Podcast host: "Ask An Artist" (2+ years, VFX industry focus)
-- Industry speaker on technology adoption and business transformation
+### Recent Project Patterns
 
----
+- Talent Application Platform for a white-glove recruiting brand
+- Retail Concierge Platform for customer intake and appointment workflows
+- Training and Compliance Operations Platform for nonprofit program staff
 
-## 🚀 Entrepreneurship & Business Development
-**Founder of The Operations Guide, helping SMBs scale through smart automation**
+## AI-Enabled Service Productization
 
-### Entrepreneurial Focus
-- **The Operations Guide** - Founding and scaling consulting practice focused on SMB operations
-- **Business Strategy** - Growth-focused strategies combining operations and technology
-- **Client Success** - Helping business owners "work ON their business instead of IN it"
-- **Scalable Systems** - Building operational frameworks that grow with the business
+Many teams have strong expertise but need help turning it into repeatable, sellable, and deliverable services.
 
-### Business Development Expertise
-- Strategic planning and execution for sustainable growth
-- Market analysis and competitive positioning
-- Revenue optimization through operational efficiency
-- Partnership development and strategic alliances
+### Focus Areas
 
----
+- Service catalog design
+- Assessment products
+- Scoring models
+- Evidence matching
+- Client deliverable templates
+- Health checks and delivery checkpoints
+- Productized consulting workflows
 
-## 📞 Contact & Collaboration
+### Recent Project Patterns
 
-Ready to discuss any of these topics or explore collaboration opportunities?
+- AI Services Operating System
+- Agentic Commerce Readiness Audit
+- Assessment output structures for executive buyers
 
-**Connect with Luke Thompson:**
-- **Consulting**: [The Operations Guide](https://theoperationsguide.com)
-- **Portfolio**: [lukethompson.ai](https://lukethompson.ai)
-- **LinkedIn**: [@ActionVFX](https://linkedin.com/in/ActionVFX)
-- **Speaking Engagements**: [Schedule a Call](https://tidycal.com/luketh)
+## Visual Effects and Creative Technology
 
-*Specializing in AI integration, business operations, and practical automation solutions for SMBs*
+Visual effects remains part of Luke's background and professional credibility, especially because of ongoing Visual Effects Society membership.
+
+### Background Signals
+
+- Former ActionVFX part-owner, COO, and CMO
+- Visual Effects Society member
+- Creative technology and production workflow background
+- Experience with creative teams, product operations, and content systems
+
+This background should support the current AI operations story, not replace it.
+
+## Public Speaking and Thought Leadership
+
+Luke speaks and writes about AI, adaptability, operations, and the human side of technology adoption.
+
+### Signals
+
+- TEDx speaker: AI and the Art of Adaptability
+- LinkedIn writing on AI, operations, and practical implementation
+- Experience translating complex technical changes into plain-language business decisions
+
+## Contact
+
+- [The Ops Guide](https://www.theopsguide.com/)
+- [LinkedIn](https://www.linkedin.com/in/lukeathompson/)
+- [Selected Project Work](./THE-OPERATIONS-GUIDE-CASE-STUDIES.md)
+
+*Current focus: fractional Chief AI Officer support, AI strategy, automation, operating systems, and practical implementation for growing teams.*
