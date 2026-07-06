@@ -1,16 +1,16 @@
 {
-  "name": "Luke Thompson - AI Integration Expert & Operations Specialist",
+  "name": "Luke Thompson - Fractional Chief AI Officer (CAIO)",
   "short_name": "Luke Thompson",
-  "description": "Professional profile and portfolio of Luke Thompson, AI Integration Expert, TEDx Speaker, and Operations Specialist. Founder of The Operations Guide.",
-  "start_url": "/",
+  "description": "Public profile for Luke Thompson, fractional Chief AI Officer and co-founder of The Ops Guide, focused on AI strategy, automation, operating systems, and practical implementation.",
+  "start_url": "/about-me/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#3498db",
+  "theme_color": "#1f6feb",
   "orientation": "portrait-primary",
   "categories": ["business", "productivity", "education"],
   "lang": "en-US",
   "dir": "ltr",
-  "scope": "/",
+  "scope": "/about-me/",
   "icons": [
     {
       "src": "images/icon-72x72.png",
@@ -63,10 +63,10 @@
   ],
   "shortcuts": [
     {
-      "name": "AI Readiness Calculator",
-      "short_name": "AI Calculator",
-      "description": "Assess your business's AI readiness",
-      "url": "/tools/ai-readiness-calculator.html",
+      "name": "The Ops Guide",
+      "short_name": "The Ops Guide",
+      "description": "Work with The Ops Guide",
+      "url": "https://www.theopsguide.com/",
       "icons": [
         {
           "src": "images/icon-96x96.png",
@@ -75,10 +75,10 @@
       ]
     },
     {
-      "name": "Book Consultation",
-      "short_name": "Book Call",
-      "description": "Schedule a consultation with Luke Thompson",
-      "url": "https://tidycal.com/luketh",
+      "name": "Selected Project Work",
+      "short_name": "Selected Work",
+      "description": "View current AI operations project examples",
+      "url": "/about-me/THE-OPERATIONS-GUIDE-CASE-STUDIES.md",
       "icons": [
         {
           "src": "images/icon-96x96.png",
@@ -87,10 +87,10 @@
       ]
     },
     {
-      "name": "Case Studies",
-      "short_name": "Cases",
-      "description": "View success stories and case studies",
-      "url": "/case-studies/",
+      "name": "LinkedIn",
+      "short_name": "LinkedIn",
+      "description": "Connect with Luke Thompson on LinkedIn",
+      "url": "https://www.linkedin.com/in/lukeathompson/",
       "icons": [
         {
           "src": "images/icon-96x96.png",
