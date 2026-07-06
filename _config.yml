@@ -1,8 +1,8 @@
 # GitHub Pages Configuration for Luke Thompson Profile
 
 # Site Settings
-title: "Luke Thompson - Operations Expert & AI Integration Specialist"
-description: "TEDx Speaker, former ActionVFX COO, and founder of The Operations Guide. Proven expertise in AI integration, business automation, and operational excellence."
+title: "Luke Thompson - Fractional Chief AI Officer (CAIO)"
+description: "Luke Thompson is a fractional Chief AI Officer and co-founder of The Ops Guide, helping CEOs turn AI into ROI through strategy, automation, operating systems, and practical implementation."
 url: "https://theopsguide.github.io"
 baseurl: "/about-me"
 
@@ -10,21 +10,21 @@ baseurl: "/about-me"
 author:
   name: "Luke Thompson"
   email: "contact@theoperationsguide.com"
-  bio: "Operations Expert | AI Integration Specialist | TEDx Speaker | Business Automation Consultant"
-  location: "Tennessee, USA"
+  bio: "Fractional Chief AI Officer (CAIO) | Co-Founder, The Ops Guide | AI strategy, automation, and operating systems for growing teams"
+  location: "Johnson City, Tennessee, USA"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://lukethompson.ai"
-    - label: "The Operations Guide"
+    - label: "The Ops Guide"
       icon: "fas fa-fw fa-building"
-      url: "https://theoperationsguide.com"
+      url: "https://www.theopsguide.com/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/ActionVFX"
-    - label: "Schedule Meeting"
-      icon: "fas fa-fw fa-calendar"
-      url: "https://tidycal.com/luketh"
+      url: "https://www.linkedin.com/in/lukeathompson/"
+    - label: "TEDx Talk"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/watch?v=KvHIs3Z6W30"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/theopsguide"
 
 # Theme and Plugins
 theme: minima
@@ -36,15 +36,15 @@ plugins:
 # SEO Plugin Configuration
 seo:
   name: "Luke Thompson"
-  title: "Luke Thompson - Operations Expert & AI Integration Specialist"
-  description: "TEDx Speaker, former ActionVFX COO/CMO with proven track record: 296% funded Kickstarter, AI-driven SEO success (4,614 issues resolved), 100K+ YouTube growth. Founder of The Operations Guide specializing in AI integration, business automation, and operational excellence."
+  title: "Luke Thompson - Fractional Chief AI Officer (CAIO)"
+  description: "Fractional Chief AI Officer and co-founder of The Ops Guide helping CEOs and leadership teams turn AI into ROI through AI strategy, workflow automation, operating systems, internal tools, roadmaps, and adoption planning."
   url: "https://theopsguide.github.io/about-me"
   logo: "/assets/images/logo.png"
   social:
-    - "https://linkedin.com/in/ActionVFX"
-    - "https://lukethompson.ai"
-    - "https://theoperationsguide.com"
+    - "https://www.linkedin.com/in/lukeathompson/"
+    - "https://www.theopsguide.com/"
     - "https://github.com/theopsguide"
+    - "https://www.youtube.com/watch?v=KvHIs3Z6W30"
 
 # Social Media
 twitter:
@@ -52,7 +52,7 @@ twitter:
   card: "summary"
 
 linkedin:
-  username: "ActionVFX"
+  username: "lukeathompson"
 
 # Google Analytics
 google_analytics: "G-XXXXXXXXXX"
@@ -61,14 +61,14 @@ google_analytics: "G-XXXXXXXXXX"
 navigation:
   - title: "About"
     url: "/"
-  - title: "Expertise"
-    url: "/TOPICS"
-  - title: "Case Studies"
-    url: "/CASE-STUDIES"
-  - title: "Articles"
-    url: "/articles/"
-  - title: "Contact"
-    url: "https://tidycal.com/luketh"
+  - title: "Selected Work"
+    url: "/THE-OPERATIONS-GUIDE-CASE-STUDIES"
+  - title: "AI Framework"
+    url: "/AI-IMPLEMENTATION-FRAMEWORK-2025"
+  - title: "Keywords"
+    url: "/KEYWORDS"
+  - title: "The Ops Guide"
+    url: "https://www.theopsguide.com/"
 
 # Content Settings
 show_excerpts: true
@@ -123,24 +123,25 @@ defaults:
 
 # Custom Variables
 expertise_areas:
-  - "Artificial Intelligence & Machine Learning"
-  - "Business Operations & Process Optimization"
-  - "Digital Marketing & SEO"
-  - "Technology Leadership & Consulting"
-  - "Visual Effects & Creative Technology"
-  - "Public Speaking & Thought Leadership"
+  - "Fractional Chief AI Officer (CAIO)"
+  - "AI strategy and implementation roadmaps"
+  - "Business operations and operating systems"
+  - "Workflow automation and internal tools"
+  - "AI readiness assessments and governance"
+  - "Executive advisory and change management"
+  - "Visual effects and creative technology"
 
 achievements:
-  - "4,614 SEO Issues Resolved with AI Tools"
-  - "100K+ YouTube Subscribers (Silver Play Button)"
-  - "296% Funded Kickstarter Campaign ($59K)"
-  - "TEDx Speaker on AI and Adaptability"
-  - "Former ActionVFX COO/CMO"
-  - "Founder of The Operations Guide"
+  - "Co-Founder of The Ops Guide"
+  - "Fractional Chief AI Officer for growing teams"
+  - "TEDx Speaker on AI and adaptability"
+  - "Former ActionVFX part-owner, COO, and CMO"
+  - "Visual Effects Society Member"
+  - "Certified Scrum Product Owner and Certified Agile Leadership Essentials"
 
 # Contact Information
 contact:
   email: "contact@theoperationsguide.com"
-  phone: "+1-XXX-XXX-XXXX"
-  address: "Tennessee, USA"
-  calendar: "https://tidycal.com/luketh"
+  address: "Johnson City, Tennessee, USA"
+  website: "https://www.theopsguide.com/"
+  linkedin: "https://www.linkedin.com/in/lukeathompson/"
