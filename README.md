@@ -1,346 +1,126 @@
 <div align="center">
-  <img src="images/luke-thompson-profile.png" alt="Luke Thompson" width="200" style="border-radius: 50%;">
-  
-  # Luke Thompson 🚀
-  ### Operations Expert | AI Integration Specialist | TEDx Speaker | Business Automation Consultant
+  <img src="images/luke-thompson-profile.png" alt="Luke Thompson" width="180" style="border-radius: 50%;">
 
-  **Former ActionVFX COO/CMO | Founder of The Operations Guide | Helping SMBs Build AI-Driven Operations**
+  # Luke Thompson
+  ### Fractional Chief AI Officer (CAIO) | Co-Founder, The Ops Guide
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Luke%20Thompson-blue?logo=linkedin)](https://www.linkedin.com/in/lukethompsonfilm/) [![Website](https://img.shields.io/badge/Website-lukethompson.ai-green)](https://lukethompson.ai) [![Company](https://img.shields.io/badge/Company-The%20Operations%20Guide-orange)](https://theoperationsguide.com) ![Location](https://img.shields.io/badge/Location-Tennessee%2C%20USA-lightgrey)
+  **I help CEOs turn AI into ROI by fixing the operating system first.**
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Luke%20Thompson-blue?logo=linkedin)](https://www.linkedin.com/in/lukeathompson/) [![The Ops Guide](https://img.shields.io/badge/The%20Ops%20Guide-AI%20Strategy%20%26%20Operations-green)](https://www.theopsguide.com/) [![TEDx](https://img.shields.io/badge/TEDx-AI%20and%20Adaptability-red)](https://www.youtube.com/watch?v=KvHIs3Z6W30) ![Location](https://img.shields.io/badge/Johnson%20City%2C%20TN-Tri--Cities-lightgrey)
 </div>
 
 ---
 
-## 📋 Table of Contents
-- [🎯 About Me](#-about-me)
-- [🏆 Proven Results & Major Achievements](#-proven-results--major-achievements)
-- [💼 Professional Experience](#-professional-experience)
-- [🛠️ Core Skills & Technologies](#️-core-skills--technologies)
-- [🎓 Certifications](#-certifications)
-- [🎤 Media & Speaking](#-media--speaking)
-- [📚 Featured Articles & Thought Leadership](#-featured-articles--thought-leadership)
-- [💬 Professional Testimonials](#-professional-testimonials)
-- [📊 Key Statistics & Impact](#-key-statistics--impact)
-- [❓ Frequently Asked Questions](#-frequently-asked-questions)
-- [🌐 Connect With Me](#-connect-with-me)
-
-## 📁 Additional Resources
-
-### **🤖 AI & Technology Expertise**
-- **[🚀 AI Implementation Framework 2025](./AI-IMPLEMENTATION-FRAMEWORK-2025.md)** - Complete 5-phase AI implementation guide with proven methodologies
-- **[🧠 AI Expertise Deep Dive](./AI-EXPERTISE-DEEP-DIVE.md)** - Advanced AI integration & implementation mastery
-- **[🛠️ Technology Stack Showcase](./TECHNOLOGY-STACK-SHOWCASE.md)** - Comprehensive technology expertise portfolio
-- **[⚙️ AI Tools Showcase](./AI-TOOLS-SHOWCASE.md)** - Custom AI solutions & production systems
-- **[🤖 AI-Generated Insights](./AI-GENERATED-INSIGHTS.md)** - Demonstrating AI capabilities through intelligent content
-
-### **🚀 Interactive Tools & Calculators**
-- **[🤖 Advanced AI Readiness Assessment](./tools/advanced-ai-readiness-assessment.html)** - Comprehensive AI implementation readiness evaluation
-- **[📊 Business Automation ROI Calculator](./tools/business-automation-roi-calculator.html)** - Detailed ROI analysis for automation investments
-- **[🤖 AI Readiness Calculator](./tools/ai-readiness-calculator.html)** - Assess your business's AI implementation readiness
-- **[📊 Automation ROI Calculator](./tools/automation-roi-calculator.html)** - Calculate return on investment for automation projects
-- **[🔍 Comprehensive Search](./search.html)** - Search all content, tools, and resources
-- **[🎥 Video Showcase](./media/video-showcase.html)** - TEDx talks, tutorials, and technical presentations
-
-### **📚 Latest Technical Blog Posts**
-- **[🛠️ Building AI-Powered SEO Tools](./blog/building-ai-powered-seo-tools.md)** - Technical deep dive with code examples
-- **[🏗️ AI Implementation Patterns 2025](./blog/ai-implementation-patterns-2025.md)** - Proven patterns for AI integration
-- **[🔮 Future of Business Automation](./blog/future-of-business-automation-2025.md)** - Trends and predictions for 2025
-
-### **📊 Performance & Authority**
-- **[💼 The Operations Guide Case Studies](./THE-OPERATIONS-GUIDE-CASE-STUDIES.md)** - Comprehensive client success stories with $2.3M+ documented savings
-- **[🏆 Social Proof & Authority](./SOCIAL-PROOF-AUTHORITY.md)** - Professional recognition & industry authority
-- **[📈 Real-Time Metrics Dashboard](./REAL-TIME-METRICS.md)** - Live business intelligence & success metrics
-- **[📖 Detailed Expertise Areas](./TOPICS.md)** - Comprehensive breakdown of skills and competencies
-- **[💼 Case Studies & Portfolio](./CASE-STUDIES.md)** - Detailed project results and business impact
-
-### **🌎 Regional & Industry Expertise**
-- **[🏛️ Tennessee Business Automation Guide](./TENNESSEE-BUSINESS-AUTOMATION-GUIDE.md)** - Complete SMB automation guide for Tennessee market
-- **[🏢 Small Business Automation Guide](./industries/small-business-automation-guide.html)** - Comprehensive SMB automation implementation
-- **[🏥 Healthcare Technology](./industries/healthcare-technology.html)** - Healthcare automation and technology solutions
-- **[💰 FinTech AI Transformation](./industries/fintech-ai-transformation.html)** - Financial services AI implementation
-- **[🛒 E-commerce Automation](./industries/ecommerce.html)** - E-commerce operations and automation
-
-### **🔍 SEO & Content Strategy**
-- **[🔍 SEO Keywords & Strategy](./KEYWORDS.md)** - Complete keyword targeting approach
-- **[🗺️ Site Map & Content Index](./SITEMAP.md)** - Comprehensive repository navigation
-- **[📚 Articles Collection](./articles/)** - Thought leadership and industry insights
-- **[📡 RSS Feed](./rss.xml)** - Subscribe to latest content and updates
-- **[📝 JSON Feed](./feed.json)** - Machine-readable content syndication
-
----
-
-## 🎯 About Me
+## What This Repo Is
 
-**Operations-focused business leader** with 9+ years scaling ActionVFX from startup to industry leader through strategic automation, AI integration, and operational excellence.
+This is the public profile and search surface for Luke Thompson: fractional Chief AI Officer, operator, AI strategy advisor, and co-founder of The Ops Guide.
 
-**My Mission:** Help SMB owners transform chaos into clarity by implementing AI-driven automation systems that eliminate busywork and create scalable, profitable operations.
+The focus here is current work: helping small and mid-sized leadership teams turn AI from a scattered collection of tools into practical operating systems, workflows, dashboards, and adoption plans.
 
-### 🔥 What I Do
-- **Business Operations Consulting** - Strategic process optimization and workflow automation
-- **AI Integration** - Custom AI tools for SEO, content generation, and process automation  
-- **Team Leadership** - Building high-performing teams and scalable systems
-- **Growth Strategy** - Proven track record with 296% funded Kickstarter, 100K+ YouTube growth, and 4,600+ SEO optimizations
+## About
 
-### 💡 My Approach
-No jargon. No complexity. Just practical, results-driven strategies that give you back your time so you can focus on what truly matters in your business.
+I help CEOs and leadership teams make AI useful inside the business they actually have.
 
-**Ready to work ON your business instead of IN it?** [Let's connect](https://tidycal.com/luketh) 🚀
+Most companies do not have an AI problem first. They have an operations problem: scattered knowledge, unclear ownership, disconnected tools, manual reporting, inconsistent processes, and teams that are already too busy to adopt one more shiny platform.
 
-## 🏆 Proven Results & Major Achievements
+That is where I work best.
 
-> **Real impact through strategic operations, AI integration, and technology leadership**
+Through [The Ops Guide](https://www.theopsguide.com/), I help teams assess where AI can create real leverage, prioritize the right use cases, build practical systems, and create the operating habits needed for adoption. The work often includes AI strategy, workflow design, internal tools, automations, dashboards, knowledge systems, governance, and executive roadmaps.
 
-### 🚀 AI-Driven SEO Transformation (2024)
-**4,614 SEO Issues Resolved | Score Improved from 40 to 72**
-- Designed and implemented custom AI tools for automated content optimization
-- Built H1 Title Optimizer, Meta Description Generator, and Product FAQ Creator
-- Achieved 80% improvement in on-page SEO performance using generative AI
-- **Featured Case Study:** [Relevance AI Customer Success Story](https://relevanceai.com/blog/actionvfx-customer-story)
+Before The Ops Guide, I was part-owner, COO, and CMO at ActionVFX, where I helped scale operations, marketing, product workflows, and team systems in the visual effects industry. That background still matters, but it is no longer the center of the story. Today, it is proof that I understand both creative teams and the operational work required to make technology useful.
 
-### 📈 YouTube Growth Strategy Success
-**0 to 100K+ Subscribers | Silver Play Button Recipient**
-- Developed comprehensive content strategy focusing on educational VFX tutorials
-- Implemented advanced YouTube SEO and algorithm optimization techniques
-- Built engaged community of 100,000+ visual effects professionals
-- Established industry thought leadership through consistent value delivery
+I am also a TEDx speaker on AI and adaptability and a member of the Visual Effects Society.
 
-### 💰 Kickstarter Campaign Leadership (2015)
-**296% Funded | $59,000 Raised from 446 Backers**
-- Strategically planned and executed 30-day crowdfunding campaign
-- Exceeded $20,000 goal by nearly 3x through targeted marketing and community engagement
-- Demonstrated product-market fit for VFX asset collections
-- Delivered all campaign promises on time and under budget
+## How I Help
 
-## 💬 Professional Testimonials
+- Fractional Chief AI Officer support for CEOs and leadership teams
+- AI strategy audits, readiness assessments, and implementation roadmaps
+- Operating system design for growing teams, service firms, and founder-led companies
+- Workflow automation, internal tools, admin dashboards, and knowledge systems
+- AI-enabled service productization and delivery models
+- Change management, governance, adoption planning, and executive communication
+- Practical training that helps teams use AI without getting buried in jargon
 
-> "Luke Thompson isn't just my brother – he's also one of the most talented COOs and entrepreneurs I've had the privilege to know. His strategic vision, operational expertise, and ability to execute with precision set him apart in the industry."
-> 
-> **— Ben Thompson, Co-Founder, The Operations Guide**
+## Selected Project Work
 
-> "Luke is the most capable leader I have ever had the pleasure of working with. His constant desire for learning gives him an upper hand when problems arise. His willingness to iterate, improve, and build up capable team members, sets Luke apart."
-> 
-> **— Ryan Shipley, VP of Strategic Initiatives & Capital, Sync Space Entrepreneur Center**
+These are anonymized examples of real project work from the last two years. Client names are intentionally withheld unless approved for public use.
 
-> "Working with Luke was a blessing! He is one of the kindest person I've known, a great man and an excellent leader. Luke believes in people. He wants everyone to be the best they can be and he will support you every step of the way."
-> 
-> **— Danasa Arsad, Freelance Nuke Compositor and Paint/Prep Artist**
+### AI Services Operating System
 
-## 🎤 Media & Speaking
+Built a repeatable service delivery platform for a B2B services firm moving from AI experiments into productized client offerings. The system centralized service workflows, client evidence, scoring models, delivery checkpoints, run history, health checks, and exportable client deliverables so the team could turn internal expertise into repeatable AI-enabled services.
 
-### TEDx Speaker
-**"AI and the Art of Adaptability"** (June 2023)
+### Agentic Commerce Readiness Audit
 
-Delivered a TEDx talk exploring the transformative potential of AI, the necessity of adaptability in the modern workplace, and the importance of reskilling in our rapidly evolving technological landscape.
+Helped productize an AI readiness diagnostic for ecommerce and product data teams preparing for agentic commerce. The audit scored discoverability across product data quality, structured data, media readiness, AI search visibility, distribution, and remediation priority, then translated findings into an executive-ready roadmap.
 
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=KvHIs3Z6W30" target="_blank">
-    <img src="https://img.youtube.com/vi/KvHIs3Z6W30/maxresdefault.jpg" alt="Luke Thompson TEDx Talk - AI and the Art of Adaptability" width="600">
-  </a>
-  
-  **[Watch: AI and the Art of Adaptability - TEDx Talk](https://www.youtube.com/watch?v=KvHIs3Z6W30)**
-</div>
+### Company OS Prototype
 
-### Startup Competition Judge
-**iBUCS (Innovative Buccaneers) Startup Pitch Competition** - East Tennessee State University (May 2025)
+Scoped and built a Company OS prototype for a professional services firm that needed one place to manage relationships, projects, proposals, notes, SOPs, and operating context. The pilot included an AI-assisted migration workflow to turn existing emails and documents into structured contacts and project records, plus dry-run assistant workflows for recommendations and drafts before action.
 
-Served as judge for ETSU's premier entrepreneurship competition, evaluating student startup pitches in a "Shark Tank" style format. The iBUCS competition provides aspiring entrepreneurs with opportunities to win seed funding and turn innovative ideas into viable businesses through structured mentorship and expert evaluation.
+### AI Operations Assessment and Roadmap
 
-### Podcast Host
-**"Ask An Artist" Podcast** (July 2021 - July 2023)
+Led an AI operations assessment for a regulated product company, translating interviews and surveys into an executive summary, use-case findings, quick wins, priority matrix, and 12-month roadmap. The work clarified where AI could reduce reporting burden, improve meeting governance, capture sales conversations, and support executive research without forcing a broad rollout before the team was ready.
 
-Hosted ActionVFX's podcast, interviewing VFX artists and industry professionals to share insights and build community within the visual effects industry.
+### Talent Application Platform
 
-## 📚 Featured Articles & Thought Leadership
+Built the first version of an application-only talent platform for a white-glove recruiting brand. The system handled video intake, branching review flows, resume capture, a reviewer dashboard, candidate database, status tracking, email notifications, and reapply-window logic while preserving human review as the decision layer.
 
-### "10 Productivity Hacks | Get More Done in Less Time"
-**LinkedIn • July 2022** • [Read Full Article](./articles/10-productivity-hacks.md)
+### Retail Concierge Platform
 
-A comprehensive guide to productivity strategies including time blocking, priority setting, and data-driven self-optimization. Features practical tools like Rize time tracking and actionable techniques for eliminating distractions.
+Built a concierge-style website and customer workflow platform for a jewelry retailer, including booking, contact flows, customer messaging, admin access, and CRM/SMS integration. The project turned a static web presence into a more operational customer intake and appointment system.
 
-### "AI and the Art of Adaptability | TEDx Talk"
-**LinkedIn • July 2023** • [Read Full Article](./articles/ai-adaptability-tedx.md)
+### Training and Compliance Operations Platform
 
-Deep dive into my TEDx presentation covering AI's transformative potential, the importance of reskilling, and how leaders can foster adaptability in their organizations through psychological safety and continuous learning.
+Supported a nonprofit operations platform for training, onboarding, and compliance workflows. The work included admin override controls, facilitator progress logic, training-material access rules, audit-window status, license status handling, and regression-tested fixes across client and server code.
 
-### Business Operations & Automation Insights
-**Regular LinkedIn Publications • 2019-2025**
+## Operating Principles
 
-Published 20+ articles covering operations optimization, AI integration, VFX industry insights, and practical business automation strategies. Topics range from team leadership to cutting-edge technology implementation.
+- Start with the business problem, not the tool.
+- Build simple systems people will actually use.
+- Keep humans in control where judgment, trust, or risk matters.
+- Make AI adoption measurable, practical, and tied to operational outcomes.
+- Treat documentation, data hygiene, permissions, and process ownership as first-class work.
+- Prefer useful internal capability over impressive demos.
 
-## 💼 Professional Experience
+## Credibility
 
-### Current Roles
+- Co-Founder, The Ops Guide
+- Fractional Chief AI Officer and AI strategy advisor
+- Former part-owner, COO, and CMO at ActionVFX
+- TEDx speaker: [AI and the Art of Adaptability](https://www.youtube.com/watch?v=KvHIs3Z6W30)
+- Visual Effects Society member
+- Certified Scrum Product Owner (CSPO)
+- Certified Agile Leadership Essentials (CAL-E)
+- Asana Ambassador
 
-### Founder - The Operations Guide
-*October 2024 - Present*
+## Useful Links
 
-It's a jungle out there in the modern business world with technology and business operations constantly evolving. But it doesn't have to be! Let me and my team be your guide.
+- [The Ops Guide](https://www.theopsguide.com/)
+- [LinkedIn](https://www.linkedin.com/in/lukeathompson/)
+- [Selected Project Work](./THE-OPERATIONS-GUIDE-CASE-STUDIES.md)
+- [AI Implementation Framework](./AI-IMPLEMENTATION-FRAMEWORK-2025.md)
+- [Business Automation Playbook](./BUSINESS-AUTOMATION-PLAYBOOK.md)
+- [AI Integration Guide](./AI-INTEGRATION-GUIDE.md)
+- [TEDx Talk](https://www.youtube.com/watch?v=KvHIs3Z6W30)
 
-### Operations - Agentics Foundation
-*March 2025 - Present*
+## FAQ
 
-## Professional Experience
+### What is a fractional Chief AI Officer?
 
-### Chief Marketing Officer - ActionVFX
-*July 2023 - October 2024*
+A fractional Chief AI Officer helps a company make smart decisions about AI without hiring a full-time executive. The role usually includes strategy, prioritization, governance, vendor/tool decisions, workflow design, adoption planning, and executive communication.
 
-### Chief Operating Officer - ActionVFX
-*June 2018 - October 2024*
-*Johnson City, Tennessee, United States*
+### What makes your approach different?
 
-### Host of the "Ask An Artist" Podcast - ActionVFX
-*July 2021 - July 2023*
-*Johnson City, Tennessee, United States*
+I do not start by forcing AI into every corner of the business. I start by finding the operational friction: repetitive work, unclear process ownership, missing data, reporting burdens, inconsistent handoffs, or knowledge trapped in someone's head. Then AI becomes part of a better operating system.
 
-### Guest Speaker - TEDx
-*June 2023*
+### Who do you work with?
 
-### Operations Manager - ActionVFX
-*August 2015 - June 2018*
-*Johnson City, Tennessee Area*
+I work best with founder-led companies, small and mid-sized teams, service firms, product teams, and organizations that have enough operational complexity to benefit from AI but do not want a bloated transformation program.
 
-## 🛠️ Core Skills & Technologies
+### Do you still work in visual effects?
 
-### **Leadership & Operations**
-![Leadership](https://img.shields.io/badge/Leadership-Expert-blue) ![Operations Management](https://img.shields.io/badge/Operations%20Management-Expert-blue) ![Team Building](https://img.shields.io/badge/Team%20Building-Expert-blue) ![Process Optimization](https://img.shields.io/badge/Process%20Optimization-Expert-blue)
+Visual effects is part of my background and professional network, and I remain a Visual Effects Society member. My current work is broader: AI strategy, operations, automation, and operating systems for growing teams.
 
-### **AI & Technology Integration**
-![AI Integration](https://img.shields.io/badge/AI%20Integration-Expert-green) ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Advanced-green) ![Automation](https://img.shields.io/badge/Business%20Automation-Expert-green) ![Digital Transformation](https://img.shields.io/badge/Digital%20Transformation-Expert-green)
+## Contact
 
-### **Marketing & Growth**
-![SEO](https://img.shields.io/badge/SEO%20Optimization-Expert-orange) ![Content Strategy](https://img.shields.io/badge/Content%20Strategy-Expert-orange) ![YouTube Growth](https://img.shields.io/badge/YouTube%20Growth-Expert-orange) ![Social Media](https://img.shields.io/badge/Social%20Media%20Marketing-Advanced-orange)
-
-### **Technical Tools & Platforms**
-![Zapier](https://img.shields.io/badge/Zapier-Expert-purple) ![n8n](https://img.shields.io/badge/n8n-Advanced-purple) ![Relevance AI](https://img.shields.io/badge/Relevance%20AI-Expert-purple) ![Asana](https://img.shields.io/badge/Asana-Ambassador-purple)
-
-![Adobe Creative Suite](https://img.shields.io/badge/Adobe%20Creative%20Suite-Advanced-red) ![Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-Advanced-red) ![After Effects](https://img.shields.io/badge/After%20Effects-Advanced-red)
-
-### **Methodologies & Certifications**
-![Agile](https://img.shields.io/badge/Agile%20Methodologies-Certified-lightblue) ![Scrum](https://img.shields.io/badge/Certified%20Scrum%20Product%20Owner-CSPO-lightblue) ![Scrum Leadership](https://img.shields.io/badge/Certified%20Agile%20Leadership-CAL--E-lightblue)
-
-## 🎓 Certifications
-
-- **Asana Ambassador** - Asana (October 2019)
-- **Certified Scrum Product Owner (CSPO)** - Scrum Alliance (February 2022 - February 2026)
-- **Visual Effects Society Member** - VES (May 2023)
-- **Certified Agile Leadership Essentials (CAL-E)** - Scrum Alliance (February 2024 - February 2026)
-
-## Industry Focus
-
-Movies, Videos, and Sound
-
-## Location
-
-Tennessee, United States
-
-## 📊 Key Statistics & Impact
-
-### **🎯 The Operations Guide Success Metrics**
-| Metric | Achievement | Impact |
-|--------|-------------|---------|
-| **Client Cost Savings** | $2.3M+ annually | Documented savings across 50+ businesses |
-| **Average Client ROI** | 285% within 12 months | Proven return on automation investments |
-| **Project Success Rate** | 100% on-time delivery | Perfect track record of implementation |
-| **Client Satisfaction** | 95% satisfaction rate | Consistent excellence in service delivery |
-
-### **🚀 Personal Achievements & Recognition**
-| Metric | Achievement | Impact |
-|--------|-------------|---------|
-| **SEO Optimization** | 4,614 issues resolved | 80% score improvement (40→72) |
-| **YouTube Growth** | 0 to 100K+ subscribers | Silver Play Button award |
-| **Kickstarter Success** | 296% funded | $59,000 raised from 446 backers |
-| **Team Leadership** | 9+ years experience | Scaled ActionVFX to industry leader |
-| **AI Integration** | Custom tools built | H1 Optimizer, Meta Generator, FAQ Creator |
-| **Content Creation** | 20+ articles published | LinkedIn thought leadership |
-| **Podcast Hosting** | 2+ years | "Ask An Artist" VFX industry podcast |
-| **Public Speaking** | TEDx presentation | "AI and the Art of Adaptability" |
-
-## ❓ Frequently Asked Questions
-
-### **What is your expertise in AI and business automation?**
-I specialize in implementing practical AI solutions for business operations, including custom AI tools for SEO optimization, content generation, and process automation. My experience includes successfully resolving 4,614 SEO issues using custom AI tools and improving operational efficiency through intelligent automation systems.
-
-### **How do you help small and medium businesses with operations?**
-I help SMBs transform chaotic operations into streamlined, scalable systems through strategic process optimization, AI integration, and automation implementation. My approach focuses on practical, no-jargon solutions that give business owners back their time so they can focus on growth rather than busywork.
-
-### **What makes your approach to business operations unique?**
-My approach combines deep operational experience (9+ years scaling ActionVFX) with cutting-edge AI integration and a focus on practical results. I believe in simplicity over complexity - implementing solutions that work without requiring technical expertise from business owners.
-
-### **What speaking topics do you cover?**
-My speaking focuses on AI integration, business adaptability, operational excellence, and practical automation strategies. My TEDx talk "AI and the Art of Adaptability" explores how leaders can foster adaptability in their organizations through psychological safety and continuous learning.
-
-## 🌐 Connect With Me
-
-- **Portfolio**: [lukethompson.ai](https://lukethompson.ai)
-- **Company**: [The Operations Guide](https://theoperationsguide.com)
-- **LinkedIn**: [@LukeThompsonFilm]((https://www.linkedin.com/in/lukethompsonfilm/))
-
----
-
-## 🔗 Quick Navigation Links
-
-### **🚀 Explore Comprehensive Guides**
-- **[Complete AI Integration Guide →](./AI-INTEGRATION-GUIDE.md)** - End-to-end AI implementation framework
-- **[Business Automation Playbook →](./BUSINESS-AUTOMATION-PLAYBOOK.md)** - Step-by-step automation strategies  
-- **[TEDx Speaking Guide →](./TEDX-SPEAKING-GUIDE.md)** - From idea to impact presentation mastery
-
-### **📚 Deep-Dive Resources**
-- **[AI Tools Directory →](./resources/ai-tools-directory.md)** - Curated database of business AI tools
-- **[Blog: AI Transformation Trends →](./blog/ai-transformation-trends-2024.md)** - Latest insights and industry analysis
-- **[Blog: ROI Calculator Guide →](./blog/business-automation-roi-calculator.md)** - Measure automation impact
-
-### **🎯 Topic Expertise**
-- **[Artificial Intelligence & Machine Learning →](./TOPICS.md#-artificial-intelligence--machine-learning)**
-- **[Business Operations & Process Optimization →](./TOPICS.md#-business-operations--process-optimization)**  
-- **[Digital Marketing & SEO →](./TOPICS.md#-digital-marketing--seo)**
-- **[Technology Leadership & Consulting →](./TOPICS.md#-technology-leadership--consulting)**
-
-### **💼 Success Stories**
-- **[AI-Driven SEO Transformation →](./CASE-STUDIES.md#-case-study-1-ai-driven-seo-transformation)** - 4,614 issues resolved, 80% improvement
-- **[YouTube Growth Strategy →](./CASE-STUDIES.md#-case-study-2-youtube-channel-growth-automation)** - 0 to 100K+ subscribers
-- **[Kickstarter Campaign Success →](./CASE-STUDIES.md#-case-study-3-kickstarter-campaign-success)** - 296% funded campaign
-
----
-
-## 📈 Repository Analytics
-
-![GitHub stars](https://img.shields.io/github/stars/theopsguide/about-me?style=social) ![GitHub forks](https://img.shields.io/github/forks/theopsguide/about-me?style=social) ![Profile views](https://komarev.com/ghpvc/?username=theopsguide&style=flat-square&color=blue)
-
-**Content Statistics:**
-- **📄 Total Pages:** 15+ comprehensive resources
-- **📝 Word Count:** 50,000+ words of expert content  
-- **🔗 Internal Links:** 100+ cross-referenced resources
-- **🏷️ SEO Keywords:** 200+ strategically targeted terms
-
----
-
-## 🎯 Take Action Today
-
-### **Ready to Transform Your Business Operations?**
-
-**Choose your path forward:**
-
-🤖 **[Schedule AI Integration Consultation →](https://tidycal.com/luketh?booking_type=ai-integration)**
-- Custom AI implementation strategy
-- ROI analysis and roadmap development
-- Tool selection and integration planning
-
-⚙️ **[Book Operations Optimization Session →](https://tidycal.com/luketh?booking_type=operations)**  
-- Process audit and improvement recommendations
-- Automation opportunity identification
-- Scalability planning and execution
-
-🎤 **[Inquire About Speaking Engagements →](https://tidycal.com/luketh?booking_type=speaking)**
-- Keynote presentations on AI and operations
-- Workshop facilitation and team training
-- Industry conference and event speaking
-
-### **Free Resources to Get Started**
-
-📋 **[Download the AI Readiness Assessment](./resources/ai-readiness-checklist.pdf)** *(Coming Soon)*
-📊 **[Access the ROI Calculator Spreadsheet](./resources/automation-roi-calculator.xlsx)** *(Coming Soon)*
-📖 **[Get the Operations Optimization Guide](./resources/operations-guide.pdf)** *(Coming Soon)*
-
----
-
-*Looking to work ON your business instead of IN it? Let's connect and explore how automation and operational excellence can transform your business.*
+The best place to start is [The Ops Guide](https://www.theopsguide.com/). You can also connect with me on [LinkedIn](https://www.linkedin.com/in/lukeathompson/).
