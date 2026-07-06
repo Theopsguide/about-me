@@ -1,313 +1,210 @@
-# Luke Thompson - SEO Keywords & Search Terms
+# Luke Thompson - Search Keywords and Positioning
 
-## 🔍 Primary Keywords & Search Terms
+## Purpose
 
-> **Strategic keyword targeting for enhanced discoverability and search engine optimization**
+This file keeps the public search strategy aligned with Luke Thompson's current positioning: fractional Chief AI Officer, co-founder of The Ops Guide, and operator focused on AI strategy, automation, and operating systems for growing teams.
 
----
+The goal is not to chase every old keyword. The goal is to make the public profile clear for people, search engines, and AI answer engines that may summarize Luke's work.
 
-## 🎯 Primary Personal Brand Keywords
+## Primary Positioning Keywords
 
-### **Name & Identity**
+### Name and Identity
+
 - Luke Thompson
-- Luke Thompson operations
-- Luke Thompson AI
-- Luke Thompson business automation
-- Luke Thompson TEDx
-- Luke Thompson ActionVFX
+- Luke A. Thompson
+- Luke Thompson CAIO
+- Luke Thompson Chief AI Officer
+- Luke Thompson fractional Chief AI Officer
+- Luke Thompson The Ops Guide
 - Luke Thompson The Operations Guide
+- Luke Thompson Johnson City Tennessee
+- Luke Thompson TEDx
+- Luke Thompson Visual Effects Society
 
-### **Professional Titles**
-- Operations Expert
-- Business Operations Consultant
-- AI Integration Specialist
-- Business Automation Specialist
-- Operations Consultant Tennessee
-- COO consultant
-- Chief Operations Officer
-- Technology Leadership Consultant
+### Current Titles
 
----
-
-## 🤖 Artificial Intelligence Keywords
-
-### **AI Expertise**
-- AI integration for business
-- AI business automation
-- Custom AI tools development
-- Generative AI for business
-- AI-driven SEO optimization
-- Machine learning for operations
-- AI implementation strategy
-- Practical AI solutions
-- Business AI consultant
-- AI automation expert
-
-### **Specific AI Applications**
-- AI SEO optimization
-- AI content generation
-- AI process automation
-- AI workflow optimization
-- AI-powered business tools
-- AI title optimization
-- AI meta description generator
-- AI FAQ creator
-- AI quality control systems
-
----
-
-## 🏢 Business Operations Keywords
-
-### **Core Operations Terms**
-- Business operations optimization
-- Process optimization
-- Workflow automation
-- Business process management
-- Operational excellence
-- Business efficiency
-- Operations scaling
-- Business systems optimization
-- Process improvement
-- Operational consulting
-
-### **SMB-Focused Operations**
-- Small business operations
-- SMB automation
-- Small business process optimization
-- SMB operational consulting
-- Small business efficiency
-- SMB workflow automation
-- Small business systems
-- SMB technology consulting
-
----
-
-## 🎯 Digital Marketing & SEO Keywords
-
-### **SEO Expertise**
-- SEO optimization expert
-- SEO consultant
-- SEO strategy
-- Technical SEO
-- On-page SEO optimization
-- SEO automation
-- SEO process improvement
-- SEO workflow optimization
-- AI-driven SEO
-- Advanced SEO techniques
-
-### **Digital Marketing**
-- YouTube growth strategy
-- YouTube SEO
-- Content marketing strategy
-- Digital marketing automation
-- Social media optimization
-- LinkedIn marketing
-- Thought leadership content
-- Content strategy development
-
----
-
-## 💼 Technology & Leadership Keywords
-
-### **Technology Leadership**
-- Technology consultant
-- Digital transformation
-- Business technology
-- Technology strategy
-- Technology implementation
-- IT operations
-- Technology automation
-- Business technology integration
-- Enterprise technology solutions
-
-### **Leadership & Management**
-- Team leadership
-- Operations leadership
-- Technology leadership
-- Business leadership
-- Change management
-- Agile leadership
-- Scrum product owner
-- Team building
-- Leadership development
-
----
-
-## 🎬 Industry-Specific Keywords
-
-### **Visual Effects Industry**
-- VFX operations
-- Visual effects production
-- VFX industry expert
-- ActionVFX
-- VFX workflow optimization
-- Visual effects technology
-- VFX business operations
-- Creative industry operations
-- Media production operations
-
-### **Creative Technology**
-- Creative workflow automation
-- Adobe Creative Suite
-- Premiere Pro optimization
-- After Effects workflow
-- Creative production optimization
-- Media production technology
-
----
-
-## 🎤 Speaking & Thought Leadership Keywords
-
-### **Speaking Topics**
-- TEDx speaker
-- AI and adaptability
-- Business adaptability
-- Technology adoption
-- Workplace transformation
-- AI in the workplace
-- Business automation speaker
-- Operations keynote speaker
-- Technology speaker
-
-### **Thought Leadership**
-- Business operations thought leader
-- AI integration thought leader
-- Technology innovation expert
-- Business automation expert
-- Operations strategy expert
-- Digital transformation expert
-
----
-
-## 🚀 Entrepreneurship Keywords
-
-### **Business Development**
-- The Operations Guide
-- Business consulting
-- Operations consulting
-- Startup operations
-- Business scaling
-- Growth strategy
-- Business automation consulting
-- SMB consulting
-- Entrepreneurship
-- Business development
-
-### **Consulting Services**
-- Business operations consultant
-- Operations strategy consultant
+- Fractional Chief AI Officer
+- Fractional CAIO
+- Chief AI Officer consultant
+- AI strategy advisor
+- AI operations advisor
 - AI implementation consultant
-- Automation consultant
-- Process improvement consultant
-- Business efficiency consultant
-- Technology consulting
-- Digital transformation consultant
+- Business operations consultant
+- Workflow automation consultant
+- Operating systems consultant
+- Co-Founder of The Ops Guide
 
----
+## Service Keywords
 
-## 📍 Location-Based Keywords
+### Fractional CAIO and Executive Advisory
 
-### **Geographic Targeting**
-- Tennessee operations consultant
-- Johnson City business consultant
-- Tennessee AI consultant
-- Southeast operations expert
-- Tennessee technology consultant
-- Tennessee business automation
-- Tennessee digital transformation
-- Tennessee SMB consultant
+- fractional Chief AI Officer for small business
+- fractional CAIO for growing teams
+- AI advisor for CEOs
+- AI strategy for executive teams
+- AI governance for small business
+- AI roadmap consultant
+- AI transformation advisor
+- AI implementation leadership
+- Chief AI Officer services
+- part-time Chief AI Officer
 
----
+### AI Strategy and Implementation
 
-## 🔧 Technical Skills Keywords
+- AI strategy consulting
+- AI implementation roadmap
+- AI readiness assessment
+- AI operations assessment
+- AI use case prioritization
+- AI quick wins for business
+- AI adoption planning
+- practical AI implementation
+- AI workflow design
+- AI governance and adoption
+- AI tool selection for business
 
-### **Tools & Platforms**
-- Zapier automation
-- n8n workflow automation
-- Relevance AI
-- Asana optimization
-- Asana ambassador
-- Automation tools
-- No-code automation
-- Low-code solutions
-- Business automation tools
+### Operations and Automation
 
-### **Methodologies**
-- Agile methodologies
-- Scrum methodology
-- Lean operations
-- Six Sigma
-- Process improvement
-- Business process reengineering
-- Operational excellence
-- Continuous improvement
+- business operating system design
+- company operating system consultant
+- workflow automation for small business
+- business process automation
+- internal tools for operations
+- admin dashboard design
+- knowledge management systems
+- SOP automation
+- reporting workflow automation
+- executive dashboard workflows
+- operations roadmap consultant
 
----
+### AI-Enabled Service Productization
 
-## 📈 Results-Oriented Keywords
+- AI service delivery system
+- productized AI services
+- AI assessment productization
+- service operations automation
+- client delivery workflows
+- AI-enabled consulting operations
+- repeatable service delivery platform
+- AI readiness diagnostic
+- agentic commerce readiness audit
+- ecommerce AI readiness assessment
 
-### **Measurable Outcomes**
+## Project Proof Keywords
+
+These terms reflect recent anonymized The Ops Guide work and should appear in public content where natural.
+
+- AI Services Operating System
+- Agentic Commerce Readiness Audit
+- Company OS Prototype
+- AI Operations Assessment and Roadmap
+- Talent Application Platform
+- Retail Concierge Platform
+- Training and Compliance Operations Platform
+- nonprofit compliance operations platform
+- recruiting workflow platform
+- concierge CRM platform
+- AI-assisted data migration
+- AI-assisted project import
+- executive AI roadmap
+- priority matrix for AI implementation
+- AI search visibility audit
+- product data readiness for AI
+
+## Problem-Led Search Queries
+
+### CEO and Founder Queries
+
+- how should my company start using AI
+- what does a Chief AI Officer do
+- do small businesses need a Chief AI Officer
+- fractional CAIO vs AI consultant
+- how to turn AI into ROI
+- how to prioritize AI use cases
+- how to make AI useful in operations
+- how to create an AI roadmap
+- how to choose AI tools for my business
+- how to adopt AI without overwhelming my team
+
+### Operations Queries
+
+- how to automate business operations
+- how to document operating processes
+- how to build a company operating system
+- how to reduce manual reporting work
+- how to improve workflow handoffs
+- how to centralize business knowledge
+- how to create internal dashboards
+- how to automate SOP workflows
+- how to use AI for admin work
+- how to improve operational visibility
+
+### AI Readiness Queries
+
+- AI readiness assessment for business
+- AI operations assessment
+- AI audit for small business
+- AI governance checklist
+- AI implementation plan template
+- AI quick wins for operations
+- AI adoption roadmap
+- AI strategy audit
+- agentic commerce readiness
+- AI search visibility for ecommerce
+
+## Location Keywords
+
+- Johnson City AI consultant
+- Johnson City business automation consultant
+- Tri-Cities AI consultant
+- Tri-Cities operations consultant
+- Tennessee AI strategy consultant
+- Tennessee business automation consultant
+- East Tennessee AI consultant
+- Southeast fractional Chief AI Officer
+- remote fractional CAIO United States
+
+## Background and Credibility Keywords
+
+These should support the current story without taking it over.
+
+- TEDx speaker AI adaptability
+- AI and the Art of Adaptability
+- former ActionVFX COO
+- former ActionVFX CMO
+- ActionVFX operations leadership
+- Visual Effects Society member
+- creative technology operations
+- VFX operations background
+- Certified Scrum Product Owner
+- Certified Agile Leadership Essentials
+- Asana Ambassador
+
+## Demoted Keywords
+
+The following are real parts of Luke's background, but they should not be primary search targets anymore because they pull the public profile backward into ActionVFX-era proof instead of The Ops Guide and fractional CAIO services.
+
+- AI-driven SEO optimization for ActionVFX
+- 4,614 SEO issues resolved
+- YouTube Silver Play Button
+- 0 to 100K YouTube subscribers
 - 296% funded Kickstarter
-- 100K YouTube subscribers
-- 4614 SEO issues resolved
-- 80% SEO improvement
-- Silver Play Button
-- Operations ROI
-- Business efficiency improvement
-- Process optimization results
+- Kickstarter campaign consultant
+- YouTube growth strategist
+- SEO optimization expert
 
-### **Success Stories**
-- Business transformation
-- Operations success stories
-- AI implementation success
-- Automation success stories
-- Process improvement case studies
-- Business growth results
-- Operational excellence results
+Use these only in compact background context when relevant. Do not feature them as current services or primary proof.
 
----
+## Recommended Search Snippet
 
-## 🎯 Long-Tail Keywords
+Luke Thompson is a fractional Chief AI Officer (CAIO), co-founder of The Ops Guide, and operator helping CEOs turn AI into ROI through strategy, automation, operating systems, roadmaps, and practical implementation.
 
-### **Specific Problem-Solving**
-- How to automate business operations
-- AI tools for small business
-- Business process automation solutions
-- How to optimize business workflows
-- SMB operations consulting services
-- Business automation without coding
-- AI integration for non-technical business owners
-- How to scale business operations
-- Business efficiency improvement strategies
+## Content Integration Guidelines
 
-### **Question-Based Keywords**
-- What is business operations optimization
-- How to implement AI in business
-- Best practices for business automation
-- How to improve business efficiency
-- What are the benefits of process automation
-- How to scale business operations
-- What is operational excellence
-- How to optimize business workflows
-
----
-
-## 🌐 Integration Strategy
-
-### **Content Optimization**
-- Naturally integrate keywords throughout content
-- Use variations and synonyms for better coverage
-- Focus on user intent and value delivery
-- Maintain readability and engagement
-- Update content regularly with fresh keywords
-
-### **SEO Best Practices**
-- Header tag optimization (H1, H2, H3)
-- Meta description integration
-- Image alt text optimization
-- Internal linking with keyword anchor text
-- Schema markup implementation
-- Page speed optimization
-
-*These keywords are strategically selected to enhance discoverability while maintaining authentic, value-driven content that serves the target audience.*
+- Lead with Chief AI Officer, CAIO, The Ops Guide, AI strategy, automation, and operating systems.
+- Use ActionVFX as background credibility, not the main identity.
+- Use anonymized current project examples instead of unsupported client claims.
+- Spell out Chief AI Officer before using CAIO where space allows.
+- Favor plain language over jargon: AI into ROI, useful systems, workflow design, roadmaps, adoption, and operations.
+- Avoid inflated metrics unless a public source or approved client proof supports them.
+- Keep Visual Effects visible as a credibility lane because of VES membership, but do not let it dominate the profile.
