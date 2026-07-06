@@ -1,169 +1,68 @@
 # GitHub Repository Topics Configuration
 
-## 🏷️ Recommended Topics for Maximum Discoverability
+## Recommended Topics
 
-Based on GitHub SEO best practices and keyword research, here are the optimal repository topics to configure in the GitHub repository settings for maximum search visibility and professional discoverability:
+These topics should help the repository align with Luke Thompson's current positioning as a fractional Chief AI Officer (CAIO), co-founder of The Ops Guide, and operator focused on AI strategy, automation, and operating systems.
 
-### **🎯 Core Identity & Expertise (Must-Have)**
-- `luke-thompson`
-- `ai-integration`
-- `business-automation` 
-- `operations-management`
-- `digital-transformation`
-- `tedx-speaker`
+GitHub allows a limited number of topics. Prioritize the first set.
 
-### **🤖 AI & Technology Leadership**
-- `artificial-intelligence`
-- `machine-learning`
-- `ai-implementation`
-- `generative-ai`
-- `intelligent-automation`
-- `ai-consulting`
+## Priority Topics
 
-### **🚀 Business Operations & Consulting**
-- `process-optimization`
-- `business-consulting`
-- `operations-consultant`
-- `workflow-automation`
-- `operational-excellence`
-- `business-transformation`
+1. `fractional-caio`
+2. `chief-ai-officer`
+3. `ai-strategy`
+4. `ai-implementation`
+5. `workflow-automation`
+6. `business-operations`
+7. `operating-systems`
+8. `the-ops-guide`
+9. `luke-thompson`
+10. `ai-readiness`
+11. `business-automation`
+12. `operations-consulting`
+13. `knowledge-management`
+14. `executive-advisory`
+15. `change-management`
+16. `visual-effects`
+17. `tedx-speaker`
+18. `johnson-city-tn`
+19. `tennessee-consultant`
+20. `small-business-ai`
 
-### **💼 Professional Skills & Methodologies**
-- `technology-leadership`
-- `seo-optimization`
-- `team-leadership`
-- `agile-methodologies`
-- `scrum-product-owner`
-- `startup-scaling`
+## Optional Swaps
 
-### **🛠️ Tools & Platforms Expertise**
-- `zapier-automation`
-- `n8n-workflows`
-- `business-intelligence`
-- `asana-ambassador`
-- `relevance-ai`
-- `adobe-creative-suite`
+Use these if the repo needs more emphasis on a specific offer:
 
-### **🏢 Industry & Market Focus**
-- `small-business`
-- `smb-consulting`
-- `actionvfx`
-- `visual-effects`
-- `tennessee-consultant`
-- `remote-consulting`
+- `ai-governance`
+- `agentic-commerce`
+- `company-os`
+- `ai-operations`
+- `service-productization`
+- `internal-tools`
+- `process-automation`
+- `executive-roadmap`
 
-### **📈 Results & Achievements**
-- `proven-results`
+## Demoted Topics
+
+These may be true historically, but they should not be repository topics now because they pull discovery back toward the old ActionVFX proof set.
+
 - `kickstarter-success`
 - `youtube-growth`
 - `seo-case-study`
-- `roi-optimization`
-- `measurable-outcomes`
+- `relevance-ai`
+- `actionvfx`
+- `seo-optimization`
 
-### **🎤 Content & Thought Leadership**
-- `thought-leadership`
-- `technical-writing`
-- `keynote-speaker`
-- `podcast-host`
-- `content-strategy`
-- `professional-speaking`
+Visual effects should stay because Luke remains connected to the field through the Visual Effects Society, but it should be a supporting topic rather than the main identity.
 
-## 🎯 Strategic Implementation Guide
+## Suggested About Description
 
-### **Phase 1: Core Topics (Add First)**
-1. `luke-thompson`
-2. `ai-integration`
-3. `business-automation`
-4. `operations-management`
-5. `digital-transformation`
-6. `tedx-speaker`
+Fractional Chief AI Officer (CAIO) and co-founder of The Ops Guide, helping CEOs turn AI into ROI through strategy, automation, operating systems, and practical implementation.
 
-### **Phase 2: Authority Building**
-1. `artificial-intelligence`
-2. `technology-leadership`
-3. `business-consulting`
-4. `process-optimization`
-5. `thought-leadership`
+## Suggested Website
 
-### **Phase 3: Specialized Expertise**
-1. `zapier-automation`
-2. `seo-optimization`
-3. `agile-methodologies`
-4. `startup-scaling`
-5. `proven-results`
+https://www.theopsguide.com/
 
-## 📊 SEO Impact & Search Visibility
+## Quarterly Review
 
-These topics will help the repository appear in GitHub search results for:
-
-### **High-Volume Searches**
-- AI integration consultants
-- Business automation specialists
-- Operations management experts
-- Digital transformation leaders
-- Technology consultants
-
-### **Long-Tail Keywords**
-- Luke Thompson AI expert
-- Business automation Tennessee
-- AI implementation consultant
-- Operations optimization specialist
-- TEDx speaker technology
-
-### **Professional Discovery**
-- Agile coaches and consultants
-- SEO optimization experts
-- Startup scaling advisors
-- Automation tool specialists
-- Visual effects industry leaders
-
-## 🔧 Implementation Instructions
-
-### **How to Add Topics to GitHub Repository**
-1. Navigate to the repository main page
-2. Click the ⚙️ gear icon next to "About" section
-3. Add topics one by one from the priority list above
-4. **Limit to 20 topics maximum** for optimal performance
-5. Click "Save changes"
-
-### **Best Practices**
-- **Start with Phase 1 topics** for immediate impact
-- **Use exact spelling** with hyphens (not underscores)
-- **Add new topics gradually** to avoid overwhelming
-- **Monitor performance** and adjust quarterly
-- **Keep topics current** with evolving expertise
-
-## 📈 Performance Monitoring
-
-### **Track Repository Discovery Through:**
-- **GitHub Insights > Traffic** - Monitor search-driven visits
-- **GitHub Search Rankings** - Check position for key terms
-- **Referral Analytics** - Track GitHub-sourced website traffic
-- **Profile Engagement** - Monitor stars, forks, and follows
-- **Professional Inquiries** - Track consultation requests from GitHub discovery
-
-### **Quarterly Review Process**
-1. **Analyze traffic sources** and top-performing topics
-2. **Research trending keywords** in AI and operations
-3. **Update underperforming topics** with higher-impact alternatives
-4. **Add seasonal topics** relevant to current industry trends
-5. **Cross-reference with LinkedIn** and website keyword performance
-
-## 🎯 Cross-Platform Optimization
-
-### **Align with LinkedIn Skills**
-- Artificial Intelligence
-- Business Operations
-- Digital Transformation
-- Process Optimization
-- Technology Leadership
-
-### **Coordinate with Website SEO**
-- Match meta keyword strategies
-- Align with schema.org topics
-- Synchronize content themes
-- Optimize for voice search queries
-
----
-
-*These topics are strategically selected to maximize discoverability across GitHub, professional networks, and search engines while authentically representing Luke Thompson's expertise in AI integration, business operations, and technology leadership.*
+Review topics when the public profile changes. Keep them aligned with LinkedIn, The Ops Guide, the README, and the schema files.
