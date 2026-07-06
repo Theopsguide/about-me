@@ -5,60 +5,126 @@
       "@type": "Person",
       "@id": "https://theopsguide.github.io/about-me/#person",
       "name": "Luke Thompson",
-      "alternateName": ["Luke Thompson AI Expert", "Luke Thompson Operations Consultant"],
-      "jobTitle": "Founder & Chief Operations Architect",
-      "description": "TEDx Speaker, former ActionVFX COO, and business automation specialist helping entrepreneurs streamline operations through AI integration.",
+      "alternateName": [
+        "Luke A. Thompson",
+        "Luke Thompson CAIO",
+        "Luke Thompson The Ops Guide"
+      ],
+      "jobTitle": "Fractional Chief AI Officer (CAIO)",
+      "description": "Fractional Chief AI Officer and co-founder of The Ops Guide helping CEOs and leadership teams turn AI into ROI through strategy, workflow automation, operating systems, governance, and adoption planning.",
       "url": "https://theopsguide.github.io/about-me/",
       "image": "https://theopsguide.github.io/about-me/images/luke-thompson-profile.png",
       "sameAs": [
-        "https://linkedin.com/in/lukethompsonfilm",
-        "https://theoperationsguide.com",
+        "https://www.linkedin.com/in/lukeathompson/",
+        "https://www.theopsguide.com/",
         "https://github.com/theopsguide",
-        "https://tidycal.com/luketh"
+        "https://www.youtube.com/watch?v=KvHIs3Z6W30"
       ],
       "worksFor": {
         "@type": "Organization",
-        "@id": "https://theoperationsguide.com/#organization",
-        "name": "The Operations Guide",
-        "description": "Business operations consulting and AI integration services"
+        "@id": "https://www.theopsguide.com/#organization",
+        "name": "The Ops Guide",
+        "url": "https://www.theopsguide.com/",
+        "description": "AI strategy, automation, and operating systems for CEOs and growing teams."
       },
-      "hasOccupation": {
-        "@type": "Occupation",
-        "name": "AI Integration Consultant",
-        "occupationalCategory": "15-1299.09",
-        "description": "Specializes in implementing AI solutions for business operations optimization"
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "ActionVFX"
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Visual Effects Society",
+        "url": "https://www.visualeffectssociety.com/"
       },
       "knowsAbout": [
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Business Automation",
-        "Operations Management",
-        "Process Optimization",
-        "Digital Transformation",
-        "SEO Optimization",
-        "Team Leadership"
+        "Fractional Chief AI Officer",
+        "AI strategy",
+        "AI implementation roadmap",
+        "AI readiness assessment",
+        "AI operations assessment",
+        "Workflow automation",
+        "Business process automation",
+        "Business operating systems",
+        "Knowledge management",
+        "Executive advisory",
+        "Change management",
+        "Visual effects"
       ],
       "hasCredential": [
         {
           "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
           "name": "Certified Scrum Product Owner (CSPO)",
-          "issuedBy": "Scrum Alliance",
-          "validFrom": "2022-02-01",
-          "validThrough": "2026-02-01"
+          "issuedBy": "Scrum Alliance"
         },
         {
           "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Certification",
           "name": "Certified Agile Leadership Essentials (CAL-E)",
-          "issuedBy": "Scrum Alliance",
-          "validFrom": "2024-02-01",
-          "validThrough": "2026-02-01"
+          "issuedBy": "Scrum Alliance"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "Professional Recognition",
+          "name": "Asana Ambassador",
+          "issuedBy": "Asana"
         }
       ],
       "award": [
         "TEDx Speaker - AI and the Art of Adaptability",
-        "YouTube Silver Play Button (100K+ subscribers)",
-        "296% Funded Kickstarter Campaign"
+        "Visual Effects Society Member"
       ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.theopsguide.com/#service",
+      "name": "The Ops Guide",
+      "url": "https://www.theopsguide.com/",
+      "founder": {
+        "@id": "https://theopsguide.github.io/about-me/#person"
+      },
+      "description": "AI strategy, automation, and operating systems for CEOs and growing teams.",
+      "serviceType": [
+        "Fractional Chief AI Officer",
+        "AI Strategy Consulting",
+        "AI Operations Assessment",
+        "Workflow Automation",
+        "Operating System Design"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "The Ops Guide Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Fractional Chief AI Officer",
+              "description": "AI strategy, prioritization, governance, adoption planning, and executive support."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Operations Assessment",
+              "description": "Interviews, workflow review, use-case prioritization, quick wins, and implementation roadmap."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Operating System Design",
+              "description": "Internal tools, workflows, dashboards, SOPs, knowledge systems, and automation."
+            }
+          }
+        ]
+      }
     },
     {
       "@type": "FAQPage",
@@ -66,95 +132,40 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What is Luke Thompson's expertise in AI and business automation?",
+          "name": "What is a fractional Chief AI Officer?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Luke Thompson specializes in implementing practical AI solutions for business operations, including custom AI tools for SEO optimization, content generation, and process automation. His experience includes successfully resolving 4,614 SEO issues using custom AI tools and improving operational efficiency through intelligent automation systems."
+            "text": "A fractional Chief AI Officer helps a company make smart AI decisions without hiring a full-time executive. The role often includes strategy, use-case prioritization, governance, workflow design, tool selection, adoption planning, and executive communication."
           }
         },
         {
           "@type": "Question",
-          "name": "How does Luke Thompson help small and medium businesses?",
+          "name": "How does Luke Thompson help companies with AI?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Luke helps SMBs transform chaotic operations into streamlined, scalable systems through strategic process optimization, AI integration, and automation implementation. His approach focuses on practical, no-jargon solutions that give business owners back their time so they can focus on growth rather than busywork."
+            "text": "Luke helps leadership teams find practical AI opportunities, design workflows, build operating systems, create roadmaps, and support adoption so AI work connects to operational outcomes instead of isolated experiments."
           }
         },
         {
           "@type": "Question",
-          "name": "What are Luke Thompson's notable achievements?",
+          "name": "What is The Ops Guide?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Key achievements include: 296% funded Kickstarter campaign raising $59,000, AI-driven SEO transformation resolving 4,614 issues with 80% improvement, YouTube channel growth from 0 to 100K+ subscribers, TEDx speaker on AI and adaptability, and 9+ years scaling ActionVFX as COO."
+            "text": "The Ops Guide is an AI strategy and operations practice helping CEOs and growing teams turn AI into ROI through assessments, roadmaps, automation, internal tools, and operating systems."
           }
         }
       ]
     },
     {
-      "@type": "ProfessionalService",
-      "@id": "https://theoperationsguide.com/#service",
-      "name": "The Operations Guide",
-      "founder": {
-        "@id": "https://theopsguide.github.io/about-me/#person"
-      },
-      "description": "Business operations consulting and AI integration services helping SMBs streamline operations and automate processes",
-      "serviceType": ["Business Consulting", "AI Integration", "Process Automation"],
-      "areaServed": {
-        "@type": "Country",
-        "name": "United States"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "Business Operations Services",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "AI Integration Consulting",
-              "description": "Custom AI implementation for business operations optimization"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Business Process Automation",
-              "description": "Workflow automation and process optimization"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Operations Optimization",
-              "description": "Strategic operations consulting for scalable growth"
-            }
-          }
-        ]
-      }
-    },
-    {
       "@type": "VideoObject",
       "name": "AI and the Art of Adaptability - TEDx Talk",
-      "description": "Luke Thompson's TEDx presentation exploring the transformative potential of AI and the importance of adaptability",
+      "description": "Luke Thompson's TEDx presentation exploring AI, adaptability, reskilling, and leadership in changing workplaces.",
       "thumbnailUrl": "https://img.youtube.com/vi/KvHIs3Z6W30/maxresdefault.jpg",
-      "uploadDate": "2023-06-15",
-      "duration": "PT18M24S",
       "embedUrl": "https://www.youtube.com/embed/KvHIs3Z6W30",
+      "url": "https://www.youtube.com/watch?v=KvHIs3Z6W30",
       "author": {
         "@id": "https://theopsguide.github.io/about-me/#person"
       }
-    },
-    {
-      "@type": "Article",
-      "headline": "Building AI-Powered SEO Tools: A Technical Deep Dive",
-      "description": "Technical guide to building custom AI tools that resolved 4,614 SEO issues",
-      "author": {
-        "@id": "https://theopsguide.github.io/about-me/#person"
-      },
-      "datePublished": "2025-06-30",
-      "url": "https://theopsguide.github.io/about-me/blog/building-ai-powered-seo-tools.md"
     }
   ]
 }
