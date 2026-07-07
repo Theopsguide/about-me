@@ -1,6 +1,6 @@
 # Internal Working Docs
 
-These files are internal strategy and maintenance notes for this repository. They are not public profile content, are excluded from the sitemap and feeds, and `/docs/` is disallowed in `robots.txt`.
+These files are internal strategy and maintenance notes for this repository. They are not public profile content: the deploy workflow (`.github/workflows/deploy.yml`) excludes `docs/` from the published GitHub Pages site, and they are not listed in the sitemap or feeds. They remain visible in the GitHub repository itself, so keep them honest and unembarrassing.
 
 - [content-map.md](./content-map.md) - Site index and maintenance rules
 - [keywords.md](./keywords.md) - Search keywords and positioning strategy

@@ -1,8 +1,8 @@
 # All crawlers welcome, including search engines and AI crawlers
 # (Googlebot, Bingbot, GPTBot, ClaudeBot, PerplexityBot, CCBot, etc.)
+# Note: internal working docs (docs/) are excluded from the deployed site
+# by the deploy workflow, so they are not served at all.
 User-agent: *
 Allow: /
-# Internal working docs
-Disallow: /docs/
 
 Sitemap: https://theopsguide.github.io/about-me/sitemap.xml

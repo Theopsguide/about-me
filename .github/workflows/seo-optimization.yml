@@ -1,10 +1,13 @@
 name: SEO and Content Validation
 
 on:
-  push:
-    branches: [ master, main ]
   pull_request:
     branches: [ master, main ]
+  workflow_dispatch:
+
+concurrency:
+  group: seo-validation-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   validate:
@@ -25,12 +28,21 @@ jobs:
 
       - name: Check sitemap URLs point to existing files
         run: |
+          base="https://theopsguide.github.io/about-me/"
           fail=0
-          for path in $(grep -o '<loc>[^<]*</loc>' sitemap.xml | sed 's|<loc>https://theopsguide.github.io/about-me/||;s|</loc>||'); do
+          for loc in $(grep -o '<loc>[^<]*</loc>' sitemap.xml | sed 's|<loc>||;s|</loc>||'); do
+            case "$loc" in
+              "$base"*) path="${loc#$base}" ;;
+              *) echo "::warning::sitemap.xml contains non-site URL, skipping: $loc"; continue ;;
+            esac
             [ -z "$path" ] && continue
             f="${path%/}"
-            if [ ! -e "$f" ] && [ ! -e "$f/index.html" ]; then
-              echo "::error::sitemap.xml references missing file: $path"
+            if [ -e "$f" ] || [ -e "$f/index.html" ]; then
+              case "$loc" in
+                */) [ -e "$f/index.html" ] || { echo "::error::sitemap.xml directory URL has no index.html: $loc"; fail=1; } ;;
+              esac
+            else
+              echo "::error::sitemap.xml references missing file: $loc"
               fail=1
             fi
           done
@@ -39,5 +51,8 @@ jobs:
       - name: Check for broken links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress --exclude-path docs './**/*.md' './**/*.html'
-          fail: false
+          args: >-
+            --verbose --no-progress --exclude-path docs
+            --exclude 'linkedin\.com' --exclude 'youtube\.com'
+            './**/*.md' './**/*.html'
+          fail: true
