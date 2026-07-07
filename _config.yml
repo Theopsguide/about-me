@@ -9,7 +9,7 @@ baseurl: "/about-me"
 # Author Information
 author:
   name: "Luke Thompson"
-  email: "contact@theoperationsguide.com"
+  email: "luke@theoperationsguide.com"
   bio: "Fractional Chief AI Officer (CAIO) | Co-Founder, The Ops Guide | AI strategy, automation, and operating systems for growing teams"
   location: "Johnson City, Tennessee, USA"
   links:
@@ -39,7 +39,7 @@ seo:
   title: "Luke Thompson - Fractional Chief AI Officer (CAIO)"
   description: "Fractional Chief AI Officer and co-founder of The Ops Guide helping CEOs and leadership teams turn AI into ROI through AI strategy, workflow automation, operating systems, internal tools, roadmaps, and adoption planning."
   url: "https://theopsguide.github.io/about-me"
-  logo: "/assets/images/logo.png"
+  logo: "/about-me/images/luke-thompson-profile.png"
   social:
     - "https://www.linkedin.com/in/lukeathompson/"
     - "https://www.theopsguide.com/"
@@ -47,15 +47,8 @@ seo:
     - "https://www.youtube.com/watch?v=KvHIs3Z6W30"
 
 # Social Media
-twitter:
-  username: "LukeThompsonOps"
-  card: "summary"
-
 linkedin:
   username: "lukeathompson"
-
-# Google Analytics
-google_analytics: "G-XXXXXXXXXX"
 
 # Site Navigation
 navigation:
@@ -65,15 +58,11 @@ navigation:
     url: "/THE-OPERATIONS-GUIDE-CASE-STUDIES"
   - title: "AI Framework"
     url: "/AI-IMPLEMENTATION-FRAMEWORK-2025"
-  - title: "Keywords"
-    url: "/KEYWORDS"
   - title: "The Ops Guide"
     url: "https://www.theopsguide.com/"
 
 # Content Settings
 show_excerpts: true
-paginate: 10
-paginate_path: "/blog/page:num/"
 
 # Markdown Settings
 markdown: kramdown
@@ -95,6 +84,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - docs/
 
 # Include
 include:
@@ -141,7 +131,7 @@ achievements:
 
 # Contact Information
 contact:
-  email: "contact@theoperationsguide.com"
+  email: "luke@theoperationsguide.com"
   address: "Johnson City, Tennessee, USA"
   website: "https://www.theopsguide.com/"
   linkedin: "https://www.linkedin.com/in/lukeathompson/"

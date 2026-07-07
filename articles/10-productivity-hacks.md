@@ -98,4 +98,4 @@ If you're interested in more productivity-related content, consider checking out
 
 ---
 
-*Luke Thompson is the Founder of The Operations Guide and former COO/CMO of ActionVFX. He helps business owners streamline operations, automate processes, and build scalable systems through practical, no-jargon strategies.*
+*Luke Thompson is a fractional Chief AI Officer, co-founder of The Ops Guide, and former part-owner, COO, and CMO of ActionVFX. He helps business owners streamline operations, automate processes, and build scalable systems through practical, no-jargon strategies.*

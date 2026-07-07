@@ -44,10 +44,10 @@ As we navigate this new landscape, I believe we're not just cogs in a machine bu
 
 So let's not blow it.
 
-Ready to go further or need personalized help with your AI roadmap? **I'd love to connect** and discuss how I can support your unique goals. You can book a call with me at [TheOperationsGuide.com](http://TheOperationsGuide.com).
+Ready to go further or need personalized help with your AI roadmap? **I'd love to connect** and discuss how I can support your unique goals. You can reach me through [The Ops Guide](https://www.theopsguide.com/).
 
 Let's build the future together.
 
 ---
 
-*This article is based on Luke Thompson's TEDx talk "AI and the Art of Adaptability" delivered in June 2023. Luke is the Founder of The Operations Guide and former COO/CMO of ActionVFX, helping business owners navigate the intersection of technology, operations, and human potential.*
+*This article is based on Luke Thompson's TEDx talk "AI and the Art of Adaptability" delivered in June 2023. Luke is a fractional Chief AI Officer, co-founder of The Ops Guide, and former part-owner, COO, and CMO of ActionVFX, helping business owners navigate the intersection of technology, operations, and human potential.*
