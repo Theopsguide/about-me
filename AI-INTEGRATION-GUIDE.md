@@ -7,7 +7,7 @@
 
 ## 🎯 Introduction
 
-As businesses increasingly recognize the transformative potential of artificial intelligence, the challenge isn't whether to adopt AI—it's how to do it effectively. With over 9 years of operational leadership and proven success implementing AI-driven solutions that resolved 4,614 SEO issues and improved performance metrics by 80%, I've developed a practical framework for AI integration that works for businesses of all sizes.
+As businesses increasingly recognize the transformative potential of artificial intelligence, the challenge isn't whether to adopt AI—it's how to do it effectively. Drawing on years of operational leadership and hands-on AI implementation work — including an AI-driven SEO project at ActionVFX that resolved 4,614 issues ([published case study](https://relevanceai.com/blog/actionvfx-customer-story)) — I've developed a practical framework for AI integration that works for businesses of all sizes.
 
 **This guide provides actionable strategies for implementing AI in your business operations without requiring technical expertise or massive infrastructure investments.**
 
@@ -171,12 +171,12 @@ ActionVFX faced 4,614 SEO optimization issues across their product catalog, requ
 - **Week 7-8**: Performance monitoring and optimization
 
 ### **Results Achieved**
-| Metric | Before AI | After AI | Improvement |
-|--------|-----------|----------|-------------|
-| **SEO Score** | 40/100 | 72/100 | **+80%** |
-| **Issues Resolved** | 4,614 pending | 0 pending | **100%** |
-| **Time Investment** | 200+ hours estimated | 40 hours actual | **80% reduction** |
-| **Team Efficiency** | Manual optimization | Automated process | **5x faster** |
+| Metric | Before AI | After AI |
+|--------|-----------|----------|
+| **SEO Score** | 40/100 | 72/100 |
+| **Issues Resolved** | 4,614 pending | 0 pending |
+
+**Source:** [Published case study on the Relevance AI blog](https://relevanceai.com/blog/actionvfx-customer-story)
 
 ### **Key Success Factors**
 1. **Custom Tool Development**: Built AI solutions specific to business needs
@@ -213,11 +213,10 @@ Ready to transform your business operations with practical AI implementation? I 
 - **Training & Development**: Team education and AI literacy programs
 
 ### **Contact Information**
-- **Schedule Consultation**: [Book a Call](https://tidycal.com/luketh)
-- **Company Website**: [The Operations Guide](https://theoperationsguide.com)
-- **LinkedIn**: [@ActionVFX](https://linkedin.com/in/ActionVFX)
-- **Portfolio**: [lukethompson.ai](https://lukethompson.ai)
+- **Company Website**: [The Ops Guide](https://www.theopsguide.com/)
+- **LinkedIn**: [Luke Thompson](https://www.linkedin.com/in/lukeathompson/)
+- **Email**: luke@theoperationsguide.com
 
 ---
 
-*Luke Thompson is an AI Integration Specialist and Operations Expert with proven success implementing AI solutions that drive measurable business results. Former ActionVFX COO/CMO and founder of The Operations Guide, specializing in practical AI implementation for SMBs.*
+*Luke Thompson is a fractional Chief AI Officer and co-founder of The Ops Guide. A former part-owner, COO, and CMO at ActionVFX, he specializes in practical AI implementation and operating systems for small and mid-sized businesses.*

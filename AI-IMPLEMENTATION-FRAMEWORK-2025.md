@@ -6,7 +6,7 @@
 
 ## 🎯 Executive Summary
 
-As businesses navigate the AI revolution, success depends on strategic implementation rather than technology adoption alone. This comprehensive framework, developed through hands-on experience implementing AI solutions that resolved 4,614 SEO issues and achieved 80% performance improvements, provides a proven roadmap for AI integration.
+As businesses navigate the AI revolution, success depends on strategic implementation rather than technology adoption alone. This framework draws on hands-on implementation experience, including an AI-driven SEO project at ActionVFX that resolved 4,614 issues ([published case study](https://relevanceai.com/blog/actionvfx-customer-story)), and provides a practical roadmap for AI integration.
 
 **Key Framework Components:**
 - **Assessment & Readiness** - Evaluate your organization's AI readiness
@@ -319,47 +319,14 @@ As businesses navigate the AI revolution, success depends on strategic implement
 
 ---
 
-## 🔧 Implementation Toolkit & Resources
+## 🌟 Case Study: AI-Driven SEO Transformation
 
-### **Assessment Tools**
-- **[AI Readiness Assessment Checklist](./resources/ai-readiness-checklist.pdf)** - Comprehensive evaluation framework
-- **[ROI Calculator Spreadsheet](./resources/ai-roi-calculator.xlsx)** - Financial impact analysis tool
-- **[Technology Selection Matrix](./resources/ai-technology-selection.pdf)** - Vendor evaluation framework
+**Challenge:** Manual SEO optimization across a large product catalog would have taken months of team time
+**Solution:** Custom AI tools for automated content optimization, built while leading operations at ActionVFX
+**Results:** 4,614 SEO issues resolved, SEO score improved from 40 to 72
+**Source:** [Published case study on the Relevance AI blog](https://relevanceai.com/blog/actionvfx-customer-story)
 
-### **Planning Templates**
-- **[AI Implementation Roadmap Template](./resources/ai-implementation-roadmap.xlsx)** - Project planning and timeline
-- **[Governance Framework Template](./resources/ai-governance-framework.pdf)** - Policies and procedures
-- **[Change Management Plan](./resources/ai-change-management-plan.pdf)** - Adoption strategy template
-
-### **Training Materials**
-- **[AI Literacy Training Program](./resources/ai-literacy-training.pdf)** - Employee education curriculum
-- **[Best Practices Guide](./resources/ai-best-practices.pdf)** - Implementation guidelines
-- **[Troubleshooting Guide](./resources/ai-troubleshooting.pdf)** - Common issues and solutions
-
----
-
-## 🌟 Success Stories & Case Studies
-
-### **Case Study 1: AI-Driven SEO Transformation**
-**Challenge:** Manual SEO optimization consuming 40+ hours weekly
-**Solution:** Custom AI tools for automated content optimization
-**Results:** 4,614 SEO issues resolved, 80% score improvement (40→72)
-**ROI:** 300% in first 6 months
-**Timeline:** 8 weeks implementation
-
-### **Case Study 2: Customer Service Automation**
-**Challenge:** High volume customer inquiries overwhelming support team
-**Solution:** AI chatbot with natural language processing
-**Results:** 70% reduction in response time, 85% customer satisfaction
-**ROI:** 250% in first year
-**Timeline:** 12 weeks implementation
-
-### **Case Study 3: Content Generation Automation**
-**Challenge:** Producing consistent, high-quality content at scale
-**Solution:** AI-powered content generation and optimization system
-**Results:** 400% increase in content output, 50% reduction in production time
-**ROI:** 400% in first year
-**Timeline:** 10 weeks implementation
+For more recent, anonymized project examples, see [Selected Project Work](./THE-OPERATIONS-GUIDE-CASE-STUDIES.md).
 
 ---
 
@@ -389,40 +356,27 @@ As businesses navigate the AI revolution, success depends on strategic implement
 - **Timeline:** 6-10 weeks
 
 ### **Contact Information**
-- **Email:** contact@theoperationsguide.com
-- **Phone:** +1-XXX-XXX-XXXX
-- **Website:** [theoperationsguide.com](https://theoperationsguide.com)
-- **LinkedIn:** [Luke Thompson](https://linkedin.com/in/ActionVFX)
-- **Schedule Consultation:** [tidycal.com/luketh](https://tidycal.com/luketh)
+- **Email:** luke@theoperationsguide.com
+- **Website:** [The Ops Guide](https://www.theopsguide.com/)
+- **LinkedIn:** [Luke Thompson](https://www.linkedin.com/in/lukeathompson/)
 
 ---
 
 ## 📚 Additional Resources
 
 ### **Related Guides**
-- **[AI Tools Directory](./resources/ai-tools-directory.md)** - Comprehensive tool comparison
 - **[Business Automation Playbook](./BUSINESS-AUTOMATION-PLAYBOOK.md)** - Process optimization strategies
-- **[Digital Transformation Guide](./resources/digital-transformation-guide.md)** - Organizational change management
-
-### **Industry Resources**
-- **[AI Implementation Case Studies](./case-studies/)** - Real-world success stories
-- **[Technology Trends Analysis](./blog/ai-transformation-trends-2024.md)** - Latest industry insights
-- **[ROI Analysis Framework](./blog/business-automation-roi-calculator.md)** - Financial impact measurement
-
-### **Community & Support**
-- **[AI Implementation Community](https://community.theoperationsguide.com)** - Peer support and networking
-- **[Monthly AI Webinars](https://events.theoperationsguide.com)** - Educational sessions and Q&A
-- **[Resource Library](https://resources.theoperationsguide.com)** - Templates, tools, and guides
+- **[AI Integration Guide](./AI-INTEGRATION-GUIDE.md)** - Practical AI adoption framework
+- **[Selected Project Work](./THE-OPERATIONS-GUIDE-CASE-STUDIES.md)** - Anonymized client project examples
 
 ---
 
-*This framework represents best practices developed through successful AI implementations across multiple industries. For personalized guidance and support, connect with Luke Thompson through The Operations Guide.*
+*This framework represents practices developed through hands-on AI implementation work. For personalized guidance and support, connect with Luke Thompson through The Ops Guide.*
 
 **About the Author:**
-Luke Thompson is a TEDx speaker, AI integration specialist, and founder of The Operations Guide. With 9+ years of experience scaling operations and implementing AI solutions, he has helped hundreds of businesses leverage artificial intelligence for competitive advantage and operational excellence.
+Luke Thompson is a fractional Chief AI Officer, TEDx speaker, and co-founder of The Ops Guide. A former part-owner, COO, and CMO at ActionVFX, he helps CEOs and leadership teams turn AI into practical operating systems, workflows, and measurable results.
 
 **Connect with Luke:**
-- **Website:** [lukethompson.ai](https://lukethompson.ai)
-- **LinkedIn:** [Luke Thompson](https://linkedin.com/in/ActionVFX)
-- **Email:** contact@theoperationsguide.com
-- **Schedule Consultation:** [tidycal.com/luketh](https://tidycal.com/luketh)
+- **Website:** [The Ops Guide](https://www.theopsguide.com/)
+- **LinkedIn:** [Luke Thompson](https://www.linkedin.com/in/lukeathompson/)
+- **Email:** luke@theoperationsguide.com

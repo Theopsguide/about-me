@@ -195,12 +195,9 @@ Scale operations from 3-person startup to 20+ person industry leader while maint
 4. **Financial Processes**: Automated invoicing and payment processing
 
 #### **Results Achieved**
-| Metric | Before Automation | After Automation | Improvement |
-|--------|------------------|------------------|-------------|
-| **Order Processing Time** | 4 hours | 45 minutes | **83% reduction** |
-| **Customer Response Time** | 24 hours | 2 hours | **92% improvement** |
-| **Manual Work Reduction** | Baseline | 60% automated | **60% efficiency gain** |
-| **Team Scalability** | Linear scaling | 3x efficiency | **300% productivity** |
+- Faster order processing and customer response times through automated routing and templates
+- A large share of routine manual work automated, letting the team scale output without linear headcount growth
+- Consistent quality and process visibility maintained through a period of rapid growth
 
 ### **Case Study 2: YouTube Channel Growth Automation**
 
@@ -214,10 +211,9 @@ Grow YouTube channel from 0 to 100,000+ subscribers while maintaining consistent
 4. **Analytics Reporting**: Automated performance reporting and insights
 
 #### **Results Achieved**
-- **Subscriber Growth**: 0 to 100,000+ (Silver Play Button)
-- **Content Consistency**: 95% on-time publication rate
-- **Engagement Rate**: 40% above industry average
-- **Time Savings**: 70% reduction in administrative tasks
+- Grew the ActionVFX YouTube channel past 100,000 subscribers (YouTube Silver Play Button)
+- Maintained a consistent publication schedule with far less administrative overhead
+- Freed the team to focus on content quality instead of scheduling and reporting
 
 ---
 
@@ -269,15 +265,11 @@ Ready to transform your business operations with proven automation strategies? I
 - **Technology Selection**: Expert guidance on tool selection and integration
 - **Training & Support**: Team education and ongoing optimization support
 
-### **Success Guarantee**
-I guarantee measurable improvements in operational efficiency within 90 days of implementation, or I'll work with you at no additional cost until we achieve your automation goals.
-
 ### **Contact Information**
-- **Schedule Consultation**: [Book a Call](https://tidycal.com/luketh)
-- **Company Website**: [The Operations Guide](https://theoperationsguide.com)
-- **LinkedIn**: [@ActionVFX](https://linkedin.com/in/ActionVFX)
-- **Portfolio**: [lukethompson.ai](https://lukethompson.ai)
+- **Company Website**: [The Ops Guide](https://www.theopsguide.com/)
+- **LinkedIn**: [Luke Thompson](https://www.linkedin.com/in/lukeathompson/)
+- **Email**: luke@theoperationsguide.com
 
 ---
 
-*Luke Thompson is a Business Automation Specialist and Operations Expert with 9+ years of experience scaling companies through strategic automation implementation. Former ActionVFX COO/CMO and founder of The Operations Guide, specializing in practical automation solutions for SMBs.*
+*Luke Thompson is a fractional Chief AI Officer and co-founder of The Ops Guide. A former part-owner, COO, and CMO at ActionVFX, he specializes in practical automation and operating systems for small and mid-sized businesses.*

@@ -40,10 +40,9 @@ Based on my LinkedIn publication history, I've written extensively on:
 
 Want to discuss any of these topics or explore how they might apply to your business? 
 
-- **Website:** [TheOperationsGuide.com](https://www.theoperationsguide.com/)
-- **LinkedIn:** [@ActionVFX](https://linkedin.com/in/ActionVFX)
-- **Portfolio:** [lukethompson.ai](https://lukethompson.ai)
+- **Website:** [The Ops Guide](https://www.theopsguide.com/)
+- **LinkedIn:** [Luke Thompson](https://www.linkedin.com/in/lukeathompson/)
 
 ---
 
-*Luke Thompson is the Founder of The Operations Guide and former COO/CMO of ActionVFX. He helps business owners streamline operations, automate processes, and build scalable systems through practical, no-jargon strategies.*
+*Luke Thompson is a fractional Chief AI Officer, co-founder of The Ops Guide, and former part-owner, COO, and CMO of ActionVFX. He helps business owners streamline operations, automate processes, and build scalable systems through practical, no-jargon strategies.*

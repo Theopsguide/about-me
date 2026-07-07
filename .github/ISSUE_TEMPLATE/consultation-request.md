@@ -49,6 +49,6 @@ Any additional context or specific questions:
 After submitting this request, I'll review your information and respond within 24-48 hours to schedule a consultation or provide initial guidance.
 
 For urgent requests, please contact me directly at:
-- **Email:** contact@theoperationsguide.com
-- **LinkedIn:** [@ActionVFX](https://linkedin.com/in/ActionVFX)
-- **Calendar:** [Schedule Direct](https://tidycal.com/luketh)
+- **Email:** luke@theoperationsguide.com
+- **LinkedIn:** [Luke Thompson](https://www.linkedin.com/in/lukeathompson/)
+- **Website:** [The Ops Guide](https://www.theopsguide.com/)

@@ -1,52 +1,8 @@
+# All crawlers welcome, including search engines and AI crawlers
+# (Googlebot, Bingbot, GPTBot, ClaudeBot, PerplexityBot, CCBot, etc.)
 User-agent: *
 Allow: /
+# Internal working docs
+Disallow: /docs/
 
-# Sitemaps
 Sitemap: https://theopsguide.github.io/about-me/sitemap.xml
-Sitemap: https://theopsguide.github.io/about-me/sitemap-images.xml
-
-# Crawl-delay for polite bots
-Crawl-delay: 1
-
-# Block only specific paths
-Disallow: /.git/
-Disallow: /node_modules/
-Disallow: /.env
-Disallow: /package-lock.json
-Disallow: /yarn.lock
-Disallow: /.github/
-Disallow: /drafts/
-
-# Explicitly allow important content
-Allow: /articles/
-Allow: /blog/
-Allow: /tools/
-Allow: /case-studies/
-Allow: /services/
-Allow: /resources/
-Allow: /media/
-Allow: /industries/
-Allow: /speaking/
-Allow: /technology/
-Allow: /*.html
-Allow: /*.css
-Allow: /*.js
-Allow: /*.pdf
-Allow: /*.xml
-Allow: /*.json
-
-# Special directives for AI bots
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Googlebot
-Allow: /
